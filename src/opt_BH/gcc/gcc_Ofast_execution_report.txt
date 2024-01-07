@@ -1,0 +1,1751 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 176  of event 'cycles'
+# Event count (approx.): 191604813
+#
+# Children      Self  Command          Shared Object         Symbol                                   
+# ........  ........  ...............  ....................  .........................................
+#
+    57.52%    56.32%  nbody3D_3_GCC_O  nbody3D_3_GCC_Ofast   [.] insert_particle.part.0
+            |          
+            |--1.20%--insert_particle.part.0
+            |          |          
+            |           --0.60%--asm_sysvec_reschedule_ipi
+            |                     sysvec_reschedule_ipi
+            |                     irqentry_exit
+            |                     irqentry_exit_to_user_mode
+            |                     exit_to_user_mode_prepare
+            |                     switch_fpu_return
+            |          
+            |--0.61%--0x3e5a8075bdb4a946
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3f1df290bcb57f28
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3ea2b0c7bee1e171
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3f44f386bcda37de
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3e5844053f5bb1e1
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3f7efbb63f3d9485
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3e539a583f1f83c9
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3e2a745f3f62fb58
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3f2e512cbe289d0d
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3edbab08bf2b19f1
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3f49cdfebf428d7e
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3e0c550e3f736bf6
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3f1b7bb2bf6fab70
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3f08d6e73ea84e06
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3f22dfc43f0482fd
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3eeea3d43f5ba0fc
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3f0c0d013f0d3e75
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3dc085863f31cf07
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3dd9721dbf65eff8
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3ee43aa8be982bde
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3ee6c07a3ed1462b
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f818436bee52e68
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3e2623e03f280044
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3e8269a2bf22af80
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f19b905bf1f772f
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f1cec0bbec0f84b
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3ebb1c353efd1a31
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3e7b83463df85429
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f801bcbbe06ebf0
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3eadfcff3e958ba4
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f8c155abf65ed75
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3e6a62a1be87674b
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f2960a3bf045003
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f729603bd21b6b8
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3ef64b0dbf624ae7
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f6a2a423f60063f
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3e6830833f387103
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f4e4d5cbe7edb24
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f4cd626be7a1c06
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f54f6f63f059c39
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3edeb28dbf06f359
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f8343dcbf48e29e
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f283d4ebf7c5377
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3d2d83513e6c0021
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3da229b7bce62146
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3e4deb85bf0f0395
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f54bd1abeab41ef
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3e2428c53f4a6c20
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3ebca30f3e604ee1
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3e3e785c3e2af389
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3ed1a2773f14249f
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3eb2b1923f716b45
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3e9edfc93c07ef5e
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3ef7d5213b21e12c
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f0e148bbf1aead4
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3e986e9d3f572745
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3db37048be0c1b6b
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3d5e8c613f0c9c45
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f80fdd93f6e80cc
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f0ce06c3ef9b747
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3eed85fa3f75c860
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f1732a6bf55c07c
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3e5c02c4bf75ee52
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f2e48b43eb82ae3
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f6c21c33f175538
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f04bc37bf5cd601
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f72ba523d4af14d
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3ea4a8dd3f20e188
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f8108b93eca0495
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f79142abf7d08b9
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f132d973e98c9a9
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f6632ff3e9f6b7b
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f33d1acbf4c88f4
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3ea821b03f60c160
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3edebc793f3979c6
+            |          0x55b5bc2c6100
+            |          
+            |--0.59%--0x3f459513bf6fddf2
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3f7489b23f1f4f10
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3eebf0673f193fa5
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3eb58d8f3e8133a9
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3e897f25be05c897
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3ebbc30a3f1ece06
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3f2a1c74bf50ecd9
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3f5db0c83f3696f4
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3ecb9ba9bc3fe6c7
+            |          insert_particle.part.0
+            |          
+            |--0.56%--0x3f4949c03f50a157
+            |          insert_particle.part.0
+            |          
+            |--0.56%--0x3e0ddd54be9ab53a
+            |          insert_particle.part.0
+            |          
+            |--0.56%--0x3f8123133f64e396
+            |          insert_particle.part.0
+            |          
+            |--0.56%--0x3e5dd315bf428d26
+            |          insert_particle.part.0
+            |          
+            |--0.55%--0x3e537ccf3e8679b7
+            |          insert_particle.part.0
+            |          
+            |--0.55%--0x3f154978bf64fbc7
+            |          insert_particle.part.0
+            |          
+            |--0.55%--0x3eb900b3bf54771a
+            |          insert_particle.part.0
+            |          
+            |--0.55%--0x3dd4b259bed40f4e
+            |          insert_particle.part.0
+            |          
+            |--0.55%--0x3e972aff3f5466f7
+            |          insert_particle.part.0
+            |          
+            |--0.54%--0x3f1eee3ebdbd5476
+            |          insert_particle.part.0
+            |          
+             --0.54%--0x3dc22000be4b437f
+                       insert_particle.part.0
+
+    10.64%     8.34%  nbody3D_3_GCC_O  libc.so.6             [.] _int_malloc
+            |
+            ---_int_malloc
+               |          
+                --2.87%--asm_exc_page_fault
+                          |          
+                           --2.30%--exc_page_fault
+                                     do_user_addr_fault
+                                     handle_mm_fault
+                                     __handle_mm_fault
+                                     handle_pte_fault
+                                     do_anonymous_page
+                                     |          
+                                     |--1.13%--__mem_cgroup_charge
+                                     |          |          
+                                     |          |--0.57%--charge_memcg
+                                     |          |          try_charge_memcg
+                                     |          |          
+                                     |           --0.56%--get_mem_cgroup_from_mm
+                                     |          
+                                     |--0.59%--vma_alloc_folio
+                                     |          
+                                      --0.58%--lru_cache_add_inactive_or_unevictable
+                                                folio_add_lru_vma
+                                                folio_add_lru
+                                                folio_batch_move_lru
+
+     8.96%     8.36%  nbody3D_3_GCC_O  nbody3D_3_GCC_Ofast   [.] free_quad_tree.part.0
+            |          
+            |--0.61%--0x3f5393123ede7f4f
+            |          free_quad_tree.part.0
+            |          
+            |--0.61%--0xbec3dd713d1d2913
+            |          free_quad_tree.part.0
+            |          
+            |--0.60%--0x3f20cbda3e952eec
+            |          free_quad_tree.part.0
+            |          
+            |--0.60%--0x3f5db7363e58e21e
+            |          free_quad_tree.part.0
+            |          
+            |--0.60%--0x3f624c6c3e7e5328
+            |          free_quad_tree.part.0
+            |          
+            |--0.60%--0xbdfd7cb73e6e9b05
+            |          free_quad_tree.part.0
+            |          
+            |--0.60%--0xbe801cd33d079ae0
+            |          free_quad_tree.part.0
+            |          
+            |--0.60%--free_quad_tree.part.0
+            |          
+            |--0.60%--0x3ea9eae03f1ef1c1
+            |          free_quad_tree.part.0
+            |          
+            |--0.60%--0x3f17d6883f651156
+            |          free_quad_tree.part.0
+            |          
+            |--0.60%--0xbf2c40f13f3e18b4
+            |          free_quad_tree.part.0
+            |          
+            |--0.60%--0x3f6a8faa3edbee5c
+            |          free_quad_tree.part.0
+            |          
+            |--0.59%--0xbea948843f496ebf
+            |          free_quad_tree.part.0
+            |          
+            |--0.59%--0xbe5098fd3ed50227
+            |          free_quad_tree.part.0
+            |          
+             --0.57%--0xbf2f71c43dd1f6b3
+                       free_quad_tree.part.0
+
+     7.08%     7.08%  nbody3D_3_GCC_O  libc.so.6             [.] malloc
+            |          
+            |--6.48%--malloc
+            |          
+             --0.60%--0x3da0dd483cc5ed7a
+                       malloc
+
+     5.32%     4.12%  nbody3D_3_GCC_O  libc.so.6             [.] cfree@GLIBC_2.2.5
+            |          
+            |--2.41%--cfree@GLIBC_2.2.5
+            |          
+            |--0.60%--0xbf1294083ee2fff6
+            |          free_quad_tree.part.0
+            |          
+            |--0.58%--_int_free
+            |          
+            |--0.58%--0x3ec3a6023e61889e
+            |          cfree@GLIBC_2.2.5
+            |          
+            |--0.58%--0x3f594bb73f49f3e3
+            |          cfree@GLIBC_2.2.5
+            |          
+             --0.57%--0x3ced3f4c3e01659d
+                       cfree@GLIBC_2.2.5
+
+     3.87%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] asm_exc_page_fault
+            |
+            ---asm_exc_page_fault
+               |          
+                --3.30%--exc_page_fault
+                          do_user_addr_fault
+                          handle_mm_fault
+                          __handle_mm_fault
+                          handle_pte_fault
+                          |          
+                           --2.81%--do_anonymous_page
+                                     |          
+                                     |--1.13%--__mem_cgroup_charge
+                                     |          |          
+                                     |          |--0.57%--charge_memcg
+                                     |          |          try_charge_memcg
+                                     |          |          
+                                     |           --0.56%--get_mem_cgroup_from_mm
+                                     |          
+                                     |--0.59%--vma_alloc_folio
+                                     |          
+                                     |--0.58%--lru_cache_add_inactive_or_unevictable
+                                     |          folio_add_lru_vma
+                                     |          folio_add_lru
+                                     |          folio_batch_move_lru
+                                     |          
+                                      --0.51%--percpu_counter_add_batch
+
+     3.30%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] exc_page_fault
+            |
+            ---exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               |          
+                --2.81%--do_anonymous_page
+                          |          
+                          |--1.13%--__mem_cgroup_charge
+                          |          |          
+                          |          |--0.57%--charge_memcg
+                          |          |          try_charge_memcg
+                          |          |          
+                          |           --0.56%--get_mem_cgroup_from_mm
+                          |          
+                          |--0.59%--vma_alloc_folio
+                          |          
+                          |--0.58%--lru_cache_add_inactive_or_unevictable
+                          |          folio_add_lru_vma
+                          |          folio_add_lru
+                          |          folio_batch_move_lru
+                          |          
+                           --0.51%--percpu_counter_add_batch
+
+     3.30%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] do_user_addr_fault
+            |
+            ---do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               |          
+                --2.81%--do_anonymous_page
+                          |          
+                          |--1.13%--__mem_cgroup_charge
+                          |          |          
+                          |          |--0.57%--charge_memcg
+                          |          |          try_charge_memcg
+                          |          |          
+                          |           --0.56%--get_mem_cgroup_from_mm
+                          |          
+                          |--0.59%--vma_alloc_folio
+                          |          
+                          |--0.58%--lru_cache_add_inactive_or_unevictable
+                          |          folio_add_lru_vma
+                          |          folio_add_lru
+                          |          folio_batch_move_lru
+                          |          
+                           --0.51%--percpu_counter_add_batch
+
+     3.30%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] handle_mm_fault
+            |
+            ---handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               |          
+                --2.81%--do_anonymous_page
+                          |          
+                          |--1.13%--__mem_cgroup_charge
+                          |          |          
+                          |          |--0.57%--charge_memcg
+                          |          |          try_charge_memcg
+                          |          |          
+                          |           --0.56%--get_mem_cgroup_from_mm
+                          |          
+                          |--0.59%--vma_alloc_folio
+                          |          
+                          |--0.58%--lru_cache_add_inactive_or_unevictable
+                          |          folio_add_lru_vma
+                          |          folio_add_lru
+                          |          folio_batch_move_lru
+                          |          
+                           --0.51%--percpu_counter_add_batch
+
+     3.30%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] __handle_mm_fault
+            |
+            ---__handle_mm_fault
+               handle_pte_fault
+               |          
+                --2.81%--do_anonymous_page
+                          |          
+                          |--1.13%--__mem_cgroup_charge
+                          |          |          
+                          |          |--0.57%--charge_memcg
+                          |          |          try_charge_memcg
+                          |          |          
+                          |           --0.56%--get_mem_cgroup_from_mm
+                          |          
+                          |--0.59%--vma_alloc_folio
+                          |          
+                          |--0.58%--lru_cache_add_inactive_or_unevictable
+                          |          folio_add_lru_vma
+                          |          folio_add_lru
+                          |          folio_batch_move_lru
+                          |          
+                           --0.51%--percpu_counter_add_batch
+
+     3.30%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] handle_pte_fault
+            |
+            ---handle_pte_fault
+               |          
+                --2.81%--do_anonymous_page
+                          |          
+                          |--1.13%--__mem_cgroup_charge
+                          |          |          
+                          |          |--0.57%--charge_memcg
+                          |          |          try_charge_memcg
+                          |          |          
+                          |           --0.56%--get_mem_cgroup_from_mm
+                          |          
+                          |--0.59%--vma_alloc_folio
+                          |          
+                          |--0.58%--lru_cache_add_inactive_or_unevictable
+                          |          folio_add_lru_vma
+                          |          folio_add_lru
+                          |          folio_batch_move_lru
+                          |          
+                           --0.51%--percpu_counter_add_batch
+
+     3.01%     3.01%  nbody3D_3_GCC_O  nbody3D_3_GCC_Ofast   [.] main
+            |
+            ---__libc_start_call_main
+               |          
+               |--2.41%--main
+               |          
+                --0.61%--insert_particle.part.0
+
+     3.01%     0.00%  nbody3D_3_GCC_O  libc.so.6             [.] __libc_start_call_main
+            |
+            ---__libc_start_call_main
+               |          
+               |--2.41%--main
+               |          
+                --0.61%--insert_particle.part.0
+
+     2.98%     2.40%  nbody3D_3_GCC_O  libc.so.6             [.] _int_free
+            |          
+            |--1.81%--0x71
+            |          _int_free
+            |          
+             --1.17%--_int_free
+
+     2.81%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] do_anonymous_page
+            |
+            ---do_anonymous_page
+               |          
+               |--1.13%--__mem_cgroup_charge
+               |          |          
+               |          |--0.57%--charge_memcg
+               |          |          try_charge_memcg
+               |          |          
+               |           --0.56%--get_mem_cgroup_from_mm
+               |          
+               |--0.59%--vma_alloc_folio
+               |          
+               |--0.58%--lru_cache_add_inactive_or_unevictable
+               |          folio_add_lru_vma
+               |          folio_add_lru
+               |          folio_batch_move_lru
+               |          
+                --0.51%--percpu_counter_add_batch
+
+     1.81%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x0000000000000071
+            |
+            ---0x71
+               _int_free
+
+     1.63%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] entry_SYSCALL_64_after_hwframe
+            |
+            ---entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               |          
+               |--0.61%--__x64_sys_write
+               |          ksys_write
+               |          vfs_write
+               |          ext4_file_write_iter
+               |          ext4_buffered_write_iter
+               |          file_modified
+               |          file_modified_flags
+               |          generic_update_time
+               |          __mark_inode_dirty
+               |          ext4_dirty_inode
+               |          __ext4_mark_inode_dirty
+               |          ext4_mark_iloc_dirty
+               |          
+                --0.59%--__x64_sys_munmap
+                          __vm_munmap
+                          do_mas_munmap
+                          do_mas_align_munmap
+                          unmap_region
+                          tlb_finish_mmu
+                          tlb_batch_pages_flush
+                          free_pages_and_swap_cache
+                          release_pages
+                          free_unref_page_list
+
+     1.63%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] do_syscall_64
+            |
+            ---do_syscall_64
+               |          
+               |--0.61%--__x64_sys_write
+               |          ksys_write
+               |          vfs_write
+               |          ext4_file_write_iter
+               |          ext4_buffered_write_iter
+               |          file_modified
+               |          file_modified_flags
+               |          generic_update_time
+               |          __mark_inode_dirty
+               |          ext4_dirty_inode
+               |          __ext4_mark_inode_dirty
+               |          ext4_mark_iloc_dirty
+               |          
+                --0.59%--__x64_sys_munmap
+                          __vm_munmap
+                          do_mas_munmap
+                          do_mas_align_munmap
+                          unmap_region
+                          tlb_finish_mmu
+                          tlb_batch_pages_flush
+                          free_pages_and_swap_cache
+                          release_pages
+                          free_unref_page_list
+
+     1.55%     1.55%  nbody3D_3_GCC_O  libc.so.6             [.] __random
+            |
+            ---__random
+
+     1.54%     0.52%  nbody3D_3_GCC_O  nbody3D_3_GCC_Ofast   [.] init
+            |          
+            |--1.02%--init
+            |          |          
+            |           --0.51%--asm_exc_page_fault
+            |                     exc_page_fault
+            |                     do_user_addr_fault
+            |                     handle_mm_fault
+            |                     __handle_mm_fault
+            |                     handle_pte_fault
+            |                     do_anonymous_page
+            |                     percpu_counter_add_batch
+            |          
+             --0.52%--0x55b5bc2c6130
+
+     1.20%     1.20%  nbody3D_3_GCC_O  nbody3D_3_GCC_Ofast   [.] 0x00000000000010c4
+            |          
+            |--0.60%--0xbefd23953e979212
+            |          cfree@GLIBC_2.2.5
+            |          
+             --0.60%--cfree@GLIBC_2.2.5
+
+     1.13%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] __mem_cgroup_charge
+            |
+            ---__mem_cgroup_charge
+               |          
+               |--0.57%--charge_memcg
+               |          try_charge_memcg
+               |          
+                --0.56%--get_mem_cgroup_from_mm
+
+     1.02%     1.02%  nbody3D_3_GCC_O  libc.so.6             [.] __random_r
+            |
+            ---__random_r
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e5a8075bdb4a946
+            |
+            ---0x3e5a8075bdb4a946
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f1df290bcb57f28
+            |
+            ---0x3f1df290bcb57f28
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3ea2b0c7bee1e171
+            |
+            ---0x3ea2b0c7bee1e171
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f44f386bcda37de
+            |
+            ---0x3f44f386bcda37de
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e5844053f5bb1e1
+            |
+            ---0x3e5844053f5bb1e1
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f7efbb63f3d9485
+            |
+            ---0x3f7efbb63f3d9485
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e539a583f1f83c9
+            |
+            ---0x3e539a583f1f83c9
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e2a745f3f62fb58
+            |
+            ---0x3e2a745f3f62fb58
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f2e512cbe289d0d
+            |
+            ---0x3f2e512cbe289d0d
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f5393123ede7f4f
+            |
+            ---0x3f5393123ede7f4f
+               free_quad_tree.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0xbec3dd713d1d2913
+            |
+            ---0xbec3dd713d1d2913
+               free_quad_tree.part.0
+
+     0.61%     0.61%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] ext4_mark_iloc_dirty
+            |
+            ---0x33302d653631372e
+               __GI___libc_write
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_write
+               ksys_write
+               vfs_write
+               ext4_file_write_iter
+               ext4_buffered_write_iter
+               file_modified
+               file_modified_flags
+               generic_update_time
+               __mark_inode_dirty
+               ext4_dirty_inode
+               __ext4_mark_inode_dirty
+               ext4_mark_iloc_dirty
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [k] 0x33302d653631372e
+            |
+            ---0x33302d653631372e
+               __GI___libc_write
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_write
+               ksys_write
+               vfs_write
+               ext4_file_write_iter
+               ext4_buffered_write_iter
+               file_modified
+               file_modified_flags
+               generic_update_time
+               __mark_inode_dirty
+               ext4_dirty_inode
+               __ext4_mark_inode_dirty
+               ext4_mark_iloc_dirty
+
+     0.61%     0.00%  nbody3D_3_GCC_O  libc.so.6             [.] __GI___libc_write
+            |
+            ---__GI___libc_write
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_write
+               ksys_write
+               vfs_write
+               ext4_file_write_iter
+               ext4_buffered_write_iter
+               file_modified
+               file_modified_flags
+               generic_update_time
+               __mark_inode_dirty
+               ext4_dirty_inode
+               __ext4_mark_inode_dirty
+               ext4_mark_iloc_dirty
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] __x64_sys_write
+            |
+            ---__x64_sys_write
+               ksys_write
+               vfs_write
+               ext4_file_write_iter
+               ext4_buffered_write_iter
+               file_modified
+               file_modified_flags
+               generic_update_time
+               __mark_inode_dirty
+               ext4_dirty_inode
+               __ext4_mark_inode_dirty
+               ext4_mark_iloc_dirty
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] ksys_write
+            |
+            ---ksys_write
+               vfs_write
+               ext4_file_write_iter
+               ext4_buffered_write_iter
+               file_modified
+               file_modified_flags
+               generic_update_time
+               __mark_inode_dirty
+               ext4_dirty_inode
+               __ext4_mark_inode_dirty
+               ext4_mark_iloc_dirty
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] vfs_write
+            |
+            ---vfs_write
+               ext4_file_write_iter
+               ext4_buffered_write_iter
+               file_modified
+               file_modified_flags
+               generic_update_time
+               __mark_inode_dirty
+               ext4_dirty_inode
+               __ext4_mark_inode_dirty
+               ext4_mark_iloc_dirty
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] ext4_file_write_iter
+            |
+            ---ext4_file_write_iter
+               ext4_buffered_write_iter
+               file_modified
+               file_modified_flags
+               generic_update_time
+               __mark_inode_dirty
+               ext4_dirty_inode
+               __ext4_mark_inode_dirty
+               ext4_mark_iloc_dirty
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] ext4_buffered_write_iter
+            |
+            ---ext4_buffered_write_iter
+               file_modified
+               file_modified_flags
+               generic_update_time
+               __mark_inode_dirty
+               ext4_dirty_inode
+               __ext4_mark_inode_dirty
+               ext4_mark_iloc_dirty
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] file_modified
+            |
+            ---file_modified
+               file_modified_flags
+               generic_update_time
+               __mark_inode_dirty
+               ext4_dirty_inode
+               __ext4_mark_inode_dirty
+               ext4_mark_iloc_dirty
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] file_modified_flags
+            |
+            ---file_modified_flags
+               generic_update_time
+               __mark_inode_dirty
+               ext4_dirty_inode
+               __ext4_mark_inode_dirty
+               ext4_mark_iloc_dirty
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] generic_update_time
+            |
+            ---generic_update_time
+               __mark_inode_dirty
+               ext4_dirty_inode
+               __ext4_mark_inode_dirty
+               ext4_mark_iloc_dirty
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] __mark_inode_dirty
+            |
+            ---__mark_inode_dirty
+               ext4_dirty_inode
+               __ext4_mark_inode_dirty
+               ext4_mark_iloc_dirty
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] ext4_dirty_inode
+            |
+            ---ext4_dirty_inode
+               __ext4_mark_inode_dirty
+               ext4_mark_iloc_dirty
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] __ext4_mark_inode_dirty
+            |
+            ---__ext4_mark_inode_dirty
+               ext4_mark_iloc_dirty
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3edbab08bf2b19f1
+            |
+            ---0x3edbab08bf2b19f1
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f49cdfebf428d7e
+            |
+            ---0x3f49cdfebf428d7e
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e0c550e3f736bf6
+            |
+            ---0x3e0c550e3f736bf6
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f1b7bb2bf6fab70
+            |
+            ---0x3f1b7bb2bf6fab70
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f08d6e73ea84e06
+            |
+            ---0x3f08d6e73ea84e06
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f22dfc43f0482fd
+            |
+            ---0x3f22dfc43f0482fd
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3eeea3d43f5ba0fc
+            |
+            ---0x3eeea3d43f5ba0fc
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f0c0d013f0d3e75
+            |
+            ---0x3f0c0d013f0d3e75
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3dc085863f31cf07
+            |
+            ---0x3dc085863f31cf07
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3dd9721dbf65eff8
+            |
+            ---0x3dd9721dbf65eff8
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3ee43aa8be982bde
+            |
+            ---0x3ee43aa8be982bde
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3ee6c07a3ed1462b
+            |
+            ---0x3ee6c07a3ed1462b
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f818436bee52e68
+            |
+            ---0x3f818436bee52e68
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f20cbda3e952eec
+            |
+            ---0x3f20cbda3e952eec
+               free_quad_tree.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e2623e03f280044
+            |
+            ---0x3e2623e03f280044
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3da0dd483cc5ed7a
+            |
+            ---0x3da0dd483cc5ed7a
+               malloc
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e8269a2bf22af80
+            |
+            ---0x3e8269a2bf22af80
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f19b905bf1f772f
+            |
+            ---0x3f19b905bf1f772f
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f1cec0bbec0f84b
+            |
+            ---0x3f1cec0bbec0f84b
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3ebb1c353efd1a31
+            |
+            ---0x3ebb1c353efd1a31
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0xbefd23953e979212
+            |
+            ---0xbefd23953e979212
+               cfree@GLIBC_2.2.5
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e7b83463df85429
+            |
+            ---0x3e7b83463df85429
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f801bcbbe06ebf0
+            |
+            ---0x3f801bcbbe06ebf0
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3eadfcff3e958ba4
+            |
+            ---0x3eadfcff3e958ba4
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f8c155abf65ed75
+            |
+            ---0x3f8c155abf65ed75
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e6a62a1be87674b
+            |
+            ---0x3e6a62a1be87674b
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f5db7363e58e21e
+            |
+            ---0x3f5db7363e58e21e
+               free_quad_tree.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f2960a3bf045003
+            |
+            ---0x3f2960a3bf045003
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f624c6c3e7e5328
+            |
+            ---0x3f624c6c3e7e5328
+               free_quad_tree.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f729603bd21b6b8
+            |
+            ---0x3f729603bd21b6b8
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3ef64b0dbf624ae7
+            |
+            ---0x3ef64b0dbf624ae7
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f6a2a423f60063f
+            |
+            ---0x3f6a2a423f60063f
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e6830833f387103
+            |
+            ---0x3e6830833f387103
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0xbdfd7cb73e6e9b05
+            |
+            ---0xbdfd7cb73e6e9b05
+               free_quad_tree.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f4e4d5cbe7edb24
+            |
+            ---0x3f4e4d5cbe7edb24
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f4cd626be7a1c06
+            |
+            ---0x3f4cd626be7a1c06
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f54f6f63f059c39
+            |
+            ---0x3f54f6f63f059c39
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3edeb28dbf06f359
+            |
+            ---0x3edeb28dbf06f359
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0xbe801cd33d079ae0
+            |
+            ---0xbe801cd33d079ae0
+               free_quad_tree.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f8343dcbf48e29e
+            |
+            ---0x3f8343dcbf48e29e
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f283d4ebf7c5377
+            |
+            ---0x3f283d4ebf7c5377
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3d2d83513e6c0021
+            |
+            ---0x3d2d83513e6c0021
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3da229b7bce62146
+            |
+            ---0x3da229b7bce62146
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e4deb85bf0f0395
+            |
+            ---0x3e4deb85bf0f0395
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f54bd1abeab41ef
+            |
+            ---0x3f54bd1abeab41ef
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e2428c53f4a6c20
+            |
+            ---0x3e2428c53f4a6c20
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3ebca30f3e604ee1
+            |
+            ---0x3ebca30f3e604ee1
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e3e785c3e2af389
+            |
+            ---0x3e3e785c3e2af389
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3ed1a2773f14249f
+            |
+            ---0x3ed1a2773f14249f
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3eb2b1923f716b45
+            |
+            ---0x3eb2b1923f716b45
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e9edfc93c07ef5e
+            |
+            ---0x3e9edfc93c07ef5e
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0xbf1294083ee2fff6
+            |
+            ---0xbf1294083ee2fff6
+               free_quad_tree.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3ef7d5213b21e12c
+            |
+            ---0x3ef7d5213b21e12c
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f0e148bbf1aead4
+            |
+            ---0x3f0e148bbf1aead4
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e986e9d3f572745
+            |
+            ---0x3e986e9d3f572745
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3ea9eae03f1ef1c1
+            |
+            ---0x3ea9eae03f1ef1c1
+               free_quad_tree.part.0
+
+     0.60%     0.60%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] switch_fpu_return
+            |
+            ---0x3f739426bf78e0d7
+               insert_particle.part.0
+               asm_sysvec_reschedule_ipi
+               sysvec_reschedule_ipi
+               irqentry_exit
+               irqentry_exit_to_user_mode
+               exit_to_user_mode_prepare
+               switch_fpu_return
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [k] 0x3f739426bf78e0d7
+            |
+            ---0x3f739426bf78e0d7
+               insert_particle.part.0
+               asm_sysvec_reschedule_ipi
+               sysvec_reschedule_ipi
+               irqentry_exit
+               irqentry_exit_to_user_mode
+               exit_to_user_mode_prepare
+               switch_fpu_return
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] asm_sysvec_reschedule_ipi
+            |
+            ---asm_sysvec_reschedule_ipi
+               sysvec_reschedule_ipi
+               irqentry_exit
+               irqentry_exit_to_user_mode
+               exit_to_user_mode_prepare
+               switch_fpu_return
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] sysvec_reschedule_ipi
+            |
+            ---sysvec_reschedule_ipi
+               irqentry_exit
+               irqentry_exit_to_user_mode
+               exit_to_user_mode_prepare
+               switch_fpu_return
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] irqentry_exit
+            |
+            ---irqentry_exit
+               irqentry_exit_to_user_mode
+               exit_to_user_mode_prepare
+               switch_fpu_return
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] irqentry_exit_to_user_mode
+            |
+            ---irqentry_exit_to_user_mode
+               exit_to_user_mode_prepare
+               switch_fpu_return
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] exit_to_user_mode_prepare
+            |
+            ---exit_to_user_mode_prepare
+               switch_fpu_return
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3db37048be0c1b6b
+            |
+            ---0x3db37048be0c1b6b
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f17d6883f651156
+            |
+            ---0x3f17d6883f651156
+               free_quad_tree.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3d5e8c613f0c9c45
+            |
+            ---0x3d5e8c613f0c9c45
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0xbf2c40f13f3e18b4
+            |
+            ---0xbf2c40f13f3e18b4
+               free_quad_tree.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f6a8faa3edbee5c
+            |
+            ---0x3f6a8faa3edbee5c
+               free_quad_tree.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f80fdd93f6e80cc
+            |
+            ---0x3f80fdd93f6e80cc
+               insert_particle.part.0
+
+     0.59%     0.59%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] free_unref_page_list
+            |
+            ---__munmap
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_munmap
+               __vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               unmap_region
+               tlb_finish_mmu
+               tlb_batch_pages_flush
+               free_pages_and_swap_cache
+               release_pages
+               free_unref_page_list
+
+     0.59%     0.00%  nbody3D_3_GCC_O  libc.so.6             [.] __munmap
+            |
+            ---__munmap
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_munmap
+               __vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               unmap_region
+               tlb_finish_mmu
+               tlb_batch_pages_flush
+               free_pages_and_swap_cache
+               release_pages
+               free_unref_page_list
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] __x64_sys_munmap
+            |
+            ---__x64_sys_munmap
+               __vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               unmap_region
+               tlb_finish_mmu
+               tlb_batch_pages_flush
+               free_pages_and_swap_cache
+               release_pages
+               free_unref_page_list
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] __vm_munmap
+            |
+            ---__vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               unmap_region
+               tlb_finish_mmu
+               tlb_batch_pages_flush
+               free_pages_and_swap_cache
+               release_pages
+               free_unref_page_list
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] do_mas_munmap
+            |
+            ---do_mas_munmap
+               do_mas_align_munmap
+               unmap_region
+               tlb_finish_mmu
+               tlb_batch_pages_flush
+               free_pages_and_swap_cache
+               release_pages
+               free_unref_page_list
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] do_mas_align_munmap
+            |
+            ---do_mas_align_munmap
+               unmap_region
+               tlb_finish_mmu
+               tlb_batch_pages_flush
+               free_pages_and_swap_cache
+               release_pages
+               free_unref_page_list
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] unmap_region
+            |
+            ---unmap_region
+               tlb_finish_mmu
+               tlb_batch_pages_flush
+               free_pages_and_swap_cache
+               release_pages
+               free_unref_page_list
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] tlb_finish_mmu
+            |
+            ---tlb_finish_mmu
+               tlb_batch_pages_flush
+               free_pages_and_swap_cache
+               release_pages
+               free_unref_page_list
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] tlb_batch_pages_flush
+            |
+            ---tlb_batch_pages_flush
+               free_pages_and_swap_cache
+               release_pages
+               free_unref_page_list
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] free_pages_and_swap_cache
+            |
+            ---free_pages_and_swap_cache
+               release_pages
+               free_unref_page_list
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] release_pages
+            |
+            ---release_pages
+               free_unref_page_list
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f0ce06c3ef9b747
+            |
+            ---0x3f0ce06c3ef9b747
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3eed85fa3f75c860
+            |
+            ---0x3eed85fa3f75c860
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0xbea948843f496ebf
+            |
+            ---0xbea948843f496ebf
+               free_quad_tree.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f1732a6bf55c07c
+            |
+            ---0x3f1732a6bf55c07c
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e5c02c4bf75ee52
+            |
+            ---0x3e5c02c4bf75ee52
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f2e48b43eb82ae3
+            |
+            ---0x3f2e48b43eb82ae3
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0xbe5098fd3ed50227
+            |
+            ---0xbe5098fd3ed50227
+               free_quad_tree.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f6c21c33f175538
+            |
+            ---0x3f6c21c33f175538
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f04bc37bf5cd601
+            |
+            ---0x3f04bc37bf5cd601
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f72ba523d4af14d
+            |
+            ---0x3f72ba523d4af14d
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3ea4a8dd3f20e188
+            |
+            ---0x3ea4a8dd3f20e188
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f8108b93eca0495
+            |
+            ---0x3f8108b93eca0495
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f79142abf7d08b9
+            |
+            ---0x3f79142abf7d08b9
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f132d973e98c9a9
+            |
+            ---0x3f132d973e98c9a9
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f6632ff3e9f6b7b
+            |
+            ---0x3f6632ff3e9f6b7b
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f33d1acbf4c88f4
+            |
+            ---0x3f33d1acbf4c88f4
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3ea821b03f60c160
+            |
+            ---0x3ea821b03f60c160
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3edebc793f3979c6
+            |
+            ---0x3edebc793f3979c6
+               0x55b5bc2c6100
+
+     0.59%     0.00%  nbody3D_3_GCC_O  nbody3D_3_GCC_Ofast   [.] 0x000055b5bc2c6100
+            |
+            ---0x55b5bc2c6100
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f459513bf6fddf2
+            |
+            ---0x3f459513bf6fddf2
+               insert_particle.part.0
+
+     0.59%     0.59%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] vma_alloc_folio
+            |
+            ---_int_malloc
+               asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               vma_alloc_folio
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f7489b23f1f4f10
+            |
+            ---0x3f7489b23f1f4f10
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3eebf0673f193fa5
+            |
+            ---0x3eebf0673f193fa5
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3eb58d8f3e8133a9
+            |
+            ---0x3eb58d8f3e8133a9
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e897f25be05c897
+            |
+            ---0x3e897f25be05c897
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3ebbc30a3f1ece06
+            |
+            ---0x3ebbc30a3f1ece06
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f2a1c74bf50ecd9
+            |
+            ---0x3f2a1c74bf50ecd9
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f5db0c83f3696f4
+            |
+            ---0x3f5db0c83f3696f4
+               insert_particle.part.0
+
+     0.58%     0.58%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] folio_batch_move_lru
+            |
+            ---_int_malloc
+               asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               lru_cache_add_inactive_or_unevictable
+               folio_add_lru_vma
+               folio_add_lru
+               folio_batch_move_lru
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] lru_cache_add_inactive_or_unevictable
+            |
+            ---lru_cache_add_inactive_or_unevictable
+               folio_add_lru_vma
+               folio_add_lru
+               folio_batch_move_lru
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] folio_add_lru_vma
+            |
+            ---folio_add_lru_vma
+               folio_add_lru
+               folio_batch_move_lru
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] folio_add_lru
+            |
+            ---folio_add_lru
+               folio_batch_move_lru
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3ec3a6023e61889e
+            |
+            ---0x3ec3a6023e61889e
+               cfree@GLIBC_2.2.5
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3ecb9ba9bc3fe6c7
+            |
+            ---0x3ecb9ba9bc3fe6c7
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f594bb73f49f3e3
+            |
+            ---0x3f594bb73f49f3e3
+               cfree@GLIBC_2.2.5
+
+     0.57%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3ced3f4c3e01659d
+            |
+            ---0x3ced3f4c3e01659d
+               cfree@GLIBC_2.2.5
+
+     0.57%     0.57%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] try_charge_memcg
+            |
+            ---_int_malloc
+               asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               __mem_cgroup_charge
+               charge_memcg
+               try_charge_memcg
+
+     0.57%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] charge_memcg
+            |
+            ---charge_memcg
+               try_charge_memcg
+
+     0.57%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0xbf2f71c43dd1f6b3
+            |
+            ---0xbf2f71c43dd1f6b3
+               free_quad_tree.part.0
+
+     0.56%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f4949c03f50a157
+            |
+            ---0x3f4949c03f50a157
+               insert_particle.part.0
+
+     0.56%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e0ddd54be9ab53a
+            |
+            ---0x3e0ddd54be9ab53a
+               insert_particle.part.0
+
+     0.56%     0.56%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] get_mem_cgroup_from_mm
+            |
+            ---_int_malloc
+               asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               __mem_cgroup_charge
+               get_mem_cgroup_from_mm
+
+     0.56%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f8123133f64e396
+            |
+            ---0x3f8123133f64e396
+               insert_particle.part.0
+
+     0.56%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e5dd315bf428d26
+            |
+            ---0x3e5dd315bf428d26
+               insert_particle.part.0
+
+     0.55%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e537ccf3e8679b7
+            |
+            ---0x3e537ccf3e8679b7
+               insert_particle.part.0
+
+     0.55%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f154978bf64fbc7
+            |
+            ---0x3f154978bf64fbc7
+               insert_particle.part.0
+
+     0.55%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3eb900b3bf54771a
+            |
+            ---0x3eb900b3bf54771a
+               insert_particle.part.0
+
+     0.55%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3dd4b259bed40f4e
+            |
+            ---0x3dd4b259bed40f4e
+               insert_particle.part.0
+
+     0.55%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3e972aff3f5466f7
+            |
+            ---0x3e972aff3f5466f7
+               insert_particle.part.0
+
+     0.54%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3f1eee3ebdbd5476
+            |
+            ---0x3f1eee3ebdbd5476
+               insert_particle.part.0
+
+     0.54%     0.00%  nbody3D_3_GCC_O  [unknown]             [.] 0x3dc22000be4b437f
+            |
+            ---0x3dc22000be4b437f
+               insert_particle.part.0
+
+     0.52%     0.00%  nbody3D_3_GCC_O  nbody3D_3_GCC_Ofast   [.] 0x000055b5bc2c6130
+            |
+            ---0x55b5bc2c6130
+
+     0.52%     0.52%  nbody3D_3_GCC_O  libc.so.6             [.] rand
+            |
+            ---init
+
+     0.51%     0.51%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] percpu_counter_add_batch
+            |
+            ---init
+               asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               percpu_counter_add_batch
+
+     0.50%     0.50%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] copy_mc_enhanced_fast_string
+     0.50%     0.00%  nbody3D_3_GCC_O  ld-linux-x86-64.so.2  [.] _dl_map_object
+     0.50%     0.00%  nbody3D_3_GCC_O  ld-linux-x86-64.so.2  [.] _dl_map_object_from_fd
+     0.50%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] do_wp_page
+     0.50%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] wp_page_copy
+     0.43%     0.43%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] alloc_new_pud.constprop.0
+     0.43%     0.00%  nbody3D_3_GCC_O  [unknown]             [k] 0x00007fc5f54eb08b
+     0.43%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] __x64_sys_execve
+     0.43%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] do_execveat_common.isra.0
+     0.43%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] bprm_execve
+     0.43%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] bprm_execve.part.0
+     0.43%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] exec_binprm
+     0.43%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] search_binary_handler
+     0.43%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] load_elf_binary
+     0.43%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] setup_arg_pages
+     0.43%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] shift_arg_pages
+     0.43%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] move_page_tables
+     0.43%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]     [k] move_page_tables.part.0
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] native_write_msr
+     0.03%     0.00%  perf-exec        [unknown]             [k] 0x00007fc5f54eb08b
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] entry_SYSCALL_64_after_hwframe
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] do_syscall_64
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] __x64_sys_execve
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] do_execveat_common.isra.0
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] bprm_execve
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] bprm_execve.part.0
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] exec_binprm
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] search_binary_handler
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] load_elf_binary
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] begin_new_exec
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] perf_event_exec
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] perf_event_enable_on_exec
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] ctx_resched
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] perf_ctx_enable
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] x86_pmu_enable
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]     [k] intel_pmu_enable_all
+     0.03%     0.03%  perf-exec        [kernel.kallsyms]     [k] native_sched_clock
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

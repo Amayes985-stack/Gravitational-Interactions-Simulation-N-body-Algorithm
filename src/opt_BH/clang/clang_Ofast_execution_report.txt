@@ -1,0 +1,1752 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 152  of event 'cycles'
+# Event count (approx.): 182093644
+#
+# Children      Self  Command          Shared Object          Symbol                                    
+# ........  ........  ...............  .....................  ..........................................
+#
+    52.01%    51.40%  nbody3D_3_CLANG  nbody3D_3_CLANG_Ofast  [.] insert_particle
+            |          
+            |--1.55%--0x3e080fa3bf7868ad
+            |          insert_particle
+            |          
+            |--1.42%--0x3ec8858a3d91b5b1
+            |          insert_particle
+            |          
+            |--1.23%--0x3f31c485bf2f1288
+            |          insert_particle
+            |          
+            |--1.08%--0x3ecc637ebf1cf201
+            |          insert_particle
+            |          
+            |--0.92%--0x3f3cef013d9a242a
+            |          insert_particle
+            |          
+            |--0.88%--0x3ddc53e1bf45f84d
+            |          insert_particle
+            |          
+            |--0.85%--0x3d3fea9a3c9a7b11
+            |          insert_particle
+            |          
+            |--0.77%--0x3f7821bdbd9a7ca3
+            |          insert_particle
+            |          
+            |--0.75%--0x3f6c0e473ea43cf9
+            |          insert_particle
+            |          
+            |--0.74%--0x3edd5822bf55e4b7
+            |          insert_particle
+            |          
+            |--0.71%--0x3f55ffc2bf3ba6df
+            |          insert_particle
+            |          
+            |--0.70%--0x3f1dec733e9ff13c
+            |          insert_particle
+            |          
+            |--0.69%--0x3f31dd613d5a6fa3
+            |          insert_particle
+            |          
+            |--0.66%--0x3f6561a33e929893
+            |          insert_particle
+            |          
+            |--0.66%--0x3ed7542abf37d293
+            |          insert_particle
+            |          
+            |--0.66%--0x3f0d4ac13e22df3a
+            |          insert_particle
+            |          
+            |--0.66%--0x3f0bb6ac3d8f4bc8
+            |          insert_particle
+            |          
+            |--0.65%--0x3f270cb9bf6cb18c
+            |          insert_particle
+            |          
+            |--0.65%--0x3eb6664d3d58b8de
+            |          insert_particle
+            |          
+            |--0.65%--0x3f6da3c2bf7d08b9
+            |          insert_particle
+            |          
+            |--0.65%--0x3e27bf10bf0d6f54
+            |          insert_particle
+            |          
+            |--0.65%--0x3f36ea62bee387b9
+            |          insert_particle
+            |          
+            |--0.64%--0x3d1f40843dfb406f
+            |          insert_particle
+            |          
+            |--0.63%--0x3e12d68d3ed6c8d2
+            |          insert_particle
+            |          
+            |--0.63%--0x3f4cdaa4bf1fe53c
+            |          insert_particle
+            |          
+            |--0.63%--0x3d754e673f3170fb
+            |          insert_particle
+            |          
+            |--0.63%--0x3de6b3bcbe8520e2
+            |          insert_particle
+            |          
+            |--0.63%--0x3d44f4a9bed562e7
+            |          insert_particle
+            |          
+            |--0.63%--0x3eda98debf74ea40
+            |          insert_particle
+            |          
+            |--0.63%--0x3ee7008c3e62a7e3
+            |          insert_particle
+            |          
+            |--0.63%--0x3deb55c6bee4d986
+            |          insert_particle
+            |          
+            |--0.63%--0x3f7710a5bc8c5679
+            |          insert_particle
+            |          
+            |--0.62%--0x3e2b6fbf3e5122ad
+            |          insert_particle
+            |          
+            |--0.62%--0x3f3fc0c23d149f83
+            |          insert_particle
+            |          
+            |--0.62%--0x3e5bc90cbe9c4440
+            |          insert_particle
+            |          
+            |--0.61%--0x3e0dcef3bd3a1a31
+            |          insert_particle
+            |          
+            |--0.61%--0x3f3a6146bd339927
+            |          insert_particle
+            |          
+            |--0.61%--0x3ec9a3eebf475f50
+            |          insert_particle
+            |          
+            |--0.61%--0x3e6b42f33f2a5c35
+            |          insert_particle
+            |          
+            |--0.61%--0x3f0e1f2e3f66cc77
+            |          insert_particle
+            |          
+            |--0.61%--0x3f856753be3313a4
+            |          insert_particle
+            |          
+            |--0.61%--0x3f7f557cbd32fe8e
+            |          insert_particle
+            |          
+            |--0.61%--insert_particle
+            |          
+            |--0.61%--0x3dd910e13eff3841
+            |          insert_particle
+            |          
+            |--0.60%--0x3f7d0c783eabb0da
+            |          insert_particle
+            |          
+            |--0.60%--0x3ed2976c3f725153
+            |          insert_particle
+            |          
+            |--0.60%--0x3f654a2abf51b1ab
+            |          insert_particle
+            |          
+            |--0.60%--0x3ec5db7a3f3714fb
+            |          insert_particle
+            |          
+            |--0.60%--0x3ed649cdbf158330
+            |          insert_particle
+            |          
+            |--0.60%--0x3ea67251bf0d9488
+            |          insert_particle
+            |          
+            |--0.60%--0x3f7f1679bf30e68f
+            |          insert_particle
+            |          
+            |--0.60%--0x3f84aa76be58cf7e
+            |          insert_particle
+            |          
+            |--0.60%--0x3f1975efbf325076
+            |          insert_particle
+            |          
+            |--0.60%--0x3f727e0dbf30f849
+            |          insert_particle
+            |          
+            |--0.60%--0x3f1f6f1c3ef5a235
+            |          insert_particle
+            |          
+            |--0.60%--0x3f7b2bffbe8bad2a
+            |          insert_particle
+            |          
+            |--0.60%--0x3e862fe0bf06ad33
+            |          insert_particle
+            |          
+            |--0.60%--0x3f6db595be351840
+            |          insert_particle
+            |          
+            |--0.60%--0x3efd43333ea19dee
+            |          insert_particle
+            |          
+            |--0.60%--0x3f3bb4403f06cb03
+            |          insert_particle
+            |          
+            |--0.59%--0x3ed2f0bd3eaeb65f
+            |          insert_particle
+            |          
+            |--0.59%--0x3e7dea493f7045f5
+            |          insert_particle
+            |          
+            |--0.59%--0x3ee1e0c6bf76a6e9
+            |          insert_particle
+            |          
+            |--0.59%--0x3f300c4cbe6f5348
+            |          insert_particle
+            |          
+            |--0.59%--0x3f794632bf0c00a8
+            |          insert_particle
+            |          
+            |--0.59%--0x3f44b2e63f33efa9
+            |          insert_particle
+            |          
+            |--0.59%--0x3e1c97223f4f231f
+            |          insert_particle
+            |          
+            |--0.59%--0x3e6c3a51bee9c7fb
+            |          insert_particle
+            |          
+            |--0.59%--0x3f83b2f2bedadf20
+            |          insert_particle
+            |          
+            |--0.59%--0x3f3e03c53e32d2ed
+            |          insert_particle
+            |          
+            |--0.59%--0x3eb4ec0bbf59032e
+            |          insert_particle
+            |          
+            |--0.58%--0x3ecba9f4bf7dffe8
+            |          insert_particle
+            |          
+            |--0.58%--0x3f8f475cbf4b36c1
+            |          insert_particle
+            |          __irqentry_text_start
+            |          
+            |--0.58%--0x3e65a7cd3f75bd61
+            |          insert_particle
+            |          
+            |--0.58%--0x3df300f43f5e11db
+            |          insert_particle
+            |          
+            |--0.57%--0x3f73d89dbf54ec01
+            |          insert_particle
+            |          
+            |--0.57%--0x3ef35fb73e5a0b49
+            |          insert_particle
+            |          
+             --0.57%--0x3f48d26f3dcccf5f
+                       insert_particle
+
+    13.01%    10.46%  nbody3D_3_CLANG  libc.so.6              [.] _int_malloc
+            |
+            ---_int_malloc
+               |          
+               |--1.32%--asm_exc_page_fault
+               |          exc_page_fault
+               |          do_user_addr_fault
+               |          handle_mm_fault
+               |          __handle_mm_fault
+               |          handle_pte_fault
+               |          do_anonymous_page
+               |          lru_cache_add_inactive_or_unevictable
+               |          folio_add_lru_vma
+               |          folio_add_lru
+               |          folio_batch_move_lru
+               |          
+                --0.59%--asm_common_interrupt
+                          common_interrupt
+                          __common_interrupt
+                          handle_fasteoi_irq
+                          handle_irq_event
+                          __handle_irq_event_percpu
+                          i2c_dw_isr
+                          i2c_dw_read
+                          regmap_read
+                          _regmap_read
+                          dw_reg_read
+
+     9.63%     7.44%  nbody3D_3_CLANG  libc.so.6              [.] malloc
+            |          
+            |--8.98%--malloc
+            |          |          
+            |           --0.60%--asm_common_interrupt
+            |                     common_interrupt
+            |                     __common_interrupt
+            |                     handle_fasteoi_irq
+            |                     handle_irq_event
+            |                     idma64_irq
+            |          
+             --0.64%--_int_malloc
+
+     8.55%     7.87%  nbody3D_3_CLANG  libc.so.6              [.] _int_free
+            |          
+            |--4.26%--0x31
+            |          _int_free
+            |          
+            |--2.34%--0x71
+            |          _int_free
+            |          
+            |--1.35%--_int_free
+            |          
+             --0.60%--0xbf08b3ac3f23de90
+                       0x31
+                       _int_free
+
+     5.75%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0000000000000000
+            |
+            ---0
+               |          
+               |--4.48%--free_quad_tree
+               |          
+                --1.27%--cfree@GLIBC_2.2.5
+
+     4.86%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x0000000000000031
+            |
+            ---0x31
+               _int_free
+
+     4.48%     4.48%  nbody3D_3_CLANG  nbody3D_3_CLANG_Ofast  [.] free_quad_tree
+            |
+            ---0
+               free_quad_tree
+
+     3.78%     3.78%  nbody3D_3_CLANG  libc.so.6              [.] __random
+            |
+            ---__random
+
+     3.76%     2.54%  nbody3D_3_CLANG  libc.so.6              [.] cfree@GLIBC_2.2.5
+            |          
+            |--2.44%--cfree@GLIBC_2.2.5
+            |          
+            |--0.68%--_int_free
+            |          
+             --0.65%--0
+                       cfree@GLIBC_2.2.5
+
+     3.44%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] entry_SYSCALL_64_after_hwframe
+            |
+            ---entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               |          
+               |--2.13%--__x64_sys_mprotect
+               |          do_mprotect_pkey
+               |          mprotect_fixup
+               |          split_vma
+               |          __split_vma
+               |          __vma_adjust
+               |          vma_mas_store
+               |          mas_store_prealloc
+               |          mas_destroy
+               |          kmem_cache_free_bulk
+               |          kmem_cache_free_bulk.part.0
+               |          __slab_free
+               |          cmpxchg_double_slab.constprop.0.isra.0
+               |          
+               |--0.72%--__x64_sys_execve
+               |          do_execveat_common.isra.0
+               |          bprm_execve
+               |          bprm_execve.part.0
+               |          exec_binprm
+               |          search_binary_handler
+               |          load_elf_binary
+               |          elf_map
+               |          vm_mmap
+               |          vm_mmap_pgoff
+               |          do_mmap
+               |          mmap_region
+               |          vma_mas_store
+               |          mas_store_prealloc
+               |          mas_wr_store_entry.isra.0
+               |          mas_wr_walk
+               |          
+                --0.59%--__x64_sys_exit_group
+                          do_group_exit
+                          do_exit
+                          exit_mm
+                          mmput
+                          __mmput
+                          exit_mmap
+                          unmap_vmas
+                          unmap_single_vma
+                          unmap_page_range
+                          zap_pmd_range.isra.0
+                          _compound_head
+
+     3.44%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] do_syscall_64
+            |
+            ---do_syscall_64
+               |          
+               |--2.13%--__x64_sys_mprotect
+               |          do_mprotect_pkey
+               |          mprotect_fixup
+               |          split_vma
+               |          __split_vma
+               |          __vma_adjust
+               |          vma_mas_store
+               |          mas_store_prealloc
+               |          mas_destroy
+               |          kmem_cache_free_bulk
+               |          kmem_cache_free_bulk.part.0
+               |          __slab_free
+               |          cmpxchg_double_slab.constprop.0.isra.0
+               |          
+               |--0.72%--__x64_sys_execve
+               |          do_execveat_common.isra.0
+               |          bprm_execve
+               |          bprm_execve.part.0
+               |          exec_binprm
+               |          search_binary_handler
+               |          load_elf_binary
+               |          elf_map
+               |          vm_mmap
+               |          vm_mmap_pgoff
+               |          do_mmap
+               |          mmap_region
+               |          vma_mas_store
+               |          mas_store_prealloc
+               |          mas_wr_store_entry.isra.0
+               |          mas_wr_walk
+               |          
+                --0.59%--__x64_sys_exit_group
+                          do_group_exit
+                          do_exit
+                          exit_mm
+                          mmput
+                          __mmput
+                          exit_mmap
+                          unmap_vmas
+                          unmap_single_vma
+                          unmap_page_range
+                          zap_pmd_range.isra.0
+                          _compound_head
+
+     2.85%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] vma_mas_store
+            |
+            ---vma_mas_store
+               mas_store_prealloc
+               |          
+               |--2.13%--mas_destroy
+               |          kmem_cache_free_bulk
+               |          kmem_cache_free_bulk.part.0
+               |          __slab_free
+               |          cmpxchg_double_slab.constprop.0.isra.0
+               |          
+                --0.72%--mas_wr_store_entry.isra.0
+                          mas_wr_walk
+
+     2.85%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] mas_store_prealloc
+            |
+            ---mas_store_prealloc
+               |          
+               |--2.13%--mas_destroy
+               |          kmem_cache_free_bulk
+               |          kmem_cache_free_bulk.part.0
+               |          __slab_free
+               |          cmpxchg_double_slab.constprop.0.isra.0
+               |          
+                --0.72%--mas_wr_store_entry.isra.0
+                          mas_wr_walk
+
+     2.63%     2.63%  nbody3D_3_CLANG  nbody3D_3_CLANG_Ofast  [.] compute_force_from_node
+            |          
+            |--0.82%--0x3d4323143eb73aa0
+            |          compute_force_from_node
+            |          
+            |--0.63%--0x3f58c2f5bf3fada6
+            |          compute_force_from_node
+            |          
+            |--0.60%--0x3f84ddc73f227cf5
+            |          compute_force_from_node
+            |          
+             --0.58%--0x3ec0bf903f75a85f
+                       compute_force_from_node
+
+     2.34%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x0000000000000071
+            |
+            ---0x71
+               _int_free
+
+     2.13%     2.13%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] cmpxchg_double_slab.constprop.0.isra.0
+            |
+            ---0x40
+               _dl_sysdep_start
+               dl_main
+               mprotect
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_mprotect
+               do_mprotect_pkey
+               mprotect_fixup
+               split_vma
+               __split_vma
+               __vma_adjust
+               vma_mas_store
+               mas_store_prealloc
+               mas_destroy
+               kmem_cache_free_bulk
+               kmem_cache_free_bulk.part.0
+               __slab_free
+               cmpxchg_double_slab.constprop.0.isra.0
+
+     2.13%     0.00%  nbody3D_3_CLANG  [unknown]              [k] 0x0000000000000040
+            |
+            ---0x40
+               _dl_sysdep_start
+               dl_main
+               mprotect
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_mprotect
+               do_mprotect_pkey
+               mprotect_fixup
+               split_vma
+               __split_vma
+               __vma_adjust
+               vma_mas_store
+               mas_store_prealloc
+               mas_destroy
+               kmem_cache_free_bulk
+               kmem_cache_free_bulk.part.0
+               __slab_free
+               cmpxchg_double_slab.constprop.0.isra.0
+
+     2.13%     0.00%  nbody3D_3_CLANG  ld-linux-x86-64.so.2   [.] _dl_sysdep_start
+            |
+            ---_dl_sysdep_start
+               dl_main
+               mprotect
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_mprotect
+               do_mprotect_pkey
+               mprotect_fixup
+               split_vma
+               __split_vma
+               __vma_adjust
+               vma_mas_store
+               mas_store_prealloc
+               mas_destroy
+               kmem_cache_free_bulk
+               kmem_cache_free_bulk.part.0
+               __slab_free
+               cmpxchg_double_slab.constprop.0.isra.0
+
+     2.13%     0.00%  nbody3D_3_CLANG  ld-linux-x86-64.so.2   [.] dl_main
+            |
+            ---dl_main
+               mprotect
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_mprotect
+               do_mprotect_pkey
+               mprotect_fixup
+               split_vma
+               __split_vma
+               __vma_adjust
+               vma_mas_store
+               mas_store_prealloc
+               mas_destroy
+               kmem_cache_free_bulk
+               kmem_cache_free_bulk.part.0
+               __slab_free
+               cmpxchg_double_slab.constprop.0.isra.0
+
+     2.13%     0.00%  nbody3D_3_CLANG  ld-linux-x86-64.so.2   [.] mprotect
+            |
+            ---mprotect
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_mprotect
+               do_mprotect_pkey
+               mprotect_fixup
+               split_vma
+               __split_vma
+               __vma_adjust
+               vma_mas_store
+               mas_store_prealloc
+               mas_destroy
+               kmem_cache_free_bulk
+               kmem_cache_free_bulk.part.0
+               __slab_free
+               cmpxchg_double_slab.constprop.0.isra.0
+
+     2.13%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] __x64_sys_mprotect
+            |
+            ---__x64_sys_mprotect
+               do_mprotect_pkey
+               mprotect_fixup
+               split_vma
+               __split_vma
+               __vma_adjust
+               vma_mas_store
+               mas_store_prealloc
+               mas_destroy
+               kmem_cache_free_bulk
+               kmem_cache_free_bulk.part.0
+               __slab_free
+               cmpxchg_double_slab.constprop.0.isra.0
+
+     2.13%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] do_mprotect_pkey
+            |
+            ---do_mprotect_pkey
+               mprotect_fixup
+               split_vma
+               __split_vma
+               __vma_adjust
+               vma_mas_store
+               mas_store_prealloc
+               mas_destroy
+               kmem_cache_free_bulk
+               kmem_cache_free_bulk.part.0
+               __slab_free
+               cmpxchg_double_slab.constprop.0.isra.0
+
+     2.13%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] mprotect_fixup
+            |
+            ---mprotect_fixup
+               split_vma
+               __split_vma
+               __vma_adjust
+               vma_mas_store
+               mas_store_prealloc
+               mas_destroy
+               kmem_cache_free_bulk
+               kmem_cache_free_bulk.part.0
+               __slab_free
+               cmpxchg_double_slab.constprop.0.isra.0
+
+     2.13%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] split_vma
+            |
+            ---split_vma
+               __split_vma
+               __vma_adjust
+               vma_mas_store
+               mas_store_prealloc
+               mas_destroy
+               kmem_cache_free_bulk
+               kmem_cache_free_bulk.part.0
+               __slab_free
+               cmpxchg_double_slab.constprop.0.isra.0
+
+     2.13%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] __split_vma
+            |
+            ---__split_vma
+               __vma_adjust
+               vma_mas_store
+               mas_store_prealloc
+               mas_destroy
+               kmem_cache_free_bulk
+               kmem_cache_free_bulk.part.0
+               __slab_free
+               cmpxchg_double_slab.constprop.0.isra.0
+
+     2.13%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] __vma_adjust
+            |
+            ---__vma_adjust
+               vma_mas_store
+               mas_store_prealloc
+               mas_destroy
+               kmem_cache_free_bulk
+               kmem_cache_free_bulk.part.0
+               __slab_free
+               cmpxchg_double_slab.constprop.0.isra.0
+
+     2.13%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] mas_destroy
+            |
+            ---mas_destroy
+               kmem_cache_free_bulk
+               kmem_cache_free_bulk.part.0
+               __slab_free
+               cmpxchg_double_slab.constprop.0.isra.0
+
+     2.13%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] kmem_cache_free_bulk
+            |
+            ---kmem_cache_free_bulk
+               kmem_cache_free_bulk.part.0
+               __slab_free
+               cmpxchg_double_slab.constprop.0.isra.0
+
+     2.13%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] kmem_cache_free_bulk.part.0
+            |
+            ---kmem_cache_free_bulk.part.0
+               __slab_free
+               cmpxchg_double_slab.constprop.0.isra.0
+
+     2.13%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] __slab_free
+            |
+            ---__slab_free
+               cmpxchg_double_slab.constprop.0.isra.0
+
+     1.59%     1.59%  nbody3D_3_CLANG  nbody3D_3_CLANG_Ofast  [.] malloc@plt
+            |          
+            |--0.97%--0x3cddbb823f56793c
+            |          malloc
+            |          
+             --0.61%--0x3f82c69dbf12fdcc
+                       malloc
+
+     1.55%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3e080fa3bf7868ad
+            |
+            ---0x3e080fa3bf7868ad
+               insert_particle
+
+     1.42%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3ec8858a3d91b5b1
+            |
+            ---0x3ec8858a3d91b5b1
+               insert_particle
+
+     1.32%     1.32%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] folio_batch_move_lru
+            |
+            ---_int_malloc
+               asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               lru_cache_add_inactive_or_unevictable
+               folio_add_lru_vma
+               folio_add_lru
+               folio_batch_move_lru
+
+     1.32%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] asm_exc_page_fault
+            |
+            ---asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               lru_cache_add_inactive_or_unevictable
+               folio_add_lru_vma
+               folio_add_lru
+               folio_batch_move_lru
+
+     1.32%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] exc_page_fault
+            |
+            ---exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               lru_cache_add_inactive_or_unevictable
+               folio_add_lru_vma
+               folio_add_lru
+               folio_batch_move_lru
+
+     1.32%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] do_user_addr_fault
+            |
+            ---do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               lru_cache_add_inactive_or_unevictable
+               folio_add_lru_vma
+               folio_add_lru
+               folio_batch_move_lru
+
+     1.32%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] handle_mm_fault
+            |
+            ---handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               lru_cache_add_inactive_or_unevictable
+               folio_add_lru_vma
+               folio_add_lru
+               folio_batch_move_lru
+
+     1.32%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] __handle_mm_fault
+            |
+            ---__handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               lru_cache_add_inactive_or_unevictable
+               folio_add_lru_vma
+               folio_add_lru
+               folio_batch_move_lru
+
+     1.32%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] handle_pte_fault
+            |
+            ---handle_pte_fault
+               do_anonymous_page
+               lru_cache_add_inactive_or_unevictable
+               folio_add_lru_vma
+               folio_add_lru
+               folio_batch_move_lru
+
+     1.32%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] do_anonymous_page
+            |
+            ---do_anonymous_page
+               lru_cache_add_inactive_or_unevictable
+               folio_add_lru_vma
+               folio_add_lru
+               folio_batch_move_lru
+
+     1.32%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] lru_cache_add_inactive_or_unevictable
+            |
+            ---lru_cache_add_inactive_or_unevictable
+               folio_add_lru_vma
+               folio_add_lru
+               folio_batch_move_lru
+
+     1.32%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] folio_add_lru_vma
+            |
+            ---folio_add_lru_vma
+               folio_add_lru
+               folio_batch_move_lru
+
+     1.32%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] folio_add_lru
+            |
+            ---folio_add_lru
+               folio_batch_move_lru
+
+     1.23%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f31c485bf2f1288
+            |
+            ---0x3f31c485bf2f1288
+               insert_particle
+
+     1.22%     1.22%  nbody3D_3_CLANG  nbody3D_3_CLANG_Ofast  [.] free@plt
+            |          
+            |--0.63%--0
+            |          cfree@GLIBC_2.2.5
+            |          
+             --0.59%--0x2d2d2d2d2d2d2d2d
+                       cfree@GLIBC_2.2.5
+
+     1.19%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] asm_common_interrupt
+            |
+            ---asm_common_interrupt
+               common_interrupt
+               __common_interrupt
+               handle_fasteoi_irq
+               handle_irq_event
+               |          
+               |--0.60%--idma64_irq
+               |          
+                --0.59%--__handle_irq_event_percpu
+                          i2c_dw_isr
+                          i2c_dw_read
+                          regmap_read
+                          _regmap_read
+                          dw_reg_read
+
+     1.19%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] common_interrupt
+            |
+            ---common_interrupt
+               __common_interrupt
+               handle_fasteoi_irq
+               handle_irq_event
+               |          
+               |--0.60%--idma64_irq
+               |          
+                --0.59%--__handle_irq_event_percpu
+                          i2c_dw_isr
+                          i2c_dw_read
+                          regmap_read
+                          _regmap_read
+                          dw_reg_read
+
+     1.19%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] __common_interrupt
+            |
+            ---__common_interrupt
+               handle_fasteoi_irq
+               handle_irq_event
+               |          
+               |--0.60%--idma64_irq
+               |          
+                --0.59%--__handle_irq_event_percpu
+                          i2c_dw_isr
+                          i2c_dw_read
+                          regmap_read
+                          _regmap_read
+                          dw_reg_read
+
+     1.19%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] handle_fasteoi_irq
+            |
+            ---handle_fasteoi_irq
+               handle_irq_event
+               |          
+               |--0.60%--idma64_irq
+               |          
+                --0.59%--__handle_irq_event_percpu
+                          i2c_dw_isr
+                          i2c_dw_read
+                          regmap_read
+                          _regmap_read
+                          dw_reg_read
+
+     1.19%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] handle_irq_event
+            |
+            ---handle_irq_event
+               |          
+               |--0.60%--idma64_irq
+               |          
+                --0.59%--__handle_irq_event_percpu
+                          i2c_dw_isr
+                          i2c_dw_read
+                          regmap_read
+                          _regmap_read
+                          dw_reg_read
+
+     1.08%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3ecc637ebf1cf201
+            |
+            ---0x3ecc637ebf1cf201
+               insert_particle
+
+     0.97%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3cddbb823f56793c
+            |
+            ---0x3cddbb823f56793c
+               malloc
+
+     0.92%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f3cef013d9a242a
+            |
+            ---0x3f3cef013d9a242a
+               insert_particle
+
+     0.88%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3ddc53e1bf45f84d
+            |
+            ---0x3ddc53e1bf45f84d
+               insert_particle
+
+     0.85%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3d3fea9a3c9a7b11
+            |
+            ---0x3d3fea9a3c9a7b11
+               insert_particle
+
+     0.82%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3d4323143eb73aa0
+            |
+            ---0x3d4323143eb73aa0
+               compute_force_from_node
+
+     0.77%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f7821bdbd9a7ca3
+            |
+            ---0x3f7821bdbd9a7ca3
+               insert_particle
+
+     0.75%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f6c0e473ea43cf9
+            |
+            ---0x3f6c0e473ea43cf9
+               insert_particle
+
+     0.74%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3edd5822bf55e4b7
+            |
+            ---0x3edd5822bf55e4b7
+               insert_particle
+
+     0.72%     0.72%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] mas_wr_walk
+            |
+            ---0x7feeefaeb08b
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               vma_mas_store
+               mas_store_prealloc
+               mas_wr_store_entry.isra.0
+               mas_wr_walk
+
+     0.72%     0.00%  nbody3D_3_CLANG  [unknown]              [k] 0x00007feeefaeb08b
+            |
+            ---0x7feeefaeb08b
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               vma_mas_store
+               mas_store_prealloc
+               mas_wr_store_entry.isra.0
+               mas_wr_walk
+
+     0.72%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] __x64_sys_execve
+            |
+            ---__x64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               vma_mas_store
+               mas_store_prealloc
+               mas_wr_store_entry.isra.0
+               mas_wr_walk
+
+     0.72%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] do_execveat_common.isra.0
+            |
+            ---do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               vma_mas_store
+               mas_store_prealloc
+               mas_wr_store_entry.isra.0
+               mas_wr_walk
+
+     0.72%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] bprm_execve
+            |
+            ---bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               vma_mas_store
+               mas_store_prealloc
+               mas_wr_store_entry.isra.0
+               mas_wr_walk
+
+     0.72%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] bprm_execve.part.0
+            |
+            ---bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               vma_mas_store
+               mas_store_prealloc
+               mas_wr_store_entry.isra.0
+               mas_wr_walk
+
+     0.72%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] exec_binprm
+            |
+            ---exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               vma_mas_store
+               mas_store_prealloc
+               mas_wr_store_entry.isra.0
+               mas_wr_walk
+
+     0.72%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] search_binary_handler
+            |
+            ---search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               vma_mas_store
+               mas_store_prealloc
+               mas_wr_store_entry.isra.0
+               mas_wr_walk
+
+     0.72%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] load_elf_binary
+            |
+            ---load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               vma_mas_store
+               mas_store_prealloc
+               mas_wr_store_entry.isra.0
+               mas_wr_walk
+
+     0.72%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] elf_map
+            |
+            ---elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               vma_mas_store
+               mas_store_prealloc
+               mas_wr_store_entry.isra.0
+               mas_wr_walk
+
+     0.72%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] vm_mmap
+            |
+            ---vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               vma_mas_store
+               mas_store_prealloc
+               mas_wr_store_entry.isra.0
+               mas_wr_walk
+
+     0.72%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] vm_mmap_pgoff
+            |
+            ---vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               vma_mas_store
+               mas_store_prealloc
+               mas_wr_store_entry.isra.0
+               mas_wr_walk
+
+     0.72%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] do_mmap
+            |
+            ---do_mmap
+               mmap_region
+               vma_mas_store
+               mas_store_prealloc
+               mas_wr_store_entry.isra.0
+               mas_wr_walk
+
+     0.72%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] mmap_region
+            |
+            ---mmap_region
+               vma_mas_store
+               mas_store_prealloc
+               mas_wr_store_entry.isra.0
+               mas_wr_walk
+
+     0.72%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] mas_wr_store_entry.isra.0
+            |
+            ---mas_wr_store_entry.isra.0
+               mas_wr_walk
+
+     0.71%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f55ffc2bf3ba6df
+            |
+            ---0x3f55ffc2bf3ba6df
+               insert_particle
+
+     0.70%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f1dec733e9ff13c
+            |
+            ---0x3f1dec733e9ff13c
+               insert_particle
+
+     0.69%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f31dd613d5a6fa3
+            |
+            ---0x3f31dd613d5a6fa3
+               insert_particle
+
+     0.66%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f6561a33e929893
+            |
+            ---0x3f6561a33e929893
+               insert_particle
+
+     0.66%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3ed7542abf37d293
+            |
+            ---0x3ed7542abf37d293
+               insert_particle
+
+     0.66%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f0d4ac13e22df3a
+            |
+            ---0x3f0d4ac13e22df3a
+               insert_particle
+
+     0.66%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f0bb6ac3d8f4bc8
+            |
+            ---0x3f0bb6ac3d8f4bc8
+               insert_particle
+
+     0.65%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f270cb9bf6cb18c
+            |
+            ---0x3f270cb9bf6cb18c
+               insert_particle
+
+     0.65%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3eb6664d3d58b8de
+            |
+            ---0x3eb6664d3d58b8de
+               insert_particle
+
+     0.65%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f6da3c2bf7d08b9
+            |
+            ---0x3f6da3c2bf7d08b9
+               insert_particle
+
+     0.65%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3e27bf10bf0d6f54
+            |
+            ---0x3e27bf10bf0d6f54
+               insert_particle
+
+     0.65%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f36ea62bee387b9
+            |
+            ---0x3f36ea62bee387b9
+               insert_particle
+
+     0.64%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3d1f40843dfb406f
+            |
+            ---0x3d1f40843dfb406f
+               insert_particle
+
+     0.63%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3e12d68d3ed6c8d2
+            |
+            ---0x3e12d68d3ed6c8d2
+               insert_particle
+
+     0.63%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f4cdaa4bf1fe53c
+            |
+            ---0x3f4cdaa4bf1fe53c
+               insert_particle
+
+     0.63%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3d754e673f3170fb
+            |
+            ---0x3d754e673f3170fb
+               insert_particle
+
+     0.63%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3de6b3bcbe8520e2
+            |
+            ---0x3de6b3bcbe8520e2
+               insert_particle
+
+     0.63%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3d44f4a9bed562e7
+            |
+            ---0x3d44f4a9bed562e7
+               insert_particle
+
+     0.63%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f58c2f5bf3fada6
+            |
+            ---0x3f58c2f5bf3fada6
+               compute_force_from_node
+
+     0.63%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3eda98debf74ea40
+            |
+            ---0x3eda98debf74ea40
+               insert_particle
+
+     0.63%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3ee7008c3e62a7e3
+            |
+            ---0x3ee7008c3e62a7e3
+               insert_particle
+
+     0.63%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3deb55c6bee4d986
+            |
+            ---0x3deb55c6bee4d986
+               insert_particle
+
+     0.63%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f7710a5bc8c5679
+            |
+            ---0x3f7710a5bc8c5679
+               insert_particle
+
+     0.62%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3e2b6fbf3e5122ad
+            |
+            ---0x3e2b6fbf3e5122ad
+               insert_particle
+
+     0.62%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f3fc0c23d149f83
+            |
+            ---0x3f3fc0c23d149f83
+               insert_particle
+
+     0.62%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3e5bc90cbe9c4440
+            |
+            ---0x3e5bc90cbe9c4440
+               insert_particle
+
+     0.61%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3e0dcef3bd3a1a31
+            |
+            ---0x3e0dcef3bd3a1a31
+               insert_particle
+
+     0.61%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f3a6146bd339927
+            |
+            ---0x3f3a6146bd339927
+               insert_particle
+
+     0.61%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3ec9a3eebf475f50
+            |
+            ---0x3ec9a3eebf475f50
+               insert_particle
+
+     0.61%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3e6b42f33f2a5c35
+            |
+            ---0x3e6b42f33f2a5c35
+               insert_particle
+
+     0.61%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f82c69dbf12fdcc
+            |
+            ---0x3f82c69dbf12fdcc
+               malloc
+
+     0.61%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f0e1f2e3f66cc77
+            |
+            ---0x3f0e1f2e3f66cc77
+               insert_particle
+
+     0.61%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f856753be3313a4
+            |
+            ---0x3f856753be3313a4
+               insert_particle
+
+     0.61%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f7f557cbd32fe8e
+            |
+            ---0x3f7f557cbd32fe8e
+               insert_particle
+
+     0.61%     0.61%  nbody3D_3_CLANG  nbody3D_3_CLANG_Ofast  [.] main
+            |
+            ---0x3f4f70b73f5487d3
+               insert_particle
+
+     0.61%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f4f70b73f5487d3
+            |
+            ---0x3f4f70b73f5487d3
+               insert_particle
+
+     0.61%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3dd910e13eff3841
+            |
+            ---0x3dd910e13eff3841
+               insert_particle
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f7d0c783eabb0da
+            |
+            ---0x3f7d0c783eabb0da
+               insert_particle
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3ed2976c3f725153
+            |
+            ---0x3ed2976c3f725153
+               insert_particle
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f654a2abf51b1ab
+            |
+            ---0x3f654a2abf51b1ab
+               insert_particle
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3ec5db7a3f3714fb
+            |
+            ---0x3ec5db7a3f3714fb
+               insert_particle
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3ed649cdbf158330
+            |
+            ---0x3ed649cdbf158330
+               insert_particle
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3ea67251bf0d9488
+            |
+            ---0x3ea67251bf0d9488
+               insert_particle
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f7f1679bf30e68f
+            |
+            ---0x3f7f1679bf30e68f
+               insert_particle
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f84aa76be58cf7e
+            |
+            ---0x3f84aa76be58cf7e
+               insert_particle
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f1975efbf325076
+            |
+            ---0x3f1975efbf325076
+               insert_particle
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f727e0dbf30f849
+            |
+            ---0x3f727e0dbf30f849
+               insert_particle
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f1f6f1c3ef5a235
+            |
+            ---0x3f1f6f1c3ef5a235
+               insert_particle
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f7b2bffbe8bad2a
+            |
+            ---0x3f7b2bffbe8bad2a
+               insert_particle
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3e862fe0bf06ad33
+            |
+            ---0x3e862fe0bf06ad33
+               insert_particle
+
+     0.60%     0.60%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] idma64_irq
+            |
+            ---malloc
+               asm_common_interrupt
+               common_interrupt
+               __common_interrupt
+               handle_fasteoi_irq
+               handle_irq_event
+               idma64_irq
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f6db595be351840
+            |
+            ---0x3f6db595be351840
+               insert_particle
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3efd43333ea19dee
+            |
+            ---0x3efd43333ea19dee
+               insert_particle
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0xbf08b3ac3f23de90
+            |
+            ---0xbf08b3ac3f23de90
+               0x31
+               _int_free
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f84ddc73f227cf5
+            |
+            ---0x3f84ddc73f227cf5
+               compute_force_from_node
+
+     0.60%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f3bb4403f06cb03
+            |
+            ---0x3f3bb4403f06cb03
+               insert_particle
+
+     0.59%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3ed2f0bd3eaeb65f
+            |
+            ---0x3ed2f0bd3eaeb65f
+               insert_particle
+
+     0.59%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3e7dea493f7045f5
+            |
+            ---0x3e7dea493f7045f5
+               insert_particle
+
+     0.59%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3ee1e0c6bf76a6e9
+            |
+            ---0x3ee1e0c6bf76a6e9
+               insert_particle
+
+     0.59%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f300c4cbe6f5348
+            |
+            ---0x3f300c4cbe6f5348
+               insert_particle
+
+     0.59%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f794632bf0c00a8
+            |
+            ---0x3f794632bf0c00a8
+               insert_particle
+
+     0.59%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f44b2e63f33efa9
+            |
+            ---0x3f44b2e63f33efa9
+               insert_particle
+
+     0.59%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x2d2d2d2d2d2d2d2d
+            |
+            ---0x2d2d2d2d2d2d2d2d
+               cfree@GLIBC_2.2.5
+
+     0.59%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3e1c97223f4f231f
+            |
+            ---0x3e1c97223f4f231f
+               insert_particle
+
+     0.59%     0.59%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] dw_reg_read
+            |
+            ---_int_malloc
+               asm_common_interrupt
+               common_interrupt
+               __common_interrupt
+               handle_fasteoi_irq
+               handle_irq_event
+               __handle_irq_event_percpu
+               i2c_dw_isr
+               i2c_dw_read
+               regmap_read
+               _regmap_read
+               dw_reg_read
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] __handle_irq_event_percpu
+            |
+            ---__handle_irq_event_percpu
+               i2c_dw_isr
+               i2c_dw_read
+               regmap_read
+               _regmap_read
+               dw_reg_read
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] i2c_dw_isr
+            |
+            ---i2c_dw_isr
+               i2c_dw_read
+               regmap_read
+               _regmap_read
+               dw_reg_read
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] i2c_dw_read
+            |
+            ---i2c_dw_read
+               regmap_read
+               _regmap_read
+               dw_reg_read
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] regmap_read
+            |
+            ---regmap_read
+               _regmap_read
+               dw_reg_read
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] _regmap_read
+            |
+            ---_regmap_read
+               dw_reg_read
+
+     0.59%     0.59%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] _compound_head
+            |
+            ---entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_exit_group
+               do_group_exit
+               do_exit
+               exit_mm
+               mmput
+               __mmput
+               exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] __x64_sys_exit_group
+            |
+            ---__x64_sys_exit_group
+               do_group_exit
+               do_exit
+               exit_mm
+               mmput
+               __mmput
+               exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] do_group_exit
+            |
+            ---do_group_exit
+               do_exit
+               exit_mm
+               mmput
+               __mmput
+               exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] do_exit
+            |
+            ---do_exit
+               exit_mm
+               mmput
+               __mmput
+               exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] exit_mm
+            |
+            ---exit_mm
+               mmput
+               __mmput
+               exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] mmput
+            |
+            ---mmput
+               __mmput
+               exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] __mmput
+            |
+            ---__mmput
+               exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] exit_mmap
+            |
+            ---exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] unmap_vmas
+            |
+            ---unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] unmap_single_vma
+            |
+            ---unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] unmap_page_range
+            |
+            ---unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.59%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] zap_pmd_range.isra.0
+            |
+            ---zap_pmd_range.isra.0
+               _compound_head
+
+     0.59%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3e6c3a51bee9c7fb
+            |
+            ---0x3e6c3a51bee9c7fb
+               insert_particle
+
+     0.59%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f83b2f2bedadf20
+            |
+            ---0x3f83b2f2bedadf20
+               insert_particle
+
+     0.59%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f3e03c53e32d2ed
+            |
+            ---0x3f3e03c53e32d2ed
+               insert_particle
+
+     0.59%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3eb4ec0bbf59032e
+            |
+            ---0x3eb4ec0bbf59032e
+               insert_particle
+
+     0.58%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3ec0bf903f75a85f
+            |
+            ---0x3ec0bf903f75a85f
+               compute_force_from_node
+
+     0.58%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3ecba9f4bf7dffe8
+            |
+            ---0x3ecba9f4bf7dffe8
+               insert_particle
+
+     0.58%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f8f475cbf4b36c1
+            |
+            ---0x3f8f475cbf4b36c1
+               insert_particle
+               __irqentry_text_start
+
+     0.58%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]      [k] __irqentry_text_start
+            |
+            ---__irqentry_text_start
+
+     0.58%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3e65a7cd3f75bd61
+            |
+            ---0x3e65a7cd3f75bd61
+               insert_particle
+
+     0.58%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3df300f43f5e11db
+            |
+            ---0x3df300f43f5e11db
+               insert_particle
+
+     0.57%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f73d89dbf54ec01
+            |
+            ---0x3f73d89dbf54ec01
+               insert_particle
+
+     0.57%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3ef35fb73e5a0b49
+            |
+            ---0x3ef35fb73e5a0b49
+               insert_particle
+
+     0.57%     0.00%  nbody3D_3_CLANG  [unknown]              [.] 0x3f48d26f3dcccf5f
+            |
+            ---0x3f48d26f3dcccf5f
+               insert_particle
+
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] native_write_msr
+     0.04%     0.00%  perf-exec        [unknown]              [k] 0x00007feeefaeb08b
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] entry_SYSCALL_64_after_hwframe
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] do_syscall_64
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] __x64_sys_execve
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] do_execveat_common.isra.0
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] bprm_execve
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] bprm_execve.part.0
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] exec_binprm
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] search_binary_handler
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] load_elf_binary
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] begin_new_exec
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] perf_event_exec
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] perf_event_enable_on_exec
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] ctx_resched
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] perf_ctx_enable
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] x86_pmu_enable
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]      [k] intel_pmu_enable_all
+     0.03%     0.03%  perf-exec        [kernel.kallsyms]      [k] nmi_restore
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]      [k] native_sched_clock
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

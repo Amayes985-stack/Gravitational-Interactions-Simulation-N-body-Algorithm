@@ -1,0 +1,871 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 231  of event 'cycles'
+# Event count (approx.): 273405000
+#
+# Children      Self  Command          Shared Object       Symbol                            
+# ........  ........  ...............  ..................  ..................................
+#
+    85.42%     0.00%  nbody3D_3_CLANG  libc.so.6           [.] __libc_start_call_main
+            |
+            ---__libc_start_call_main
+               main
+               |          
+               |--68.58%--insert_particle
+               |          |          
+               |           --62.51%--insert_particle
+               |                     |          
+               |                      --59.52%--insert_particle
+               |                                |          
+               |                                 --53.18%--insert_particle
+               |                                           |          
+               |                                            --45.78%--insert_particle
+               |                                                      |          
+               |                                                      |--33.19%--insert_particle
+               |                                                      |          |          
+               |                                                      |           --25.39%--insert_particle
+               |                                                      |                     |          
+               |                                                      |                     |--20.92%--insert_particle
+               |                                                      |                     |          |          
+               |                                                      |                     |           --17.91%--insert_particle
+               |                                                      |                     |                     |          
+               |                                                      |                     |                      --15.34%--insert_particle
+               |                                                      |                     |                                |          
+               |                                                      |                     |                                 --13.70%--insert_particle
+               |                                                      |                     |                                           |          
+               |                                                      |                     |                                            --12.51%--insert_particle
+               |                                                      |                     |                                                      |          
+               |                                                      |                     |                                                       --11.30%--insert_particle
+               |                                                      |                     |                                                                 |          
+               |                                                      |                     |                                                                  --9.92%--insert_particle
+               |                                                      |                     |                                                                            |          
+               |                                                      |                     |                                                                             --9.10%--insert_particle
+               |                                                      |                     |                                                                                       |          
+               |                                                      |                     |                                                                                        --8.28%--insert_particle
+               |                                                      |                     |                                                                                                  insert_particle
+               |                                                      |                     |                                                                                                  |          
+               |                                                      |                     |                                                                                                   --6.64%--insert_particle
+               |                                                      |                     |                                                                                                             |          
+               |                                                      |                     |                                                                                                              --6.23%--insert_particle
+               |                                                      |                     |                                                                                                                        |          
+               |                                                      |                     |                                                                                                                         --5.81%--insert_particle
+               |                                                      |                     |                                                                                                                                   |          
+               |                                                      |                     |                                                                                                                                    --5.02%--insert_particle
+               |                                                      |                     |                                                                                                                                              insert_particle
+               |                                                      |                     |                                                                                                                                              |          
+               |                                                      |                     |                                                                                                                                               --4.22%--insert_particle
+               |                                                      |                     |                                                                                                                                                         insert_particle
+               |                                                      |                     |                                                                                                                                                         insert_particle
+               |                                                      |                     |                                                                                                                                                         |          
+               |                                                      |                     |                                                                                                                                                          --3.81%--insert_particle
+               |                                                      |                     |                                                                                                                                                                    |          
+               |                                                      |                     |                                                                                                                                                                     --3.38%--insert_particle
+               |                                                      |                     |                                                                                                                                                                               insert_particle
+               |                                                      |                     |                                                                                                                                                                               |          
+               |                                                      |                     |                                                                                                                                                                                --2.46%--insert_particle
+               |                                                      |                     |                                                                                                                                                                                          insert_particle
+               |                                                      |                     |                                                                                                                                                                                          insert_particle
+               |                                                      |                     |                                                                                                                                                                                          insert_particle
+               |                                                      |                     |                                                                                                                                                                                          insert_particle
+               |                                                      |                     |                                                                                                                                                                                          insert_particle
+               |                                                      |                     |                                                                                                                                                                                          insert_particle
+               |                                                      |                     |                                                                                                                                                                                          insert_particle
+               |                                                      |                     |                                                                                                                                                                                          |          
+               |                                                      |                     |                                                                                                                                                                                           --2.04%--insert_particle
+               |                                                      |                     |                                                                                                                                                                                                     |          
+               |                                                      |                     |                                                                                                                                                                                                      --0.82%--insert_particle
+               |                                                      |                     |          
+               |                                                      |                      --0.82%--create_quad_node
+               |                                                      |          
+               |                                                       --1.20%--create_quad_node
+               |          
+               |--10.85%--free_quad_tree
+               |          free_quad_tree
+               |          free_quad_tree
+               |          free_quad_tree
+               |          |          
+               |           --10.04%--free_quad_tree
+               |                     |          
+               |                     |--8.34%--free_quad_tree
+               |                     |          |          
+               |                     |           --5.14%--free_quad_tree
+               |                     |                     |          
+               |                     |                      --3.96%--free_quad_tree
+               |                     |                                |          
+               |                     |                                 --2.47%--free_quad_tree
+               |                     |                                           free_quad_tree
+               |                     |                                           |          
+               |                     |                                            --1.66%--free_quad_tree
+               |                     |                                                      |          
+               |                     |                                                       --0.82%--free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |          
+               |                      --0.83%--cfree@GLIBC_2.2.5
+               |          
+               |--4.52%--compute_forces
+               |          |          
+               |          |--2.44%--compute_force_from_node
+               |          |          
+               |          |--0.83%--sqrt@plt
+               |          |          
+               |           --0.83%--__sqrt_finite@GLIBC_2.15
+               |          
+                --1.46%--__random
+
+    85.42%     0.00%  nbody3D_3_CLANG  nbody3D_3_CLANG_O0  [.] main
+            |
+            ---main
+               |          
+               |--68.58%--insert_particle
+               |          |          
+               |           --62.51%--insert_particle
+               |                     |          
+               |                      --59.52%--insert_particle
+               |                                |          
+               |                                 --53.18%--insert_particle
+               |                                           |          
+               |                                            --45.78%--insert_particle
+               |                                                      |          
+               |                                                      |--33.19%--insert_particle
+               |                                                      |          |          
+               |                                                      |           --25.39%--insert_particle
+               |                                                      |                     |          
+               |                                                      |                     |--20.92%--insert_particle
+               |                                                      |                     |          |          
+               |                                                      |                     |           --17.91%--insert_particle
+               |                                                      |                     |                     |          
+               |                                                      |                     |                      --15.34%--insert_particle
+               |                                                      |                     |                                |          
+               |                                                      |                     |                                 --13.70%--insert_particle
+               |                                                      |                     |                                           |          
+               |                                                      |                     |                                            --12.51%--insert_particle
+               |                                                      |                     |                                                      |          
+               |                                                      |                     |                                                       --11.30%--insert_particle
+               |                                                      |                     |                                                                 |          
+               |                                                      |                     |                                                                  --9.92%--insert_particle
+               |                                                      |                     |                                                                            |          
+               |                                                      |                     |                                                                             --9.10%--insert_particle
+               |                                                      |                     |                                                                                       |          
+               |                                                      |                     |                                                                                        --8.28%--insert_particle
+               |                                                      |                     |                                                                                                  insert_particle
+               |                                                      |                     |                                                                                                  |          
+               |                                                      |                     |                                                                                                   --6.64%--insert_particle
+               |                                                      |                     |                                                                                                             |          
+               |                                                      |                     |                                                                                                              --6.23%--insert_particle
+               |                                                      |                     |                                                                                                                        |          
+               |                                                      |                     |                                                                                                                         --5.81%--insert_particle
+               |                                                      |                     |                                                                                                                                   |          
+               |                                                      |                     |                                                                                                                                    --5.02%--insert_particle
+               |                                                      |                     |                                                                                                                                              insert_particle
+               |                                                      |                     |                                                                                                                                              |          
+               |                                                      |                     |                                                                                                                                               --4.22%--insert_particle
+               |                                                      |                     |                                                                                                                                                         insert_particle
+               |                                                      |                     |                                                                                                                                                         insert_particle
+               |                                                      |                     |                                                                                                                                                         |          
+               |                                                      |                     |                                                                                                                                                          --3.81%--insert_particle
+               |                                                      |                     |                                                                                                                                                                    |          
+               |                                                      |                     |                                                                                                                                                                     --3.38%--insert_particle
+               |                                                      |                     |                                                                                                                                                                               insert_particle
+               |                                                      |                     |                                                                                                                                                                               |          
+               |                                                      |                     |                                                                                                                                                                                --2.46%--insert_particle
+               |                                                      |                     |                                                                                                                                                                                          insert_particle
+               |                                                      |                     |                                                                                                                                                                                          insert_particle
+               |                                                      |                     |                                                                                                                                                                                          insert_particle
+               |                                                      |                     |                                                                                                                                                                                          insert_particle
+               |                                                      |                     |                                                                                                                                                                                          insert_particle
+               |                                                      |                     |                                                                                                                                                                                          insert_particle
+               |                                                      |                     |                                                                                                                                                                                          insert_particle
+               |                                                      |                     |                                                                                                                                                                                          |          
+               |                                                      |                     |                                                                                                                                                                                           --2.04%--insert_particle
+               |                                                      |                     |                                                                                                                                                                                                     |          
+               |                                                      |                     |                                                                                                                                                                                                      --0.82%--insert_particle
+               |                                                      |                     |          
+               |                                                      |                      --0.82%--create_quad_node
+               |                                                      |          
+               |                                                       --1.20%--create_quad_node
+               |          
+               |--10.85%--free_quad_tree
+               |          free_quad_tree
+               |          free_quad_tree
+               |          free_quad_tree
+               |          |          
+               |           --10.04%--free_quad_tree
+               |                     |          
+               |                     |--8.34%--free_quad_tree
+               |                     |          |          
+               |                     |           --5.14%--free_quad_tree
+               |                     |                     |          
+               |                     |                      --3.96%--free_quad_tree
+               |                     |                                |          
+               |                     |                                 --2.47%--free_quad_tree
+               |                     |                                           free_quad_tree
+               |                     |                                           |          
+               |                     |                                            --1.66%--free_quad_tree
+               |                     |                                                      |          
+               |                     |                                                       --0.82%--free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |                                                                 free_quad_tree
+               |                     |          
+               |                      --0.83%--cfree@GLIBC_2.2.5
+               |          
+               |--4.52%--compute_forces
+               |          |          
+               |          |--2.44%--compute_force_from_node
+               |          |          
+               |          |--0.83%--sqrt@plt
+               |          |          
+               |           --0.83%--__sqrt_finite@GLIBC_2.15
+               |          
+                --1.46%--__random
+
+    68.58%    64.88%  nbody3D_3_CLANG  nbody3D_3_CLANG_O0  [.] insert_particle
+            |          
+            |--64.88%--__libc_start_call_main
+            |          main
+            |          insert_particle
+            |          |          
+            |           --58.81%--insert_particle
+            |                     |          
+            |                      --55.82%--insert_particle
+            |                                |          
+            |                                 --49.48%--insert_particle
+            |                                           |          
+            |                                            --42.49%--insert_particle
+            |                                                      |          
+            |                                                       --31.52%--insert_particle
+            |                                                                 |          
+            |                                                                  --24.14%--insert_particle
+            |                                                                            |          
+            |                                                                             --20.09%--insert_particle
+            |                                                                                       |          
+            |                                                                                        --17.08%--insert_particle
+            |                                                                                                  |          
+            |                                                                                                   --14.92%--insert_particle
+            |                                                                                                             |          
+            |                                                                                                              --13.28%--insert_particle
+            |                                                                                                                        |          
+            |                                                                                                                         --12.09%--insert_particle
+            |                                                                                                                                   |          
+            |                                                                                                                                    --10.88%--insert_particle
+            |                                                                                                                                              |          
+            |                                                                                                                                               --9.50%--insert_particle
+            |                                                                                                                                                         |          
+            |                                                                                                                                                          --8.68%--insert_particle
+            |                                                                                                                                                                    |          
+            |                                                                                                                                                                     --8.28%--insert_particle
+            |                                                                                                                                                                               insert_particle
+            |                                                                                                                                                                               |          
+            |                                                                                                                                                                                --6.64%--insert_particle
+            |                                                                                                                                                                                          |          
+            |                                                                                                                                                                                           --6.23%--insert_particle
+            |                                                                                                                                                                                                     |          
+            |                                                                                                                                                                                                      --5.81%--insert_particle
+            |                                                                                                                                                                                                                |          
+            |                                                                                                                                                                                                                 --5.02%--insert_particle
+            |                                                                                                                                                                                                                           insert_particle
+            |                                                                                                                                                                                                                           |          
+            |                                                                                                                                                                                                                            --4.22%--insert_particle
+            |                                                                                                                                                                                                                                      insert_particle
+            |                                                                                                                                                                                                                                      insert_particle
+            |                                                                                                                                                                                                                                      |          
+            |                                                                                                                                                                                                                                       --3.81%--insert_particle
+            |                                                                                                                                                                                                                                                 |          
+            |                                                                                                                                                                                                                                                  --3.38%--insert_particle
+            |                                                                                                                                                                                                                                                            insert_particle
+            |                                                                                                                                                                                                                                                            |          
+            |                                                                                                                                                                                                                                                             --2.46%--insert_particle
+            |                                                                                                                                                                                                                                                                       insert_particle
+            |                                                                                                                                                                                                                                                                       insert_particle
+            |                                                                                                                                                                                                                                                                       insert_particle
+            |                                                                                                                                                                                                                                                                       insert_particle
+            |                                                                                                                                                                                                                                                                       insert_particle
+            |                                                                                                                                                                                                                                                                       insert_particle
+            |                                                                                                                                                                                                                                                                       insert_particle
+            |                                                                                                                                                                                                                                                                       |          
+            |                                                                                                                                                                                                                                                                        --2.04%--insert_particle
+            |                                                                                                                                                                                                                                                                                  |          
+            |                                                                                                                                                                                                                                                                                   --0.82%--insert_particle
+            |          
+             --3.70%--insert_particle
+                       insert_particle
+                       insert_particle
+                       insert_particle
+                       |          
+                        --3.29%--insert_particle
+                                  |          
+                                  |--1.67%--insert_particle
+                                  |          |          
+                                  |           --1.25%--insert_particle
+                                  |                     |          
+                                  |                      --0.83%--insert_particle
+                                  |                                insert_particle
+                                  |          
+                                   --1.20%--create_quad_node
+
+    10.85%    10.02%  nbody3D_3_CLANG  nbody3D_3_CLANG_O0  [.] free_quad_tree
+            |          
+            |--10.02%--__libc_start_call_main
+            |          main
+            |          free_quad_tree
+            |          free_quad_tree
+            |          free_quad_tree
+            |          free_quad_tree
+            |          |          
+            |           --9.21%--free_quad_tree
+            |                     |          
+            |                      --8.34%--free_quad_tree
+            |                                |          
+            |                                 --5.14%--free_quad_tree
+            |                                           |          
+            |                                            --3.96%--free_quad_tree
+            |                                                      |          
+            |                                                       --2.47%--free_quad_tree
+            |                                                                 free_quad_tree
+            |                                                                 |          
+            |                                                                  --1.66%--free_quad_tree
+            |                                                                            |          
+            |                                                                             --0.82%--free_quad_tree
+            |                                                                                       free_quad_tree
+            |                                                                                       free_quad_tree
+            |                                                                                       free_quad_tree
+            |                                                                                       free_quad_tree
+            |                                                                                       free_quad_tree
+            |                                                                                       free_quad_tree
+            |                                                                                       free_quad_tree
+            |                                                                                       free_quad_tree
+            |          
+             --0.83%--free_quad_tree
+                       free_quad_tree
+                       free_quad_tree
+                       free_quad_tree
+                       free_quad_tree
+                       cfree@GLIBC_2.2.5
+
+     7.08%     6.28%  nbody3D_3_CLANG  libc.so.6           [.] _int_malloc
+            |          
+             --6.70%--_int_malloc
+                       |          
+                        --1.65%--asm_exc_page_fault
+                                  |          
+                                   --0.80%--exc_page_fault
+                                             do_user_addr_fault
+                                             handle_mm_fault
+                                             __handle_mm_fault
+                                             handle_pte_fault
+                                             do_anonymous_page
+                                             vma_alloc_folio
+                                             __folio_alloc
+                                             __alloc_pages
+                                             get_page_from_freelist
+                                             rmqueue
+
+     4.52%     0.00%  nbody3D_3_CLANG  nbody3D_3_CLANG_O0  [.] compute_forces
+            |
+            ---compute_forces
+               |          
+               |--2.44%--compute_force_from_node
+               |          
+               |--0.83%--sqrt@plt
+               |          
+                --0.83%--__sqrt_finite@GLIBC_2.15
+
+     3.69%     3.69%  nbody3D_3_CLANG  nbody3D_3_CLANG_O0  [.] compute_force_from_node
+            |
+            ---__libc_start_call_main
+               main
+               compute_forces
+               |          
+               |--2.44%--compute_force_from_node
+               |          
+                --0.83%--sqrt@plt
+
+     3.68%     3.27%  nbody3D_3_CLANG  nbody3D_3_CLANG_O0  [.] create_quad_node
+            |          
+             --3.27%--__libc_start_call_main
+                       main
+                       insert_particle
+                       insert_particle
+                       insert_particle
+                       insert_particle
+                       |          
+                        --2.87%--insert_particle
+                                  |          
+                                  |--1.67%--insert_particle
+                                  |          |          
+                                  |           --1.25%--insert_particle
+                                  |                     |          
+                                  |                      --0.83%--insert_particle
+                                  |                                insert_particle
+                                  |          
+                                   --1.20%--create_quad_node
+
+     3.17%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] asm_exc_page_fault
+            |
+            ---asm_exc_page_fault
+               |          
+                --0.80%--exc_page_fault
+                          do_user_addr_fault
+                          handle_mm_fault
+                          __handle_mm_fault
+                          handle_pte_fault
+                          do_anonymous_page
+                          vma_alloc_folio
+                          __folio_alloc
+                          __alloc_pages
+                          get_page_from_freelist
+                          rmqueue
+
+     2.98%     2.98%  nbody3D_3_CLANG  libc.so.6           [.] __random
+            |          
+            |--1.52%--0x71002
+            |          sysmalloc_mmap.constprop.0
+            |          asm_exc_page_fault
+            |          
+             --1.46%--__libc_start_call_main
+                       main
+                       __random
+
+     2.83%     2.02%  nbody3D_3_CLANG  libc.so.6           [.] malloc
+            |
+            ---malloc
+
+     2.47%     2.47%  nbody3D_3_CLANG  libc.so.6           [.] _int_free
+            |          
+            |--1.24%--_int_free
+            |          
+             --1.23%--0x31
+                       _int_free
+
+     1.52%     0.00%  nbody3D_3_CLANG  [unknown]           [.] 0x0000000000071002
+            |
+            ---0x71002
+               sysmalloc_mmap.constprop.0
+               asm_exc_page_fault
+
+     1.52%     0.00%  nbody3D_3_CLANG  libc.so.6           [.] sysmalloc_mmap.constprop.0
+            |
+            ---sysmalloc_mmap.constprop.0
+               asm_exc_page_fault
+
+     1.26%     1.26%  nbody3D_3_CLANG  libc.so.6           [.] cfree@GLIBC_2.2.5
+            |          
+             --0.83%--__libc_start_call_main
+                       main
+                       free_quad_tree
+                       free_quad_tree
+                       free_quad_tree
+                       free_quad_tree
+                       free_quad_tree
+                       cfree@GLIBC_2.2.5
+
+     1.23%     0.00%  nbody3D_3_CLANG  [unknown]           [.] 0x0000000000000031
+            |
+            ---0x31
+               _int_free
+
+     1.03%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] entry_SYSCALL_64_after_hwframe
+            |
+            ---entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               |          
+                --0.58%--__x64_sys_execve
+                          do_execveat_common.isra.0
+                          bprm_execve
+                          bprm_execve.part.0
+                          exec_binprm
+                          search_binary_handler
+                          load_elf_binary
+                          elf_map
+                          vm_mmap
+                          vm_mmap_pgoff
+                          do_mmap
+                          mmap_region
+                          perf_event_mmap
+                          strlen
+
+     1.03%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] do_syscall_64
+            |
+            ---do_syscall_64
+               |          
+                --0.58%--__x64_sys_execve
+                          do_execveat_common.isra.0
+                          bprm_execve
+                          bprm_execve.part.0
+                          exec_binprm
+                          search_binary_handler
+                          load_elf_binary
+                          elf_map
+                          vm_mmap
+                          vm_mmap_pgoff
+                          do_mmap
+                          mmap_region
+                          perf_event_mmap
+                          strlen
+
+     0.85%     0.00%  nbody3D_3_CLANG  nbody3D_3_CLANG_O0  [.] free@plt
+            |
+            ---free@plt
+
+     0.83%     0.00%  nbody3D_3_CLANG  nbody3D_3_CLANG_O0  [.] sqrt@plt
+            |
+            ---sqrt@plt
+
+     0.83%     0.83%  nbody3D_3_CLANG  libm.so.6           [.] __sqrt_finite@GLIBC_2.15
+            |
+            ---__libc_start_call_main
+               main
+               compute_forces
+               __sqrt_finite@GLIBC_2.15
+
+     0.80%     0.80%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] rmqueue
+            |
+            ---_int_malloc
+               asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               vma_alloc_folio
+               __folio_alloc
+               __alloc_pages
+               get_page_from_freelist
+               rmqueue
+
+     0.80%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] exc_page_fault
+            |
+            ---exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               vma_alloc_folio
+               __folio_alloc
+               __alloc_pages
+               get_page_from_freelist
+               rmqueue
+
+     0.80%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] do_user_addr_fault
+            |
+            ---do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               vma_alloc_folio
+               __folio_alloc
+               __alloc_pages
+               get_page_from_freelist
+               rmqueue
+
+     0.80%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] handle_mm_fault
+            |
+            ---handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               vma_alloc_folio
+               __folio_alloc
+               __alloc_pages
+               get_page_from_freelist
+               rmqueue
+
+     0.80%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] __handle_mm_fault
+            |
+            ---__handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               vma_alloc_folio
+               __folio_alloc
+               __alloc_pages
+               get_page_from_freelist
+               rmqueue
+
+     0.80%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] handle_pte_fault
+            |
+            ---handle_pte_fault
+               do_anonymous_page
+               vma_alloc_folio
+               __folio_alloc
+               __alloc_pages
+               get_page_from_freelist
+               rmqueue
+
+     0.80%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] do_anonymous_page
+            |
+            ---do_anonymous_page
+               vma_alloc_folio
+               __folio_alloc
+               __alloc_pages
+               get_page_from_freelist
+               rmqueue
+
+     0.80%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] vma_alloc_folio
+            |
+            ---vma_alloc_folio
+               __folio_alloc
+               __alloc_pages
+               get_page_from_freelist
+               rmqueue
+
+     0.80%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] __folio_alloc
+            |
+            ---__folio_alloc
+               __alloc_pages
+               get_page_from_freelist
+               rmqueue
+
+     0.80%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] __alloc_pages
+            |
+            ---__alloc_pages
+               get_page_from_freelist
+               rmqueue
+
+     0.80%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] get_page_from_freelist
+            |
+            ---get_page_from_freelist
+               rmqueue
+
+     0.58%     0.58%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] strlen
+            |
+            ---0x7f572d4eb08b
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               perf_event_mmap
+               strlen
+
+     0.58%     0.00%  nbody3D_3_CLANG  [unknown]           [k] 0x00007f572d4eb08b
+            |
+            ---0x7f572d4eb08b
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               perf_event_mmap
+               strlen
+
+     0.58%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] __x64_sys_execve
+            |
+            ---__x64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               perf_event_mmap
+               strlen
+
+     0.58%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] do_execveat_common.isra.0
+            |
+            ---do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               perf_event_mmap
+               strlen
+
+     0.58%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] bprm_execve
+            |
+            ---bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               perf_event_mmap
+               strlen
+
+     0.58%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] bprm_execve.part.0
+            |
+            ---bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               perf_event_mmap
+               strlen
+
+     0.58%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] exec_binprm
+            |
+            ---exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               perf_event_mmap
+               strlen
+
+     0.58%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] search_binary_handler
+            |
+            ---search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               perf_event_mmap
+               strlen
+
+     0.58%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] load_elf_binary
+            |
+            ---load_elf_binary
+               elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               perf_event_mmap
+               strlen
+
+     0.58%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] elf_map
+            |
+            ---elf_map
+               vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               perf_event_mmap
+               strlen
+
+     0.58%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] vm_mmap
+            |
+            ---vm_mmap
+               vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               perf_event_mmap
+               strlen
+
+     0.58%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] vm_mmap_pgoff
+            |
+            ---vm_mmap_pgoff
+               do_mmap
+               mmap_region
+               perf_event_mmap
+               strlen
+
+     0.58%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] do_mmap
+            |
+            ---do_mmap
+               mmap_region
+               perf_event_mmap
+               strlen
+
+     0.58%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] mmap_region
+            |
+            ---mmap_region
+               perf_event_mmap
+               strlen
+
+     0.58%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] perf_event_mmap
+            |
+            ---perf_event_mmap
+               strlen
+
+     0.45%     0.45%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] ext4_inode_csum_set
+     0.45%     0.00%  nbody3D_3_CLANG  [unknown]           [k] 0x33302d653838312e
+     0.45%     0.00%  nbody3D_3_CLANG  libc.so.6           [.] __GI___libc_write
+     0.45%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] __x64_sys_write
+     0.45%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] ksys_write
+     0.45%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] vfs_write
+     0.45%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] ext4_file_write_iter
+     0.45%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] ext4_buffered_write_iter
+     0.45%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] generic_perform_write
+     0.45%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] ext4_da_write_end
+     0.45%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] generic_write_end
+     0.45%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] __mark_inode_dirty
+     0.45%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] ext4_dirty_inode
+     0.45%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] __ext4_mark_inode_dirty
+     0.45%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] ext4_mark_iloc_dirty
+     0.45%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] ext4_do_update_inode.isra.0
+     0.45%     0.00%  nbody3D_3_CLANG  [kernel.kallsyms]   [k] ext4_fill_raw_inode
+     0.42%     0.42%  nbody3D_3_CLANG  nbody3D_3_CLANG_O0  [.] malloc@plt
+     0.03%     0.00%  perf-exec        [unknown]           [k] 0x00007f572d4eb08b
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]   [k] entry_SYSCALL_64_after_hwframe
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]   [k] do_syscall_64
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]   [k] __x64_sys_execve
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]   [k] do_execveat_common.isra.0
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]   [k] bprm_execve
+     0.03%     0.03%  perf-exec        [kernel.kallsyms]   [k] perf_event_exec
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]   [k] bprm_execve.part.0
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]   [k] exec_binprm
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]   [k] search_binary_handler
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]   [k] load_elf_binary
+     0.03%     0.00%  perf-exec        [kernel.kallsyms]   [k] begin_new_exec
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]   [k] native_write_msr
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]   [k] perf_event_enable_on_exec
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]   [k] ctx_resched
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]   [k] perf_ctx_enable
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]   [k] x86_pmu_enable
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]   [k] intel_pmu_enable_all
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]   [k] perf_event_nmi_handler
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

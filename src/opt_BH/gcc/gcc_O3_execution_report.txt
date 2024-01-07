@@ -1,0 +1,1400 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 157  of event 'cycles'
+# Event count (approx.): 192318468
+#
+# Children      Self  Command          Shared Object      Symbol                             
+# ........  ........  ...............  .................  ...................................
+#
+    61.00%    60.40%  nbody3D_3_GCC_O  nbody3D_3_GCC_O3   [.] insert_particle.part.0
+            |          
+            |--1.48%--0x3d6fbbfabeb8bba3
+            |          insert_particle.part.0
+            |          
+            |--1.36%--0x3f1f584c3f4a7629
+            |          insert_particle.part.0
+            |          
+            |--1.26%--0x3f66ad9ebe538c39
+            |          insert_particle.part.0
+            |          
+            |--1.17%--0x3f73890c3efaa248
+            |          insert_particle.part.0
+            |          
+            |--1.10%--0x3eacde83bce79c82
+            |          insert_particle.part.0
+            |          
+            |--0.92%--0x3f704024be90d316
+            |          insert_particle.part.0
+            |          
+            |--0.84%--0x3eadf824bf383e8d
+            |          insert_particle.part.0
+            |          
+            |--0.81%--0x3f5da3183d232e20
+            |          insert_particle.part.0
+            |          
+            |--0.78%--0x3df52dadbf5b2514
+            |          insert_particle.part.0
+            |          
+            |--0.75%--0x3e4905683db45fc2
+            |          insert_particle.part.0
+            |          
+            |--0.70%--0x3e9fed063ecc7472
+            |          insert_particle.part.0
+            |          
+            |--0.69%--0x3f2f8b3fbcda37de
+            |          insert_particle.part.0
+            |          
+            |--0.67%--0x3f6c6ce0bf64ffde
+            |          insert_particle.part.0
+            |          
+            |--0.65%--0x3ebd5f69bf0988cb
+            |          insert_particle.part.0
+            |          
+            |--0.64%--0x3f1c6ed2bf329c3a
+            |          insert_particle.part.0
+            |          
+            |--0.64%--0x3f79ce723db0481f
+            |          insert_particle.part.0
+            |          
+            |--0.63%--0x3eaa618fbee9daa1
+            |          insert_particle.part.0
+            |          
+            |--0.62%--0x3ee838613f6feff8
+            |          insert_particle.part.0
+            |          
+            |--0.62%--0x3ddad9123ce21e1e
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3d92977fbef57b39
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3eb914f6bf7dffe8
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3e736c943d5ad6d6
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3ec2b9a23f7de36b
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3d4a4920bf1a777a
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3e7e91823d608e75
+            |          insert_particle.part.0
+            |          
+            |--0.61%--insert_particle.part.0
+            |          
+            |--0.61%--0x3f78357e3e64de1b
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3f34c709bf28a813
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3f75abc73e87543a
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3ef87dbfbf10b45a
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3f3cf9ecbf6c2f1c
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3f3303ebbedd7bbc
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3f3df16fbf7d96d7
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3eef6cae3f6ca0f0
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3ee5c032bf5ab6ce
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3ef818693ef1cb24
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3e69c3ea3f31b964
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3dfccd2c3f69f0af
+            |          insert_particle.part.0
+            |          
+            |--0.61%--0x3e4327b4bf2ef565
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3ebe1c01bf769b16
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f341395bf705364
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f81fde0bf10d302
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f2d4f8c3d303d65
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3eaf0616bf71c6c7
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3eaa032b3b3c86aa
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3e025427bdb835db
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f5643d63f0f3eec
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f14158f3ef15785
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3f6b54ba3efcc3e8
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3e2754323f160229
+            |          insert_particle.part.0
+            |          
+            |--0.60%--0x3e9ec3dbbf6943f9
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3ea7356f3f515e0c
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f273bfe3f032411
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3db885143bb93507
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f5bdfb8be6f7c08
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3ed56809bea060bc
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3ef601eb3f036b80
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f87e190bf0cd6ad
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f65a2043f081ba9
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3ea7d494bf7a2edd
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3e0ec15bbdaed2f3
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f7de6f13f69b78f
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f379837bef8cdcb
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f5263d9bf6fcdc1
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3e82ca623ec0b4fc
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f265596bf6dcf5e
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3e896a95bf640837
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f32d39f3f78ca78
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f875889bf5ec266
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f7617223f51fc1c
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3e80fb69bf672a95
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3edea143bdefde9f
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f05528a3f2508e1
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f554a2b3f71b5a1
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f405a60bdb50915
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3deecc823e868e11
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f48d8f33f3c9a96
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3e3eb9013f5a08c6
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3e4b4881bcbc1b39
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3eba8123be87223e
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f52a2b3becf099a
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f7be9203d4b820f
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f1b301fbeeb797b
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3e94adbebf61a067
+            |          insert_particle.part.0
+            |          
+            |--0.59%--0x3f66c9e1bf19bbc3
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3ef0efd43f762b22
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3f6025ca3f02ec09
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3f28bacdbd9b469c
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3f20bb903f12339b
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3f0128c6bf70f430
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3dddf8a03ea3a12c
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3f50d6e73f2693d9
+            |          insert_particle.part.0
+            |          
+            |--0.58%--0x3e29dbebbdaed2f3
+            |          insert_particle.part.0
+            |          
+             --0.58%--0x3f88bed1bf4fbfd4
+                       insert_particle.part.0
+
+    14.40%    14.40%  nbody3D_3_GCC_O  nbody3D_3_GCC_O3   [.] free_quad_tree.part.0
+            |          
+            |--5.53%--free_quad_tree.part.0
+            |          
+            |--0.97%--0x3e84c13e3f5f32bc
+            |          free_quad_tree.part.0
+            |          
+            |--0.73%--0xbf223e0e3e430484
+            |          free_quad_tree.part.0
+            |          
+            |--0.63%--0xbe482f903f7fc977
+            |          free_quad_tree.part.0
+            |          
+            |--0.62%--0x3f5dd94a3f190e15
+            |          free_quad_tree.part.0
+            |          
+            |--0.60%--0xbea37f8d3f735dc8
+            |          free_quad_tree.part.0
+            |          
+            |--0.60%--0x3f4aa9e93f297e60
+            |          free_quad_tree.part.0
+            |          
+            |--0.60%--0xbe5580bd3f72c178
+            |          0x55c58f8b1110
+            |          
+            |--0.60%--0x3f26ada83f4ca496
+            |          free_quad_tree.part.0
+            |          
+            |--0.60%--0x3e597eb83f40e454
+            |          free_quad_tree.part.0
+            |          
+            |--0.59%--0x3e05cb473f1c729a
+            |          free_quad_tree.part.0
+            |          
+            |--0.59%--0x3f6068253d9aeb7a
+            |          free_quad_tree.part.0
+            |          
+            |--0.58%--0xbeba01353f55f7bc
+            |          free_quad_tree.part.0
+            |          
+            |--0.58%--0x3f49d8163e3172c7
+            |          free_quad_tree.part.0
+            |          
+             --0.58%--0x3f0b6c423f010a02
+                       free_quad_tree.part.0
+
+     8.16%     8.16%  nbody3D_3_GCC_O  libc.so.6          [.] _int_malloc
+            |
+            ---_int_malloc
+
+     4.81%     4.20%  nbody3D_3_GCC_O  libc.so.6          [.] malloc
+            |          
+            |--4.20%--malloc
+            |          
+             --0.61%--0x3ee35894bda0f35a
+                       insert_particle.part.0
+
+     3.83%     2.06%  nbody3D_3_GCC_O  libc.so.6          [.] __random
+            |
+            ---__random
+               |          
+                --1.77%--asm_sysvec_apic_timer_interrupt
+                          sysvec_apic_timer_interrupt
+                          irq_exit_rcu
+                          __irq_exit_rcu
+                          __do_softirq
+                          run_timer_softirq
+                          __run_timers.part.0
+
+     3.02%     3.02%  nbody3D_3_GCC_O  nbody3D_3_GCC_O3   [.] main
+            |
+            ---__libc_start_call_main
+               main
+
+     3.02%     0.00%  nbody3D_3_GCC_O  libc.so.6          [.] __libc_start_call_main
+            |
+            ---__libc_start_call_main
+               main
+
+     2.38%     2.38%  nbody3D_3_GCC_O  libc.so.6          [.] _int_free
+            |          
+            |--1.20%--_int_free
+            |          
+             --1.18%--0x71
+                       _int_free
+
+     1.77%     1.77%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] __run_timers.part.0
+            |
+            ---__random
+               asm_sysvec_apic_timer_interrupt
+               sysvec_apic_timer_interrupt
+               irq_exit_rcu
+               __irq_exit_rcu
+               __do_softirq
+               run_timer_softirq
+               __run_timers.part.0
+
+     1.77%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] asm_sysvec_apic_timer_interrupt
+            |
+            ---asm_sysvec_apic_timer_interrupt
+               sysvec_apic_timer_interrupt
+               irq_exit_rcu
+               __irq_exit_rcu
+               __do_softirq
+               run_timer_softirq
+               __run_timers.part.0
+
+     1.77%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] sysvec_apic_timer_interrupt
+            |
+            ---sysvec_apic_timer_interrupt
+               irq_exit_rcu
+               __irq_exit_rcu
+               __do_softirq
+               run_timer_softirq
+               __run_timers.part.0
+
+     1.77%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] irq_exit_rcu
+            |
+            ---irq_exit_rcu
+               __irq_exit_rcu
+               __do_softirq
+               run_timer_softirq
+               __run_timers.part.0
+
+     1.77%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] __irq_exit_rcu
+            |
+            ---__irq_exit_rcu
+               __do_softirq
+               run_timer_softirq
+               __run_timers.part.0
+
+     1.77%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] __do_softirq
+            |
+            ---__do_softirq
+               run_timer_softirq
+               __run_timers.part.0
+
+     1.77%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] run_timer_softirq
+            |
+            ---run_timer_softirq
+               __run_timers.part.0
+
+     1.61%     1.61%  nbody3D_3_GCC_O  libc.so.6          [.] __random_r
+            |
+            ---__random_r
+
+     1.48%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3d6fbbfabeb8bba3
+            |
+            ---0x3d6fbbfabeb8bba3
+               insert_particle.part.0
+
+     1.36%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f1f584c3f4a7629
+            |
+            ---0x3f1f584c3f4a7629
+               insert_particle.part.0
+
+     1.36%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] entry_SYSCALL_64_after_hwframe
+            |
+            ---entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               |          
+               |--0.78%--__x64_sys_execve
+               |          do_execveat_common.isra.0
+               |          bprm_execve
+               |          bprm_execve.part.0
+               |          exec_binprm
+               |          search_binary_handler
+               |          load_elf_binary
+               |          elf_map
+               |          vm_munmap
+               |          __vm_munmap
+               |          do_mas_munmap
+               |          do_mas_align_munmap
+               |          __split_vma
+               |          __vma_adjust
+               |          
+                --0.58%--__x64_sys_exit_group
+                          do_group_exit
+                          do_exit
+                          exit_mm
+                          mmput
+                          __mmput
+                          exit_mmap
+                          unmap_vmas
+                          unmap_single_vma
+                          unmap_page_range
+                          zap_pmd_range.isra.0
+                          _compound_head
+
+     1.36%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] do_syscall_64
+            |
+            ---do_syscall_64
+               |          
+               |--0.78%--__x64_sys_execve
+               |          do_execveat_common.isra.0
+               |          bprm_execve
+               |          bprm_execve.part.0
+               |          exec_binprm
+               |          search_binary_handler
+               |          load_elf_binary
+               |          elf_map
+               |          vm_munmap
+               |          __vm_munmap
+               |          do_mas_munmap
+               |          do_mas_align_munmap
+               |          __split_vma
+               |          __vma_adjust
+               |          
+                --0.58%--__x64_sys_exit_group
+                          do_group_exit
+                          do_exit
+                          exit_mm
+                          mmput
+                          __mmput
+                          exit_mmap
+                          unmap_vmas
+                          unmap_single_vma
+                          unmap_page_range
+                          zap_pmd_range.isra.0
+                          _compound_head
+
+     1.26%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f66ad9ebe538c39
+            |
+            ---0x3f66ad9ebe538c39
+               insert_particle.part.0
+
+     1.18%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x0000000000000071
+            |
+            ---0x71
+               _int_free
+
+     1.17%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f73890c3efaa248
+            |
+            ---0x3f73890c3efaa248
+               insert_particle.part.0
+
+     1.10%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3eacde83bce79c82
+            |
+            ---0x3eacde83bce79c82
+               insert_particle.part.0
+
+     0.97%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e84c13e3f5f32bc
+            |
+            ---0x3e84c13e3f5f32bc
+               free_quad_tree.part.0
+
+     0.92%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f704024be90d316
+            |
+            ---0x3f704024be90d316
+               insert_particle.part.0
+
+     0.84%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3eadf824bf383e8d
+            |
+            ---0x3eadf824bf383e8d
+               insert_particle.part.0
+
+     0.81%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f5da3183d232e20
+            |
+            ---0x3f5da3183d232e20
+               insert_particle.part.0
+
+     0.78%     0.78%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] __vma_adjust
+            |
+            ---0x7f3e9c6eb08b
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_munmap
+               __vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               __split_vma
+               __vma_adjust
+
+     0.78%     0.00%  nbody3D_3_GCC_O  [unknown]          [k] 0x00007f3e9c6eb08b
+            |
+            ---0x7f3e9c6eb08b
+               entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_munmap
+               __vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               __split_vma
+               __vma_adjust
+
+     0.78%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] __x64_sys_execve
+            |
+            ---__x64_sys_execve
+               do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_munmap
+               __vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               __split_vma
+               __vma_adjust
+
+     0.78%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] do_execveat_common.isra.0
+            |
+            ---do_execveat_common.isra.0
+               bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_munmap
+               __vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               __split_vma
+               __vma_adjust
+
+     0.78%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] bprm_execve
+            |
+            ---bprm_execve
+               bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_munmap
+               __vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               __split_vma
+               __vma_adjust
+
+     0.78%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] bprm_execve.part.0
+            |
+            ---bprm_execve.part.0
+               exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_munmap
+               __vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               __split_vma
+               __vma_adjust
+
+     0.78%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] exec_binprm
+            |
+            ---exec_binprm
+               search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_munmap
+               __vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               __split_vma
+               __vma_adjust
+
+     0.78%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] search_binary_handler
+            |
+            ---search_binary_handler
+               load_elf_binary
+               elf_map
+               vm_munmap
+               __vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               __split_vma
+               __vma_adjust
+
+     0.78%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] load_elf_binary
+            |
+            ---load_elf_binary
+               elf_map
+               vm_munmap
+               __vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               __split_vma
+               __vma_adjust
+
+     0.78%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] elf_map
+            |
+            ---elf_map
+               vm_munmap
+               __vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               __split_vma
+               __vma_adjust
+
+     0.78%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] vm_munmap
+            |
+            ---vm_munmap
+               __vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               __split_vma
+               __vma_adjust
+
+     0.78%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] __vm_munmap
+            |
+            ---__vm_munmap
+               do_mas_munmap
+               do_mas_align_munmap
+               __split_vma
+               __vma_adjust
+
+     0.78%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] do_mas_munmap
+            |
+            ---do_mas_munmap
+               do_mas_align_munmap
+               __split_vma
+               __vma_adjust
+
+     0.78%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] do_mas_align_munmap
+            |
+            ---do_mas_align_munmap
+               __split_vma
+               __vma_adjust
+
+     0.78%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] __split_vma
+            |
+            ---__split_vma
+               __vma_adjust
+
+     0.78%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3df52dadbf5b2514
+            |
+            ---0x3df52dadbf5b2514
+               insert_particle.part.0
+
+     0.75%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e4905683db45fc2
+            |
+            ---0x3e4905683db45fc2
+               insert_particle.part.0
+
+     0.73%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0xbf223e0e3e430484
+            |
+            ---0xbf223e0e3e430484
+               free_quad_tree.part.0
+
+     0.70%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e9fed063ecc7472
+            |
+            ---0x3e9fed063ecc7472
+               insert_particle.part.0
+
+     0.69%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f2f8b3fbcda37de
+            |
+            ---0x3f2f8b3fbcda37de
+               insert_particle.part.0
+
+     0.67%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f6c6ce0bf64ffde
+            |
+            ---0x3f6c6ce0bf64ffde
+               insert_particle.part.0
+
+     0.65%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3ebd5f69bf0988cb
+            |
+            ---0x3ebd5f69bf0988cb
+               insert_particle.part.0
+
+     0.64%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f1c6ed2bf329c3a
+            |
+            ---0x3f1c6ed2bf329c3a
+               insert_particle.part.0
+
+     0.64%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f79ce723db0481f
+            |
+            ---0x3f79ce723db0481f
+               insert_particle.part.0
+
+     0.63%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3eaa618fbee9daa1
+            |
+            ---0x3eaa618fbee9daa1
+               insert_particle.part.0
+
+     0.63%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0xbe482f903f7fc977
+            |
+            ---0xbe482f903f7fc977
+               free_quad_tree.part.0
+
+     0.62%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f5dd94a3f190e15
+            |
+            ---0x3f5dd94a3f190e15
+               free_quad_tree.part.0
+
+     0.62%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3ee838613f6feff8
+            |
+            ---0x3ee838613f6feff8
+               insert_particle.part.0
+
+     0.62%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3ddad9123ce21e1e
+            |
+            ---0x3ddad9123ce21e1e
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3d92977fbef57b39
+            |
+            ---0x3d92977fbef57b39
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3eb914f6bf7dffe8
+            |
+            ---0x3eb914f6bf7dffe8
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e736c943d5ad6d6
+            |
+            ---0x3e736c943d5ad6d6
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3ec2b9a23f7de36b
+            |
+            ---0x3ec2b9a23f7de36b
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3d4a4920bf1a777a
+            |
+            ---0x3d4a4920bf1a777a
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e7e91823d608e75
+            |
+            ---0x3e7e91823d608e75
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3ee35894bda0f35a
+            |
+            ---0x3ee35894bda0f35a
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f78357e3e64de1b
+            |
+            ---0x3f78357e3e64de1b
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f34c709bf28a813
+            |
+            ---0x3f34c709bf28a813
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f75abc73e87543a
+            |
+            ---0x3f75abc73e87543a
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3ef87dbfbf10b45a
+            |
+            ---0x3ef87dbfbf10b45a
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f3cf9ecbf6c2f1c
+            |
+            ---0x3f3cf9ecbf6c2f1c
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f3303ebbedd7bbc
+            |
+            ---0x3f3303ebbedd7bbc
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f3df16fbf7d96d7
+            |
+            ---0x3f3df16fbf7d96d7
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3eef6cae3f6ca0f0
+            |
+            ---0x3eef6cae3f6ca0f0
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3ee5c032bf5ab6ce
+            |
+            ---0x3ee5c032bf5ab6ce
+               insert_particle.part.0
+
+     0.61%     0.61%  nbody3D_3_GCC_O  nbody3D_3_GCC_O3   [.] 0x0000000000001104
+            |
+            ---0x3ec78a2ebf561575
+               malloc
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3ec78a2ebf561575
+            |
+            ---0x3ec78a2ebf561575
+               malloc
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3ef818693ef1cb24
+            |
+            ---0x3ef818693ef1cb24
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e69c3ea3f31b964
+            |
+            ---0x3e69c3ea3f31b964
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3dfccd2c3f69f0af
+            |
+            ---0x3dfccd2c3f69f0af
+               insert_particle.part.0
+
+     0.61%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e4327b4bf2ef565
+            |
+            ---0x3e4327b4bf2ef565
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3ebe1c01bf769b16
+            |
+            ---0x3ebe1c01bf769b16
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f341395bf705364
+            |
+            ---0x3f341395bf705364
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f81fde0bf10d302
+            |
+            ---0x3f81fde0bf10d302
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f2d4f8c3d303d65
+            |
+            ---0x3f2d4f8c3d303d65
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3eaf0616bf71c6c7
+            |
+            ---0x3eaf0616bf71c6c7
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3eaa032b3b3c86aa
+            |
+            ---0x3eaa032b3b3c86aa
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0xbea37f8d3f735dc8
+            |
+            ---0xbea37f8d3f735dc8
+               free_quad_tree.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e025427bdb835db
+            |
+            ---0x3e025427bdb835db
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f5643d63f0f3eec
+            |
+            ---0x3f5643d63f0f3eec
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f4aa9e93f297e60
+            |
+            ---0x3f4aa9e93f297e60
+               free_quad_tree.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f14158f3ef15785
+            |
+            ---0x3f14158f3ef15785
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f6b54ba3efcc3e8
+            |
+            ---0x3f6b54ba3efcc3e8
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e2754323f160229
+            |
+            ---0x3e2754323f160229
+               insert_particle.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0xbe5580bd3f72c178
+            |
+            ---0xbe5580bd3f72c178
+               0x55c58f8b1110
+
+     0.60%     0.00%  nbody3D_3_GCC_O  nbody3D_3_GCC_O3   [.] 0x000055c58f8b1110
+            |
+            ---0x55c58f8b1110
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f26ada83f4ca496
+            |
+            ---0x3f26ada83f4ca496
+               free_quad_tree.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e597eb83f40e454
+            |
+            ---0x3e597eb83f40e454
+               free_quad_tree.part.0
+
+     0.60%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e9ec3dbbf6943f9
+            |
+            ---0x3e9ec3dbbf6943f9
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3ea7356f3f515e0c
+            |
+            ---0x3ea7356f3f515e0c
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f273bfe3f032411
+            |
+            ---0x3f273bfe3f032411
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3db885143bb93507
+            |
+            ---0x3db885143bb93507
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f5bdfb8be6f7c08
+            |
+            ---0x3f5bdfb8be6f7c08
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3ed56809bea060bc
+            |
+            ---0x3ed56809bea060bc
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3ef601eb3f036b80
+            |
+            ---0x3ef601eb3f036b80
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f87e190bf0cd6ad
+            |
+            ---0x3f87e190bf0cd6ad
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f65a2043f081ba9
+            |
+            ---0x3f65a2043f081ba9
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3ea7d494bf7a2edd
+            |
+            ---0x3ea7d494bf7a2edd
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e0ec15bbdaed2f3
+            |
+            ---0x3e0ec15bbdaed2f3
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f7de6f13f69b78f
+            |
+            ---0x3f7de6f13f69b78f
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f379837bef8cdcb
+            |
+            ---0x3f379837bef8cdcb
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f5263d9bf6fcdc1
+            |
+            ---0x3f5263d9bf6fcdc1
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e82ca623ec0b4fc
+            |
+            ---0x3e82ca623ec0b4fc
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e05cb473f1c729a
+            |
+            ---0x3e05cb473f1c729a
+               free_quad_tree.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f265596bf6dcf5e
+            |
+            ---0x3f265596bf6dcf5e
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e896a95bf640837
+            |
+            ---0x3e896a95bf640837
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f32d39f3f78ca78
+            |
+            ---0x3f32d39f3f78ca78
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f875889bf5ec266
+            |
+            ---0x3f875889bf5ec266
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f7617223f51fc1c
+            |
+            ---0x3f7617223f51fc1c
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e80fb69bf672a95
+            |
+            ---0x3e80fb69bf672a95
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3edea143bdefde9f
+            |
+            ---0x3edea143bdefde9f
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f05528a3f2508e1
+            |
+            ---0x3f05528a3f2508e1
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f554a2b3f71b5a1
+            |
+            ---0x3f554a2b3f71b5a1
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f405a60bdb50915
+            |
+            ---0x3f405a60bdb50915
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3deecc823e868e11
+            |
+            ---0x3deecc823e868e11
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f48d8f33f3c9a96
+            |
+            ---0x3f48d8f33f3c9a96
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e3eb9013f5a08c6
+            |
+            ---0x3e3eb9013f5a08c6
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e4b4881bcbc1b39
+            |
+            ---0x3e4b4881bcbc1b39
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3eba8123be87223e
+            |
+            ---0x3eba8123be87223e
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f6068253d9aeb7a
+            |
+            ---0x3f6068253d9aeb7a
+               free_quad_tree.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f52a2b3becf099a
+            |
+            ---0x3f52a2b3becf099a
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f7be9203d4b820f
+            |
+            ---0x3f7be9203d4b820f
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f1b301fbeeb797b
+            |
+            ---0x3f1b301fbeeb797b
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e94adbebf61a067
+            |
+            ---0x3e94adbebf61a067
+               insert_particle.part.0
+
+     0.59%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f66c9e1bf19bbc3
+            |
+            ---0x3f66c9e1bf19bbc3
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0xbeba01353f55f7bc
+            |
+            ---0xbeba01353f55f7bc
+               free_quad_tree.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3ef0efd43f762b22
+            |
+            ---0x3ef0efd43f762b22
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f6025ca3f02ec09
+            |
+            ---0x3f6025ca3f02ec09
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f28bacdbd9b469c
+            |
+            ---0x3f28bacdbd9b469c
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f49d8163e3172c7
+            |
+            ---0x3f49d8163e3172c7
+               free_quad_tree.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f20bb903f12339b
+            |
+            ---0x3f20bb903f12339b
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f0128c6bf70f430
+            |
+            ---0x3f0128c6bf70f430
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3dddf8a03ea3a12c
+            |
+            ---0x3dddf8a03ea3a12c
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f50d6e73f2693d9
+            |
+            ---0x3f50d6e73f2693d9
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3e29dbebbdaed2f3
+            |
+            ---0x3e29dbebbdaed2f3
+               insert_particle.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f0b6c423f010a02
+            |
+            ---0x3f0b6c423f010a02
+               free_quad_tree.part.0
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [unknown]          [.] 0x3f88bed1bf4fbfd4
+            |
+            ---0x3f88bed1bf4fbfd4
+               insert_particle.part.0
+
+     0.58%     0.58%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] _compound_head
+            |
+            ---entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               __x64_sys_exit_group
+               do_group_exit
+               do_exit
+               exit_mm
+               mmput
+               __mmput
+               exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] __x64_sys_exit_group
+            |
+            ---__x64_sys_exit_group
+               do_group_exit
+               do_exit
+               exit_mm
+               mmput
+               __mmput
+               exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] do_group_exit
+            |
+            ---do_group_exit
+               do_exit
+               exit_mm
+               mmput
+               __mmput
+               exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] do_exit
+            |
+            ---do_exit
+               exit_mm
+               mmput
+               __mmput
+               exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] exit_mm
+            |
+            ---exit_mm
+               mmput
+               __mmput
+               exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] mmput
+            |
+            ---mmput
+               __mmput
+               exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] __mmput
+            |
+            ---__mmput
+               exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] exit_mmap
+            |
+            ---exit_mmap
+               unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] unmap_vmas
+            |
+            ---unmap_vmas
+               unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] unmap_single_vma
+            |
+            ---unmap_single_vma
+               unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] unmap_page_range
+            |
+            ---unmap_page_range
+               zap_pmd_range.isra.0
+               _compound_head
+
+     0.58%     0.00%  nbody3D_3_GCC_O  [kernel.kallsyms]  [k] zap_pmd_range.isra.0
+            |
+            ---zap_pmd_range.isra.0
+               _compound_head
+
+     0.04%     0.00%  perf-exec        [unknown]          [k] 0x00007f3e9c6eb08b
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]  [k] entry_SYSCALL_64_after_hwframe
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]  [k] do_syscall_64
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]  [k] __x64_sys_execve
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]  [k] do_execveat_common.isra.0
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]  [k] bprm_execve
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]  [k] bprm_execve.part.0
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]  [k] exec_binprm
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]  [k] search_binary_handler
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]  [k] load_elf_binary
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]  [k] begin_new_exec
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]  [k] perf_event_exec
+     0.04%     0.04%  perf-exec        [kernel.kallsyms]  [k] __raw_spin_lock_irqsave
+     0.04%     0.00%  perf-exec        [kernel.kallsyms]  [k] _raw_spin_lock_irqsave
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]  [k] native_write_msr
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]  [k] perf_event_enable_on_exec
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]  [k] ctx_resched
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]  [k] perf_ctx_enable
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]  [k] x86_pmu_enable
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]  [k] intel_pmu_enable_all
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]  [k] perf_event_nmi_handler
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

@@ -1,0 +1,589 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 115K of event 'cycles'
+# Event count (approx.): 90184607235
+#
+# Children      Self  Command          Shared Object         Symbol                             
+# ........  ........  ...............  ....................  ...................................
+#
+    98.67%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0x0000000000004000
+            |
+            ---0x4000
+               |          
+                --98.60%--move_particles._omp_fn.1
+
+    98.61%    98.53%  nbody3D_1_GCC_O  nbody3D_1_GCC_O2      [.] move_particles._omp_fn.1
+            |          
+            |--7.60%--0xc361771ec18f4f00
+            |          0x4000
+            |          move_particles._omp_fn.1
+            |          
+            |--7.60%--0xc3619478c1807f64
+            |          0x4000
+            |          move_particles._omp_fn.1
+            |          
+            |--7.59%--0xc3686c1cbf90408a
+            |          0x4000
+            |          move_particles._omp_fn.1
+            |          
+            |--7.59%--0xc361e6f9c145b107
+            |          0x4000
+            |          move_particles._omp_fn.1
+            |          
+            |--7.58%--0xc363afe4c09d2678
+            |          0x4000
+            |          move_particles._omp_fn.1
+            |          
+            |--7.58%--0xc361b8cfc1635ae0
+            |          0x4000
+            |          |          
+            |           --7.58%--move_particles._omp_fn.1
+            |          
+            |--7.58%--0xc362ef9ac0d8eec6
+            |          0x4000
+            |          move_particles._omp_fn.1
+            |          
+            |--7.58%--0xc3622394c127ff65
+            |          0x4000
+            |          move_particles._omp_fn.1
+            |          
+            |--7.58%--0xc36276aac10a431d
+            |          0x4000
+            |          move_particles._omp_fn.1
+            |          
+            |--7.58%--0xc3614a9fc1ace8de
+            |          0x4000
+            |          move_particles._omp_fn.1
+            |          
+            |--7.55%--0xc37b49c93f6961b9
+            |          0x4000
+            |          |          
+            |           --7.55%--move_particles._omp_fn.1
+            |          
+            |--7.54%--0xc3651110c0420a89
+            |          0x4000
+            |          move_particles._omp_fn.1
+            |          
+             --7.52%--0xc3615eebc19e1cb7
+                       0x4000
+                       |          
+                        --7.52%--move_particles._omp_fn.1
+
+     7.61%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc3619478c1807f64
+            |
+            ---0xc3619478c1807f64
+               0x4000
+               |          
+                --7.60%--move_particles._omp_fn.1
+
+     7.61%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc361771ec18f4f00
+            |
+            ---0xc361771ec18f4f00
+               0x4000
+               |          
+                --7.60%--move_particles._omp_fn.1
+
+     7.60%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc3686c1cbf90408a
+            |
+            ---0xc3686c1cbf90408a
+               0x4000
+               |          
+                --7.60%--move_particles._omp_fn.1
+
+     7.60%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc361e6f9c145b107
+            |
+            ---0xc361e6f9c145b107
+               0x4000
+               |          
+                --7.59%--move_particles._omp_fn.1
+
+     7.60%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc361b8cfc1635ae0
+            |
+            ---0xc361b8cfc1635ae0
+               0x4000
+               |          
+                --7.59%--move_particles._omp_fn.1
+
+     7.60%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc3622394c127ff65
+            |
+            ---0xc3622394c127ff65
+               0x4000
+               |          
+                --7.59%--move_particles._omp_fn.1
+
+     7.59%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc363afe4c09d2678
+            |
+            ---0xc363afe4c09d2678
+               0x4000
+               |          
+                --7.59%--move_particles._omp_fn.1
+
+     7.59%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc362ef9ac0d8eec6
+            |
+            ---0xc362ef9ac0d8eec6
+               0x4000
+               |          
+                --7.59%--move_particles._omp_fn.1
+
+     7.59%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc3614a9fc1ace8de
+            |
+            ---0xc3614a9fc1ace8de
+               0x4000
+               |          
+                --7.58%--move_particles._omp_fn.1
+
+     7.59%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc36276aac10a431d
+            |
+            ---0xc36276aac10a431d
+               0x4000
+               |          
+                --7.58%--move_particles._omp_fn.1
+
+     7.56%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc37b49c93f6961b9
+            |
+            ---0xc37b49c93f6961b9
+               0x4000
+               |          
+                --7.56%--move_particles._omp_fn.1
+
+     7.56%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc3651110c0420a89
+            |
+            ---0xc3651110c0420a89
+               0x4000
+               |          
+                --7.55%--move_particles._omp_fn.1
+
+     7.53%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc3615eebc19e1cb7
+            |
+            ---0xc3615eebc19e1cb7
+               0x4000
+               |          
+                --7.52%--move_particles._omp_fn.1
+
+     0.93%     0.00%  nbody3D_1_GCC_O  [unknown]             [k] 0000000000000000
+            |
+            ---0
+               |          
+                --0.71%--0x7fcc2dbfe7ba
+
+     0.71%     0.71%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00000000000207b8
+            |
+            ---0
+               0x7fcc2dbfe7ba
+
+     0.71%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe7ba
+            |
+            ---0x7fcc2dbfe7ba
+
+     0.14%     0.01%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] entry_SYSCALL_64_after_hwframe
+     0.12%     0.02%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] do_syscall_64
+     0.12%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe687
+     0.10%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe89d
+     0.07%     0.01%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __x64_sys_futex
+     0.07%     0.07%  nbody3D_1_GCC_O  libc.so.6             [.] malloc_consolidate
+     0.07%     0.02%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] do_futex
+     0.07%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] asm_sysvec_apic_timer_interrupt
+     0.06%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] sysvec_apic_timer_interrupt
+     0.05%     0.05%  nbody3D_1_GCC_O  libc.so.6             [.] _int_free
+     0.05%     0.01%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] entry_SYSCALL_64
+     0.04%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __sysvec_apic_timer_interrupt
+     0.04%     0.04%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00000000000207ba
+     0.04%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe7be
+     0.04%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] hrtimer_interrupt
+     0.03%     0.03%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] GOMP_atomic_start
+     0.03%     0.02%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] futex_wake
+     0.03%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __hrtimer_run_queues
+     0.03%     0.03%  nbody3D_1_GCC_O  libc.so.6             [.] __libc_memalign
+     0.03%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe602
+     0.03%     0.01%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] exit_to_user_mode_prepare
+     0.03%     0.03%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x0000000000020600
+     0.03%     0.03%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] entry_SYSRETQ_unsafe_stack
+     0.03%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] tick_sched_timer
+     0.02%     0.02%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00000000000207c3
+     0.02%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe7c6
+     0.02%     0.01%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] GOMP_parallel
+     0.02%     0.02%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000002089b
+     0.02%     0.01%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] syscall_exit_to_user_mode
+     0.02%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] update_process_times
+     0.02%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] tick_sched_handle
+     0.02%     0.02%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001f3b2
+     0.02%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfd3ba
+     0.02%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] scheduler_tick
+     0.02%     0.02%  nbody3D_1_GCC_O  libc.so.6             [.] _int_malloc
+     0.02%     0.02%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] futex_hash
+     0.01%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0x0000000000000025
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] irqentry_exit
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] irqentry_exit_to_user_mode
+     0.01%     0.01%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x0000000000020685
+     0.01%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0x0000000000000635
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] irq_exit_rcu
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __irq_exit_rcu
+     0.01%     0.01%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] get_futex_key
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] task_tick_fair
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __do_softirq
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] asm_common_interrupt
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] common_interrupt
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __common_interrupt
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] handle_fasteoi_irq
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] handle_irq_event
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __handle_irq_event_percpu
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] acpi_irq
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] acpi_ev_sci_xrupt_handler
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] acpi_ev_gpe_detect
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] acpi_ev_detect_gpe
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] exit_to_user_mode_loop
+     0.01%     0.01%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] acpi_os_read_port
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] acpi_hw_gpe_read
+     0.01%     0.01%  nbody3D_1_GCC_O  nbody3D_1_GCC_O2      [.] move_particles._omp_fn.0
+     0.01%     0.01%  nbody3D_1_GCC_O  libc.so.6             [.] _int_memalign
+     0.01%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0x0000000000000631
+     0.01%     0.01%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00000000000207c8
+     0.01%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe7b8
+     0.01%     0.01%  nbody3D_1_GCC_O  libc.so.6             [.] cfree@GLIBC_2.2.5
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] asm_sysvec_reschedule_ipi
+     0.01%     0.01%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] syscall_return_via_sysret
+     0.01%     0.01%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] syscall_enter_from_user_mode
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __schedule
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] schedule
+     0.01%     0.01%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] osq_lock
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] down_write_killable
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] rwsem_down_write_slowpath
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] rwsem_optimistic_spin
+     0.01%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc37b49c9bf90408a
+     0.01%     0.01%  nbody3D_1_GCC_O  libc.so.6             [.] unlink_chunk.constprop.0
+     0.01%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc36276aac127ff65
+     0.01%     0.01%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x0000000000020602
+     0.01%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe606
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] sysvec_reschedule_ipi
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] update_load_avg
+     0.01%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc3615eebc1ace8de
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] rcu_core_si
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] rcu_core
+     0.01%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc3651110c09d2678
+     0.01%     0.00%  nbody3D_1_GCC_O  libc.so.6             [.] __mmap
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] asm_exc_page_fault
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] exc_page_fault
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] do_user_addr_fault
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] handle_mm_fault
+     0.01%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc362ef9ac10a431d
+     0.01%     0.00%  nbody3D_1_GCC_O  libc.so.6             [.] __munmap
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __x64_sys_munmap
+     0.01%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __vm_munmap
+     0.01%     0.01%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] entry_SYSCALL_64_safe_stack
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __handle_mm_fault
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] handle_pte_fault
+     0.00%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc363afe4c0d8eec6
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00000000000207be
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe7c3
+     0.00%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc3619478c18f4f00
+     0.00%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc3622394c145b107
+     0.00%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0x0000000000000055
+     0.00%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0x0000000000000001
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00000000000206ba
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe6bf
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] _raw_spin_lock
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001f744
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfd748
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] wake_up_process
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] try_to_wake_up
+     0.00%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc361b8cfc1807f64
+     0.00%     0.00%  nbody3D_1_GCC_O  libc.so.6             [.] __random_r
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] do_set_pte
+     0.00%     0.00%  nbody3D_1_GCC_O  [unknown]             [k] 0x0000000000000040
+     0.00%     0.00%  nbody3D_1_GCC_O  ld-linux-x86-64.so.2  [.] _dl_sysdep_start
+     0.00%     0.00%  nbody3D_1_GCC_O  ld-linux-x86-64.so.2  [.] dl_main
+     0.00%     0.00%  nbody3D_1_GCC_O  libm.so.6             [.] __exp_finite@GLIBC_2.15
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] do_fault
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] do_read_fault
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] filemap_map_pages
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] vm_mmap_pgoff
+     0.00%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc361771ec19e1cb7
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000002091a
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe91f
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __update_load_avg_se
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __raw_spin_lock_irqsave
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] _raw_spin_lock_irqsave
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001df6d
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbf72
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] run_rebalance_domains
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] update_curr
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] perf_adjust_freq_unthr_context
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] perf_event_task_tick
+     0.00%     0.00%  nbody3D_1_GCC_O  libc.so.6             [.] __random
+     0.00%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0x3e4a4ae83f6961b9
+     0.00%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc3686c1cc0420a89
+     0.00%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0xc361e6f9c1635ae0
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] native_irq_return_iret
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] tick_program_event
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] GOMP_atomic_end
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] pick_next_task_fair
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] pick_next_task
+     0.00%     0.00%  nbody3D_1_GCC_O  nbody3D_1_GCC_O2      [.] 0x0000557bab048180
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] update_blocked_averages
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __remove_hrtimer
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] psi_task_switch
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] ttwu_do_activate
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] hrtimer_wakeup
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] psi_group_change
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] rcu_do_batch
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __x64_sys_mmap
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] ksys_mmap_pgoff
+     0.00%     0.00%  nbody3D_1_GCC_O  libc.so.6             [.] clone3
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] do_group_exit
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] do_exit
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] native_write_msr
+     0.00%     0.00%  nbody3D_1_GCC_O  nbody3D_1_GCC_O2      [.] move_particles._omp_fn.2
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001f329
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbe86b0
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] tick_sched_do_timer
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] tick_do_update_jiffies64
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] update_wall_time
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] timekeeping_advance
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001df45
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbf4c
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] put_prev_entity
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __update_load_avg_cfs_rq
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001f325
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfd327
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001e3b1
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] reweight_entity
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] update_cfs_group
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] update_min_vruntime
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] clockevents_program_event
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001f321
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfd323
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001f275
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbf4f10
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] run_timer_softirq
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __run_timers.part.0
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] call_timer_fn
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __update_blocked_fair
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __rseq_handle_notify_resume
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] omp_get_num_threads
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] kmem_cache_free
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] fpregs_assert_state_consistent
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] arch_scale_freq_tick
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbe50
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] restore_fpregs_from_fpstate
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] switch_fpu_return
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] rcu_sched_clock_irq
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] ktime_get
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] ktime_get_update_offsets_now
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] enqueue_task
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] psi_task_change
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] mas_wr_modify
+     0.00%     0.00%  nbody3D_1_GCC_O  [unknown]             [k] 0x00007ffb5baeb08b
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __x64_sys_execve
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] do_execveat_common.isra.0
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] bprm_execve
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] bprm_execve.part.0
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] exec_binprm
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] search_binary_handler
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] load_elf_binary
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] elf_map
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] vm_mmap
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] do_mmap
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] mmap_region
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] vma_mas_store
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] mas_store_prealloc
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] mas_wr_store_entry.isra.0
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] sync_regs
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000002060f
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe600
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] do_anonymous_page
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] finish_task_switch.isra.0
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] x86_pmu_enable
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] intel_pmu_enable_all
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] mtree_range_walk
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] arch_do_signal_or_restart
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] get_signal
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] acct_collect
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] mas_find
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] mas_walk
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] folio_memcg_unlock
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __x64_sys_exit_group
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] exit_mm
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] mmput
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __mmput
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] exit_mmap
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] unmap_vmas
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] unmap_single_vma
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] unmap_page_range
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] zap_pmd_range.isra.0
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] zap_pte_range
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] page_remove_rmap
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] native_sched_clock
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x0000000000020606
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe60b
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] account_user_time
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000002060b
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe60d
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] hrtimer_active
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __note_gp_changes
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] note_gp_changes
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] _raw_spin_unlock
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] mod_objcg_state
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] delayed_put_pid
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] put_pid.part.0
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] update_sd_lb_stats.constprop.0
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] rebalance_domains
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] load_balance
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] find_busiest_group
+     0.00%     0.00%  nbody3D_1_GCC_O  [unknown]             [.] 0x0000000000000051
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000000d8da
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbeb8dd
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001df24
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbf29
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001f31f
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfd320
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] pvclock_gtod_notify
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] timekeeping_update
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001f6a6
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfd6a9
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001dd2b
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbd32
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x0000000000020862
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe865
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001deee
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbef0
+     0.00%     0.00%  nbody3D_1_GCC_O  nbody3D_1_GCC_O2      [.] 0x0000000000001184
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] omp_get_thread_num
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] select_idle_sibling
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] process_timeout
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] select_task_rq_fair
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] rseq_ip_fixup
+     0.00%     0.00%  nbody3D_1_GCC_O  nbody3D_1_GCC_O2      [.] 0x0000000000001134
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001f6d6
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbce7
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001f6c9
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfd6d0
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] error_return
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001dfb2
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbfb9
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001dfe0
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbfe9
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001ddc6
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbdc8
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001df80
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbf86
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00000000000206cc
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe5c0
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] update_rq_clock
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] sched_clock_cpu
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] sched_clock
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00000000000206c2
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe6c4
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001f2be
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfd2c3
+     0.00%     0.00%  nbody3D_1_GCC_O  nbody3D_1_GCC_O2      [.] 0x00000000000011b4
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x0000000000020768
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe76a
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001dfcb
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbfd2
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001dd0f
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbd16
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x0000000000020895
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe89b
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] lapic_next_deadline
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] amd_clear_divider
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] nohz_balancer_kick
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] trigger_load_balance
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001dc92
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbeb8d0
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001df4c
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbf54
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001de5f
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbe61
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __put_user_8
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbc40
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] enqueue_task_fair
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] delayed_work_timer_fn
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __queue_work
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001dedb
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbedf
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x0000000000014825
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbf2850
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001dd98
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbda3
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] rcu_note_context_switch
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001485b
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbf285c
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001dff7
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbf4ea0
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x0000000000020770
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe772
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000000a6b4
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] read_tsc
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00000000000207e1
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe7e3
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] timerqueue_del
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00000000000147f3
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbf27f9
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] wake_up_q
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x0000000000020879
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe87b
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00000000000147e7
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbf27e8
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] check_cpu_stall
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] timerfd_tmrproc
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] psi_flags_change
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] file_free_rcu
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] _raw_spin_trylock
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x000000000001dee7
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfbeee
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] rb_erase
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __put_task_struct
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] delayed_put_task_struct
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00000000000208a1
+     0.00%     0.00%  nbody3D_1_GCC_O  libgomp.so.1.0.0      [.] 0x00007fcc2dbfe7dd
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] advance_transaction
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] acpi_ec_gpe_handler
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] vma_alloc_folio
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] clear_page_erms
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __folio_alloc
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __alloc_pages
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] get_page_from_freelist
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __mod_memcg_lruvec_state
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] page_add_new_anon_rmap
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __mod_lruvec_page_state
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __mod_lruvec_state
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __count_memcg_events
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] count_memcg_events.constprop.0
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] pmd_val
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] pud_val
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] ret_from_fork
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] schedule_tail
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] __perf_event_task_sched_in
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] perf_ctx_enable
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] native_write_msr
+     0.00%     0.00%  perf-exec        [unknown]             [k] 0x00007ffb5baeb08b
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] entry_SYSCALL_64_after_hwframe
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] do_syscall_64
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] __x64_sys_execve
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] do_execveat_common.isra.0
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] bprm_execve
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] bprm_execve.part.0
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] exec_binprm
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] search_binary_handler
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] load_elf_binary
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] begin_new_exec
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] perf_event_exec
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] perf_event_enable_on_exec
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] ctx_resched
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] perf_ctx_enable
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] x86_pmu_enable
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] intel_pmu_enable_all
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] pv_native_write_cr2
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] nmi_restore
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] end_repeat_nmi
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] exc_nmi
+     0.00%     0.00%  nbody3D_1_GCC_O  [kernel.kallsyms]     [k] nmi_cpu_backtrace
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] native_sched_clock
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

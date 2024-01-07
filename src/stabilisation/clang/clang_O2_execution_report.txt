@@ -1,0 +1,376 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 336K of event 'cycles'
+# Event count (approx.): 320175730300
+#
+# Children      Self  Command          Shared Object         Symbol                                       
+# ........  ........  ...............  ....................  .............................................
+#
+   100.00%     0.00%  nbody3D_CLANG_O  libc.so.6             [.] __libc_start_call_main
+            |
+            ---__libc_start_call_main
+               main
+               |          
+               |--46.64%--__ieee754_pow_fma
+               |          
+               |--43.40%--move_particles
+               |          
+               |--7.75%--pow@@GLIBC_2.29
+               |          
+               |--1.11%--0x7f5e9a8d4300
+               |          
+                --1.09%--pow@plt
+
+   100.00%     0.00%  nbody3D_CLANG_O  nbody3D_CLANG_O0      [.] main
+            |
+            ---main
+               |          
+               |--46.64%--__ieee754_pow_fma
+               |          
+               |--43.40%--move_particles
+               |          
+               |--7.75%--pow@@GLIBC_2.29
+               |          
+               |--1.11%--0x7f5e9a8d4300
+               |          
+                --1.09%--pow@plt
+
+    47.78%    46.31%  nbody3D_CLANG_O  libm.so.6             [.] __ieee754_pow_fma
+            |          
+            |--46.31%--__libc_start_call_main
+            |          main
+            |          |          
+            |          |--45.17%--__ieee754_pow_fma
+            |          |          
+            |           --1.13%--pow@@GLIBC_2.29
+            |          
+             --1.47%--__ieee754_pow_fma
+
+    44.49%    43.14%  nbody3D_CLANG_O  nbody3D_CLANG_O0      [.] move_particles
+            |          
+            |--43.14%--__libc_start_call_main
+            |          main
+            |          |          
+            |          |--42.04%--move_particles
+            |          |          
+            |           --1.08%--pow@plt
+            |          
+             --1.35%--move_particles
+
+     9.97%     7.74%  nbody3D_CLANG_O  libm.so.6             [.] pow@@GLIBC_2.29
+            |          
+            |--7.74%--__libc_start_call_main
+            |          main
+            |          |          
+            |          |--5.52%--pow@@GLIBC_2.29
+            |          |          
+            |          |--1.11%--move_particles
+            |          |          
+            |           --1.10%--0x7f5e9a8d4300
+            |          
+             --2.23%--pow@@GLIBC_2.29
+
+     2.17%     1.07%  nbody3D_CLANG_O  nbody3D_CLANG_O0      [.] pow@plt
+            |          
+            |--1.09%--pow@plt
+            |          
+             --1.07%--__libc_start_call_main
+                       main
+                       pow@@GLIBC_2.29
+
+     1.11%     0.00%  nbody3D_CLANG_O  libm.so.6             [.] 0x00007f5e9a8d4300
+            |
+            ---0x7f5e9a8d4300
+
+     1.07%     1.07%  nbody3D_CLANG_O  libm.so.6             [.] 0x000000000000e304
+            |
+            ---__libc_start_call_main
+               main
+               __ieee754_pow_fma
+
+     0.52%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] asm_common_interrupt
+            |
+            ---asm_common_interrupt
+               common_interrupt
+               __common_interrupt
+               |          
+                --0.52%--handle_fasteoi_irq
+                          |          
+                           --0.52%--handle_irq_event
+
+     0.52%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] common_interrupt
+            |
+            ---common_interrupt
+               __common_interrupt
+               |          
+                --0.52%--handle_fasteoi_irq
+                          |          
+                           --0.52%--handle_irq_event
+
+     0.52%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __common_interrupt
+            |
+            ---__common_interrupt
+               |          
+                --0.52%--handle_fasteoi_irq
+                          |          
+                           --0.52%--handle_irq_event
+
+     0.52%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] handle_fasteoi_irq
+            |          
+             --0.52%--handle_fasteoi_irq
+                       |          
+                        --0.52%--handle_irq_event
+
+     0.52%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] handle_irq_event
+            |          
+             --0.52%--handle_irq_event
+
+     0.46%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __handle_irq_event_percpu
+     0.20%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] i2c_dw_isr
+     0.20%     0.01%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] _regmap_read
+     0.20%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] regmap_read
+     0.20%     0.19%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] intel_gpio_community_irq_handler
+     0.20%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] intel_gpio_irq
+     0.19%     0.19%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] dw_reg_read
+     0.09%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] i2c_dw_read
+     0.09%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] asm_sysvec_thermal
+     0.08%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] sysvec_thermal
+     0.08%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __sysvec_thermal
+     0.08%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] intel_thermal_interrupt
+     0.07%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_irq
+     0.07%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_ev_sci_xrupt_handler
+     0.07%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_ev_gpe_detect
+     0.07%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_ev_detect_gpe
+     0.06%     0.06%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_os_read_port
+     0.06%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_hw_gpe_read
+     0.06%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] asm_sysvec_apic_timer_interrupt
+     0.05%     0.05%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] idma64_irq
+     0.05%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] sysvec_apic_timer_interrupt
+     0.04%     0.04%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] native_read_msr
+     0.04%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __sysvec_apic_timer_interrupt
+     0.04%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] hrtimer_interrupt
+     0.04%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __irqentry_text_start
+     0.04%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __hrtimer_run_queues
+     0.03%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] tick_sched_timer
+     0.03%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] tick_sched_handle
+     0.03%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] i2c_dw_read_clear_intrbits
+     0.02%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] update_process_times
+     0.02%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] i2c_dw_xfer_msg
+     0.02%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] scheduler_tick
+     0.02%     0.02%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] native_write_msr
+     0.02%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] therm_throt_process
+     0.02%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] pkg_thermal_notify
+     0.01%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] notify_hwp_interrupt
+     0.01%     0.01%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] native_read_msr_safe
+     0.01%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __irq_exit_rcu
+     0.01%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] irq_exit_rcu
+     0.01%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __do_softirq
+     0.01%     0.01%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] intel_gpio_irq_mask_unmask
+     0.01%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] generic_handle_irq
+     0.01%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] handle_irq_desc
+     0.01%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] handle_level_irq
+     0.01%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] intel_gpio_irq_mask
+     0.01%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] task_tick_fair
+     0.01%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] tick_sched_do_timer
+     0.01%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] update_wall_time
+     0.01%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] tick_do_update_jiffies64
+     0.01%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] timekeeping_advance
+     0.01%     0.01%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] sync_regs
+     0.01%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] perf_event_task_tick
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] perf_adjust_freq_unthr_context
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] native_irq_return_iret
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] timekeeping_update
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] nohz_balancer_kick
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] trigger_load_balance
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] advance_transaction
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_ec_gpe_handler
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] _raw_spin_lock_irqsave
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __raw_spin_lock_irqsave
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] update_load_avg
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] x86_pmu_enable
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] intel_pmu_enable_all
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] kick_ilb
+     0.00%     0.00%  nbody3D_CLANG_O  libc.so.6             [.] __random
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] run_rebalance_domains
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] update_cfs_group
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] tick_program_event
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] clockevents_program_event
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] run_timer_softirq
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] account_process_tick
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] update_curr
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] account_user_time
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] native_queued_spin_lock_slowpath
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] irqentry_exit
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] call_timer_fn
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __run_timers.part.0
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] arch_scale_freq_tick
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] rebalance_domains
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] smp_call_function_single_async
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] update_fast_timekeeper
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] enqueue_hrtimer
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] exit_to_user_mode_prepare
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] idle_cpu
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] update_vsyscall
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] lapic_next_deadline
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] queue_delayed_work_on
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] timerqueue_add
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] raw_notifier_call_chain
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] rb_next
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __remove_hrtimer
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] entry_SYSRETQ_unsafe_stack
+     0.00%     0.00%  nbody3D_CLANG_O  ld-linux-x86-64.so.2  [.] _dl_map_object
+     0.00%     0.00%  nbody3D_CLANG_O  ld-linux-x86-64.so.2  [.] __GI___open64_nocancel
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] irqentry_exit_to_user_mode
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] native_sched_clock
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] update_rq_clock
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] sched_clock_cpu
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] sched_clock
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] delayed_work_timer_fn
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __queue_work
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] wake_up_process
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] try_to_wake_up
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] read_tsc
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] rcu_sched_clock_irq
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] load_balance
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] exit_to_user_mode_loop
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] _raw_spin_lock
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] generic_exec_single
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __update_blocked_fair
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] update_blocked_averages
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_get_gpe_status
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_hw_get_gpe_status
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_os_write_port
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_clear_gpe
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] pvclock_gtod_notify
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] ttwu_do_activate
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] enqueue_task
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] reweight_entity
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] regmap_write
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] cpuacct_charge
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] rcu_core_si
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_os_acquire_lock
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __update_load_avg_cfs_rq
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] x86_thermal_enabled
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __cgroup_account_cputime
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_ev_fixed_event_detect
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_hw_register_read
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_hw_read
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acpi_hw_read_port
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] hrtimer_update_next_event
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] update_vdso_data.constprop.0
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __update_load_avg_se
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] send_call_function_single_ipi
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] update_sg_lb_stats
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] find_busiest_group
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] update_sd_lb_stats.constprop.0
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __intel_pmu_enable_all.constprop.0
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] invoke_rcu_core
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] llist_add_batch
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] _find_next_and_bit
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] acct_account_cputime
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] run_posix_cpu_timers
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __irqentry_text_end
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] cgroup_rstat_updated
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __cgroup_account_cputime_field
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] entry_SYSCALL_64_after_hwframe
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] do_syscall_64
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] schedule
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __schedule
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __rseq_handle_notify_resume
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] finish_task_switch.isra.0
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] _raw_spin_unlock_irqrestore
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] enqueue_task_fair
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] enqueue_entity
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] irq_work_tick
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] _regmap_write
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] error_entry
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] timerqueue_del
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] note_gp_changes
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] rcu_core
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] update_min_vruntime
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] sched_clock_tick
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] psi_group_change
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] ntp_get_next_leap
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] rcu_accelerate_cbs
+     0.00%     0.00%  nbody3D_CLANG_O  libm.so.6             [.] 0x000000000000e300
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __calc_delta
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] nohz_balance_exit_idle
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __hrtimer_next_event_base
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] rb_insert_color
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] tcp_orphan_count_sum
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] tcp_orphan_update
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] raise_softirq
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] _compound_head
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __x64_sys_exit_group
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] do_group_exit
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] do_exit
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] exit_mm
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] mmput
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __mmput
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] exit_mmap
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] unmap_vmas
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] unmap_single_vma
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] unmap_page_range
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] zap_pmd_range.isra.0
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] error_return
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] regmap_writeable
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] _raw_spin_unlock_irq
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] _raw_spin_lock_irq
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __get_user_8
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] rseq_ip_fixup
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] note_interrupt
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] asm_sysvec_reschedule_ipi
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] sysvec_reschedule_ipi
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __kmem_cache_alloc_bulk
+     0.00%     0.00%  nbody3D_CLANG_O  [unknown]             [k] 0x00007f9e3c8eb08b
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __x64_sys_execve
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] do_execveat_common.isra.0
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] bprm_execve
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] bprm_execve.part.0
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] exec_binprm
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] search_binary_handler
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] load_elf_binary
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] setup_arg_pages
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] expand_stack_locked
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] expand_downwards
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] mas_preallocate
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] mas_alloc_nodes
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] kmem_cache_alloc_bulk
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] native_apic_mem_read
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] ioapic_ack_level
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] pick_next_entity
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] pick_next_task
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] pick_next_task_fair
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] blkcg_maybe_throttle_current
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] native_write_msr
+     0.00%     0.00%  perf-exec        [unknown]             [k] 0x00007f9e3c8eb08b
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] entry_SYSCALL_64_after_hwframe
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] do_syscall_64
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] __x64_sys_execve
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] do_execveat_common.isra.0
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] bprm_execve
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] bprm_execve.part.0
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] exec_binprm
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] search_binary_handler
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] load_elf_binary
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] begin_new_exec
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] perf_event_exec
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] perf_event_enable_on_exec
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] ctx_resched
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] perf_ctx_enable
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] x86_pmu_enable
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] intel_pmu_enable_all
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] default_do_nmi
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] __perf_event_task_sched_in
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] perf_ctx_enable
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] pv_native_write_cr2
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] native_sched_clock
+     0.00%     0.00%  nbody3D_CLANG_O  [kernel.kallsyms]     [k] nmi_handle
+
+
+#e
+# (Cannot load tips.txt file, please install perf!)
+#

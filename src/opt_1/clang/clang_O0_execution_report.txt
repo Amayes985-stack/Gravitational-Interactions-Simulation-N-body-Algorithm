@@ -1,0 +1,1405 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 415K of event 'cycles'
+# Event count (approx.): 286062222976
+#
+# Children      Self  Command          Shared Object         Symbol                                                        
+# ........  ........  ...............  ....................  ..............................................................
+#
+    91.14%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0000000000000000
+            |
+            ---0
+               |          
+                --91.10%--0x7f54d65b23a9
+                          __kmp_invoke_microtask
+                          |          
+                           --91.10%--.omp_outlined..2
+                                     |          
+                                      --91.10%--.omp_outlined._debug__
+                                                |          
+                                                 --91.08%--__kmpc_fork_call
+                                                           |          
+                                                            --91.06%--__kmp_fork_call
+                                                                      |          
+                                                                       --91.03%--__kmp_invoke_microtask
+                                                                                 |          
+                                                                                  --91.03%--.omp_outlined.
+                                                                                            |          
+                                                                                            |--70.47%--.omp_outlined._debug__.1
+                                                                                            |          |          
+                                                                                            |           --0.98%--asm_common_interrupt
+                                                                                            |                     |          
+                                                                                            |                      --0.98%--common_interrupt
+                                                                                            |                                |          
+                                                                                            |                                 --0.98%--__common_interrupt
+                                                                                            |                                           |          
+                                                                                            |                                            --0.97%--handle_fasteoi_irq
+                                                                                            |                                                      |          
+                                                                                            |                                                       --0.97%--handle_irq_event
+                                                                                            |                                                                 |          
+                                                                                            |                                                                  --0.89%--__handle_irq_event_percpu
+                                                                                            |                                                                            |          
+                                                                                            |                                                                             --0.57%--intel_gpio_irq
+                                                                                            |                                                                                       |          
+                                                                                            |                                                                                        --0.57%--intel_gpio_community_irq_handler
+                                                                                            |          
+                                                                                            |--14.36%--__sqrt_finite@GLIBC_2.15
+                                                                                            |          
+                                                                                            |--3.98%--__sqrt
+                                                                                            |          
+                                                                                             --2.20%--sqrt@plt
+
+    91.10%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65b23a9
+            |
+            ---0x7f54d65b23a9
+               __kmp_invoke_microtask
+               |          
+                --91.10%--.omp_outlined..2
+                          |          
+                           --91.10%--.omp_outlined._debug__
+                                     |          
+                                      --91.08%--__kmpc_fork_call
+                                                |          
+                                                 --91.06%--__kmp_fork_call
+                                                           |          
+                                                            --91.03%--__kmp_invoke_microtask
+                                                                      |          
+                                                                       --91.03%--.omp_outlined.
+                                                                                 |          
+                                                                                 |--70.47%--.omp_outlined._debug__.1
+                                                                                 |          |          
+                                                                                 |           --0.98%--asm_common_interrupt
+                                                                                 |                     |          
+                                                                                 |                      --0.98%--common_interrupt
+                                                                                 |                                |          
+                                                                                 |                                 --0.98%--__common_interrupt
+                                                                                 |                                           |          
+                                                                                 |                                            --0.97%--handle_fasteoi_irq
+                                                                                 |                                                      |          
+                                                                                 |                                                       --0.97%--handle_irq_event
+                                                                                 |                                                                 |          
+                                                                                 |                                                                  --0.89%--__handle_irq_event_percpu
+                                                                                 |                                                                            |          
+                                                                                 |                                                                             --0.57%--intel_gpio_irq
+                                                                                 |                                                                                       |          
+                                                                                 |                                                                                        --0.57%--intel_gpio_community_irq_handler
+                                                                                 |          
+                                                                                 |--14.36%--__sqrt_finite@GLIBC_2.15
+                                                                                 |          
+                                                                                 |--3.98%--__sqrt
+                                                                                 |          
+                                                                                  --2.20%--sqrt@plt
+
+    91.10%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] __kmp_invoke_microtask
+            |          
+             --91.10%--__kmp_invoke_microtask
+                       |          
+                        --91.09%--.omp_outlined..2
+                                  |          
+                                   --91.09%--.omp_outlined._debug__
+                                             |          
+                                              --91.08%--__kmpc_fork_call
+                                                        |          
+                                                         --91.05%--__kmp_fork_call
+                                                                   |          
+                                                                    --91.03%--__kmp_invoke_microtask
+                                                                              |          
+                                                                               --91.03%--.omp_outlined.
+                                                                                         |          
+                                                                                         |--70.47%--.omp_outlined._debug__.1
+                                                                                         |          |          
+                                                                                         |           --0.98%--asm_common_interrupt
+                                                                                         |                     |          
+                                                                                         |                      --0.98%--common_interrupt
+                                                                                         |                                |          
+                                                                                         |                                 --0.98%--__common_interrupt
+                                                                                         |                                           |          
+                                                                                         |                                            --0.97%--handle_fasteoi_irq
+                                                                                         |                                                      |          
+                                                                                         |                                                       --0.97%--handle_irq_event
+                                                                                         |                                                                 |          
+                                                                                         |                                                                  --0.89%--__handle_irq_event_percpu
+                                                                                         |                                                                            |          
+                                                                                         |                                                                             --0.57%--intel_gpio_irq
+                                                                                         |                                                                                       |          
+                                                                                         |                                                                                        --0.57%--intel_gpio_community_irq_handler
+                                                                                         |          
+                                                                                         |--14.36%--__sqrt_finite@GLIBC_2.15
+                                                                                         |          
+                                                                                         |--3.98%--__sqrt
+                                                                                         |          
+                                                                                          --2.20%--sqrt@plt
+
+    91.10%     0.00%  nbody3D_1_CLANG  nbody3D_1_CLANG_O0    [.] .omp_outlined..2
+            |
+            ---.omp_outlined..2
+               |          
+                --91.10%--.omp_outlined._debug__
+                          |          
+                           --91.08%--__kmpc_fork_call
+                                     |          
+                                      --91.06%--__kmp_fork_call
+                                                |          
+                                                 --91.03%--__kmp_invoke_microtask
+                                                           |          
+                                                            --91.03%--.omp_outlined.
+                                                                      |          
+                                                                      |--70.47%--.omp_outlined._debug__.1
+                                                                      |          |          
+                                                                      |           --0.98%--asm_common_interrupt
+                                                                      |                     |          
+                                                                      |                      --0.98%--common_interrupt
+                                                                      |                                |          
+                                                                      |                                 --0.98%--__common_interrupt
+                                                                      |                                           |          
+                                                                      |                                            --0.97%--handle_fasteoi_irq
+                                                                      |                                                      |          
+                                                                      |                                                       --0.97%--handle_irq_event
+                                                                      |                                                                 |          
+                                                                      |                                                                  --0.89%--__handle_irq_event_percpu
+                                                                      |                                                                            |          
+                                                                      |                                                                             --0.57%--intel_gpio_irq
+                                                                      |                                                                                       |          
+                                                                      |                                                                                        --0.57%--intel_gpio_community_irq_handler
+                                                                      |          
+                                                                      |--14.36%--__sqrt_finite@GLIBC_2.15
+                                                                      |          
+                                                                      |--3.98%--__sqrt
+                                                                      |          
+                                                                       --2.20%--sqrt@plt
+
+    91.10%     0.01%  nbody3D_1_CLANG  nbody3D_1_CLANG_O0    [.] .omp_outlined._debug__
+            |          
+             --91.09%--.omp_outlined._debug__
+                       |          
+                        --91.08%--__kmpc_fork_call
+                                  |          
+                                   --91.06%--__kmp_fork_call
+                                             |          
+                                              --91.03%--__kmp_invoke_microtask
+                                                        |          
+                                                         --91.03%--.omp_outlined.
+                                                                   |          
+                                                                   |--70.47%--.omp_outlined._debug__.1
+                                                                   |          |          
+                                                                   |           --0.98%--asm_common_interrupt
+                                                                   |                     |          
+                                                                   |                      --0.98%--common_interrupt
+                                                                   |                                |          
+                                                                   |                                 --0.98%--__common_interrupt
+                                                                   |                                           |          
+                                                                   |                                            --0.97%--handle_fasteoi_irq
+                                                                   |                                                      |          
+                                                                   |                                                       --0.97%--handle_irq_event
+                                                                   |                                                                 |          
+                                                                   |                                                                  --0.89%--__handle_irq_event_percpu
+                                                                   |                                                                            |          
+                                                                   |                                                                             --0.57%--intel_gpio_irq
+                                                                   |                                                                                       |          
+                                                                   |                                                                                        --0.57%--intel_gpio_community_irq_handler
+                                                                   |          
+                                                                   |--14.36%--__sqrt_finite@GLIBC_2.15
+                                                                   |          
+                                                                   |--3.98%--__sqrt
+                                                                   |          
+                                                                    --2.20%--sqrt@plt
+
+    91.08%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] __kmpc_fork_call
+            |          
+             --91.08%--__kmpc_fork_call
+                       |          
+                        --91.06%--__kmp_fork_call
+                                  |          
+                                   --91.03%--__kmp_invoke_microtask
+                                             |          
+                                              --91.03%--.omp_outlined.
+                                                        |          
+                                                        |--70.47%--.omp_outlined._debug__.1
+                                                        |          |          
+                                                        |           --0.98%--asm_common_interrupt
+                                                        |                     |          
+                                                        |                      --0.98%--common_interrupt
+                                                        |                                |          
+                                                        |                                 --0.98%--__common_interrupt
+                                                        |                                           |          
+                                                        |                                            --0.97%--handle_fasteoi_irq
+                                                        |                                                      |          
+                                                        |                                                       --0.97%--handle_irq_event
+                                                        |                                                                 |          
+                                                        |                                                                  --0.89%--__handle_irq_event_percpu
+                                                        |                                                                            |          
+                                                        |                                                                             --0.57%--intel_gpio_irq
+                                                        |                                                                                       |          
+                                                        |                                                                                        --0.57%--intel_gpio_community_irq_handler
+                                                        |          
+                                                        |--14.36%--__sqrt_finite@GLIBC_2.15
+                                                        |          
+                                                        |--3.98%--__sqrt
+                                                        |          
+                                                         --2.20%--sqrt@plt
+
+    91.06%     0.02%  nbody3D_1_CLANG  libomp.so.5           [.] __kmp_fork_call
+            |          
+             --91.03%--__kmp_fork_call
+                       |          
+                        --91.03%--__kmp_invoke_microtask
+                                  |          
+                                   --91.03%--.omp_outlined.
+                                             |          
+                                             |--70.47%--.omp_outlined._debug__.1
+                                             |          |          
+                                             |           --0.98%--asm_common_interrupt
+                                             |                     |          
+                                             |                      --0.98%--common_interrupt
+                                             |                                |          
+                                             |                                 --0.98%--__common_interrupt
+                                             |                                           |          
+                                             |                                            --0.97%--handle_fasteoi_irq
+                                             |                                                      |          
+                                             |                                                       --0.97%--handle_irq_event
+                                             |                                                                 |          
+                                             |                                                                  --0.89%--__handle_irq_event_percpu
+                                             |                                                                            |          
+                                             |                                                                             --0.57%--intel_gpio_irq
+                                             |                                                                                       |          
+                                             |                                                                                        --0.57%--intel_gpio_community_irq_handler
+                                             |          
+                                             |--14.36%--__sqrt_finite@GLIBC_2.15
+                                             |          
+                                             |--3.98%--__sqrt
+                                             |          
+                                              --2.20%--sqrt@plt
+
+    91.03%     0.00%  nbody3D_1_CLANG  nbody3D_1_CLANG_O0    [.] .omp_outlined.
+            |          
+             --91.02%--.omp_outlined.
+                       |          
+                       |--70.47%--.omp_outlined._debug__.1
+                       |          |          
+                       |           --0.98%--asm_common_interrupt
+                       |                     |          
+                       |                      --0.98%--common_interrupt
+                       |                                |          
+                       |                                 --0.98%--__common_interrupt
+                       |                                           |          
+                       |                                            --0.97%--handle_fasteoi_irq
+                       |                                                      |          
+                       |                                                       --0.97%--handle_irq_event
+                       |                                                                 |          
+                       |                                                                  --0.89%--__handle_irq_event_percpu
+                       |                                                                            |          
+                       |                                                                             --0.57%--intel_gpio_irq
+                       |                                                                                       |          
+                       |                                                                                        --0.57%--intel_gpio_community_irq_handler
+                       |          
+                       |--14.36%--__sqrt_finite@GLIBC_2.15
+                       |          
+                       |--3.98%--__sqrt
+                       |          
+                        --2.20%--sqrt@plt
+
+    72.66%    70.09%  nbody3D_1_CLANG  nbody3D_1_CLANG_O0    [.] .omp_outlined._debug__.1
+            |          
+            |--70.09%--0
+            |          0x7f54d65b23a9
+            |          __kmp_invoke_microtask
+            |          .omp_outlined..2
+            |          .omp_outlined._debug__
+            |          __kmpc_fork_call
+            |          __kmp_fork_call
+            |          __kmp_invoke_microtask
+            |          .omp_outlined.
+            |          |          
+            |          |--67.91%--.omp_outlined._debug__.1
+            |          |          
+            |           --2.17%--sqrt@plt
+            |          
+             --2.57%--.omp_outlined._debug__.1
+                       |          
+                        --0.98%--asm_common_interrupt
+                                  |          
+                                   --0.98%--common_interrupt
+                                             |          
+                                              --0.98%--__common_interrupt
+                                                        |          
+                                                         --0.97%--handle_fasteoi_irq
+                                                                   |          
+                                                                    --0.97%--handle_irq_event
+                                                                              |          
+                                                                               --0.89%--__handle_irq_event_percpu
+                                                                                         |          
+                                                                                          --0.57%--intel_gpio_irq
+                                                                                                    |          
+                                                                                                     --0.57%--intel_gpio_community_irq_handler
+
+    15.82%    13.20%  nbody3D_1_CLANG  libm.so.6             [.] __sqrt_finite@GLIBC_2.15
+            |          
+            |--13.20%--0
+            |          0x7f54d65b23a9
+            |          __kmp_invoke_microtask
+            |          .omp_outlined..2
+            |          .omp_outlined._debug__
+            |          __kmpc_fork_call
+            |          __kmp_fork_call
+            |          __kmp_invoke_microtask
+            |          .omp_outlined.
+            |          |          
+            |          |--11.74%--__sqrt_finite@GLIBC_2.15
+            |          |          
+            |           --1.46%--.omp_outlined._debug__.1
+            |          
+             --2.62%--__sqrt_finite@GLIBC_2.15
+
+     6.37%     4.47%  nbody3D_1_CLANG  libm.so.6             [.] __sqrt
+            |          
+            |--4.47%--0
+            |          0x7f54d65b23a9
+            |          __kmp_invoke_microtask
+            |          .omp_outlined..2
+            |          .omp_outlined._debug__
+            |          __kmpc_fork_call
+            |          __kmp_fork_call
+            |          __kmp_invoke_microtask
+            |          .omp_outlined.
+            |          |          
+            |          |--2.39%--__sqrt_finite@GLIBC_2.15
+            |          |          
+            |           --2.07%--__sqrt
+            |          
+             --1.91%--__sqrt
+
+     4.70%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e54d2
+            |
+            ---0x7f54d65e54d2
+
+     4.68%     4.68%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000794d0
+            |
+            ---0x7f54d65e54d2
+
+     4.08%     1.88%  nbody3D_1_CLANG  nbody3D_1_CLANG_O0    [.] sqrt@plt
+            |          
+            |--2.20%--sqrt@plt
+            |          
+             --1.88%--0
+                       0x7f54d65b23a9
+                       __kmp_invoke_microtask
+                       .omp_outlined..2
+                       .omp_outlined._debug__
+                       __kmpc_fork_call
+                       __kmp_fork_call
+                       __kmp_invoke_microtask
+                       .omp_outlined.
+                       |          
+                        --1.88%--__sqrt
+
+     1.27%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] asm_common_interrupt
+            |
+            ---asm_common_interrupt
+               |          
+                --1.27%--common_interrupt
+                          |          
+                           --1.26%--__common_interrupt
+                                     |          
+                                      --1.25%--handle_fasteoi_irq
+                                                |          
+                                                 --1.25%--handle_irq_event
+                                                           |          
+                                                            --1.16%--__handle_irq_event_percpu
+                                                                      |          
+                                                                       --0.78%--intel_gpio_irq
+                                                                                 |          
+                                                                                  --0.78%--intel_gpio_community_irq_handler
+
+     1.27%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] common_interrupt
+            |          
+             --1.27%--common_interrupt
+                       |          
+                        --1.26%--__common_interrupt
+                                  |          
+                                   --1.25%--handle_fasteoi_irq
+                                             |          
+                                              --1.25%--handle_irq_event
+                                                        |          
+                                                         --1.16%--__handle_irq_event_percpu
+                                                                   |          
+                                                                    --0.78%--intel_gpio_irq
+                                                                              |          
+                                                                               --0.78%--intel_gpio_community_irq_handler
+
+     1.26%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __common_interrupt
+            |          
+             --1.26%--__common_interrupt
+                       |          
+                        --1.25%--handle_fasteoi_irq
+                                  |          
+                                   --1.25%--handle_irq_event
+                                             |          
+                                              --1.16%--__handle_irq_event_percpu
+                                                        |          
+                                                         --0.78%--intel_gpio_irq
+                                                                   |          
+                                                                    --0.78%--intel_gpio_community_irq_handler
+
+     1.26%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] handle_irq_event
+            |
+            ---handle_irq_event
+               |          
+                --1.17%--__handle_irq_event_percpu
+                          |          
+                           --0.78%--intel_gpio_irq
+                                     |          
+                                      --0.78%--intel_gpio_community_irq_handler
+
+     1.25%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] handle_fasteoi_irq
+            |          
+             --1.25%--handle_fasteoi_irq
+                       |          
+                        --1.25%--handle_irq_event
+                                  |          
+                                   --1.16%--__handle_irq_event_percpu
+                                             |          
+                                              --0.78%--intel_gpio_irq
+                                                        |          
+                                                         --0.78%--intel_gpio_community_irq_handler
+
+     1.17%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __handle_irq_event_percpu
+            |          
+             --1.16%--__handle_irq_event_percpu
+                       |          
+                        --0.78%--intel_gpio_irq
+                                  |          
+                                   --0.78%--intel_gpio_community_irq_handler
+
+     0.93%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e50f2
+            |
+            ---0x7f54d65e50f2
+
+     0.92%     0.92%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000790f0
+            |
+            ---0x7f54d65e50f2
+
+     0.78%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] intel_gpio_irq
+            |
+            ---intel_gpio_irq
+               |          
+                --0.78%--intel_gpio_community_irq_handler
+
+     0.78%     0.74%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] intel_gpio_community_irq_handler
+            |          
+             --0.74%--0
+                       |          
+                        --0.73%--0x7f54d65b23a9
+                                  __kmp_invoke_microtask
+                                  .omp_outlined..2
+                                  .omp_outlined._debug__
+                                  __kmpc_fork_call
+                                  |          
+                                   --0.73%--__kmp_fork_call
+                                             __kmp_invoke_microtask
+                                             .omp_outlined.
+                                             |          
+                                              --0.54%--.omp_outlined._debug__.1
+                                                        |          
+                                                         --0.54%--asm_common_interrupt
+                                                                   common_interrupt
+                                                                   __common_interrupt
+                                                                   handle_fasteoi_irq
+                                                                   handle_irq_event
+                                                                   __handle_irq_event_percpu
+                                                                   intel_gpio_irq
+                                                                   intel_gpio_community_irq_handler
+
+     0.50%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d663e642
+     0.50%     0.50%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000d2640
+     0.36%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] i2c_dw_isr
+     0.36%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] regmap_read
+     0.36%     0.02%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] _regmap_read
+     0.34%     0.34%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] dw_reg_read
+     0.31%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e54d9
+     0.30%     0.30%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000794d2
+     0.24%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e54db
+     0.23%     0.23%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000794d9
+     0.22%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d663e640
+     0.19%     0.19%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079584
+     0.16%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] i2c_dw_read
+     0.15%     0.01%  nbody3D_1_CLANG  libc.so.6             [.] __sched_yield
+     0.13%     0.13%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000d2649
+     0.13%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5529
+     0.13%     0.13%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079519
+     0.13%     0.13%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000048e2b
+     0.13%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65b4e2e
+     0.13%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65b4e20
+     0.13%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] asm_sysvec_apic_timer_interrupt
+     0.12%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] entry_SYSCALL_64_after_hwframe
+     0.12%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] do_syscall_64
+     0.11%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] sysvec_apic_timer_interrupt
+     0.11%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5589
+     0.11%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] schedule
+     0.11%     0.11%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079377
+     0.11%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __schedule
+     0.10%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __x64_sys_sched_yield
+     0.10%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] do_sched_yield
+     0.09%     0.09%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000793a9
+     0.09%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5437
+     0.09%     0.09%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] idma64_irq
+     0.07%     0.07%  nbody3D_1_CLANG  libc.so.6             [.] __vfprintf_internal
+     0.07%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __sysvec_apic_timer_interrupt
+     0.07%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] hrtimer_interrupt
+     0.07%     0.07%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000048e2e
+     0.06%     0.06%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000790f2
+     0.06%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e50f9
+     0.06%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e537a
+     0.06%     0.06%  nbody3D_1_CLANG  libc.so.6             [.] _IO_default_xsputn
+     0.06%     0.06%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000007938c
+     0.06%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e538e
+     0.06%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __irqentry_text_start
+     0.06%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] i2c_dw_read_clear_intrbits
+     0.06%     0.06%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000007958e
+     0.06%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5370
+     0.06%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __hrtimer_run_queues
+     0.06%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] pick_next_task
+     0.05%     0.05%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079535
+     0.05%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e553a
+     0.05%     0.05%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079481
+     0.05%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5488
+     0.05%     0.05%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000007944f
+     0.05%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5470
+     0.05%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] pick_next_task_fair
+     0.05%     0.05%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000793a2
+     0.05%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e53a4
+     0.05%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5555
+     0.05%     0.05%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079543
+     0.04%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e50fb
+     0.04%     0.04%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000790f9
+     0.04%     0.04%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079562
+     0.04%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5574
+     0.04%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] tick_sched_timer
+     0.04%     0.04%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000007948b
+     0.04%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e54d0
+     0.04%     0.04%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000794f7
+     0.04%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5502
+     0.04%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] exit_to_user_mode_prepare
+     0.04%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e54ec
+     0.04%     0.04%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000794ea
+     0.04%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] irqentry_exit
+     0.04%     0.04%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079504
+     0.04%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e550d
+     0.04%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] irqentry_exit_to_user_mode
+     0.04%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] tick_sched_handle
+     0.04%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] update_process_times
+     0.04%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] generic_handle_irq
+     0.03%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] handle_irq_desc
+     0.03%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] handle_level_irq
+     0.03%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] exit_to_user_mode_loop
+     0.03%     0.03%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000791aa
+     0.03%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] irq_exit_rcu
+     0.03%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __irq_exit_rcu
+     0.03%     0.03%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] intel_gpio_irq_mask_unmask
+     0.03%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] intel_gpio_irq_mask
+     0.03%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __do_softirq
+     0.03%     0.03%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000794db
+     0.03%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] asm_sysvec_reschedule_ipi
+     0.03%     0.03%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079139
+     0.03%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5149
+     0.03%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] update_curr
+     0.03%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e54de
+     0.03%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] scheduler_tick
+     0.02%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] sysvec_reschedule_ipi
+     0.02%     0.02%  nbody3D_1_CLANG  libc.so.6             [.] __strchrnul_evex
+     0.02%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e51af
+     0.02%     0.02%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000078fe9
+     0.02%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e504a
+     0.02%     0.02%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000078fb7
+     0.02%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x00007f54bc000d60
+     0.02%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] i2c_dw_xfer_msg
+     0.02%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] try_to_wake_up
+     0.02%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x00007f54cc000d60
+     0.02%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] wake_up_process
+     0.02%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x00007f54b0000d60
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] update_rq_clock
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] __kmpc_end_serialized_parallel
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] __kmpc_serialized_parallel
+     0.01%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x00007f54c8000d60
+     0.01%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] _raw_spin_lock
+     0.01%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x00007f54c0000d60
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] entry_SYSCALL_64
+     0.01%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x00007f54d0000d60
+     0.01%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x0000562b355293f0
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] acpi_ev_sci_xrupt_handler
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] acpi_irq
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000078fcc
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e4fce
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] acpi_ev_gpe_detect
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] acpi_ev_detect_gpe
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] sched_clock_cpu
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ttwu_do_activate
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000078fe2
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e4fe4
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000794f3
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e54f5
+     0.01%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] acpi_os_read_port
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] task_tick_fair
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000791b4
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e4fb0
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] acpi_hw_gpe_read
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e517b
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] __kmpc_reduce_nowait
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000794de
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e54e3
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] perf_event_task_tick
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] enqueue_task
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e4fba
+     0.01%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x00007f54b8000d60
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] handle_edge_irq
+     0.01%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] native_sched_clock
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079062
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5090
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000790ab
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e50f0
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] sched_clock
+     0.01%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] perf_adjust_freq_unthr_context
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000790a1
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e50a8
+     0.01%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] pick_next_entity
+     0.01%     0.01%  nbody3D_1_CLANG  libc.so.6             [.] __memset_evex_unaligned_erms
+     0.01%     0.01%  nbody3D_1_CLANG  libc.so.6             [.] malloc
+     0.01%     0.01%  nbody3D_1_CLANG  libc.so.6             [.] _int_free
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079155
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e515a
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] __kmpc_for_static_init_8u
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rcu_core_si
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] tick_program_event
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rcu_core
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] gen11_irq_handler
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e552d
+     0.01%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x0000000000003fff
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079529
+     0.01%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] native_irq_return_iret
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] hrtimer_wakeup
+     0.01%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] native_write_msr
+     0.01%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __calc_delta
+     0.01%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] sync_regs
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] update_load_avg
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] psi_task_switch
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079124
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e512d
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079117
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5122
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] clockevents_program_event
+     0.01%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] psi_group_change
+     0.01%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] raw_spin_rq_lock_nested
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000007915a
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] psi_task_change
+     0.01%     0.01%  nbody3D_1_CLANG  libc.so.6             [.] _IO_str_init_static_internal
+     0.01%     0.01%  nbody3D_1_CLANG  libc.so.6             [.] __strlen_evex
+     0.01%     0.01%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] entry_SYSRETQ_unsafe_stack
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079188
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e519a
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] syscall_exit_to_user_mode
+     0.01%     0.01%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000007910a
+     0.01%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e510c
+     0.01%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] cfree@GLIBC_2.2.5
+     0.01%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] run_rebalance_domains
+     0.01%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] __vsnprintf_internal
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] cpuacct_charge
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000007953a
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5541
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079169
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] x86_pmu_enable
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] intel_pmu_enable_all
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] run_timer_softirq
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rcu_note_context_switch
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] __libc_start_call_main
+     0.00%     0.00%  nbody3D_1_CLANG  nbody3D_1_CLANG_O0    [.] main
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __run_timers.part.0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] asm_sysvec_irq_work
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] ___kmp_free
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] gen11_display_irq_handler
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000794ec
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e54f3
+     0.00%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x0000000000008500
+     0.00%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0xefefefefefefefef
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] account_user_time
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] account_process_tick
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] tasklet_hi_action
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] tasklet_action_common.constprop.0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] execlists_submission_tasklet
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] sysvec_irq_work
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] raw_spin_rq_unlock
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __rseq_handle_notify_resume
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] gen8_de_irq_handler.isra.0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] regmap_write
+     0.00%     0.00%  nbody3D_1_CLANG  nbody3D_1_CLANG_O0    [.] .omp_outlined._debug__.3
+     0.00%     0.00%  nbody3D_1_CLANG  nbody3D_1_CLANG_O0    [.] .omp_outlined..4
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000007955c
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5562
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __update_load_avg_se
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] update_min_vruntime
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] put_prev_entity
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000d2646
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d663e649
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000007951b
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d6617cb0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] _raw_spin_unlock
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] finish_task_switch.isra.0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] yield_task_fair
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] __kmpc_end_reduce_nowait
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] tick_sched_do_timer
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rcu_do_batch
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] 0x00007f54d62284d0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] drm_crtc_handle_vblank
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] drm_handle_vblank
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __queue_work
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] _regmap_write
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000d2642
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d663e646
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __remove_hrtimer
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] arch_scale_freq_tick
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000790fb
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e50fe
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] read_tsc
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __raw_spin_lock_irqsave
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rebalance_domains
+     0.00%     0.00%  nbody3D_1_CLANG  ld-linux-x86-64.so.2  [.] __tls_get_addr
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rcu_sched_clock_irq
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] syscall_enter_from_user_mode
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] syscall_return_via_sysret
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] 0x00000000000284d4
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] check_cfs_rq_runtime
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079113
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5115
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] cgroup_rstat_updated
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] __random
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ttwu_do_wakeup
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] _raw_spin_lock_irqsave
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] entry_SYSCALL_64_safe_stack
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] enqueue_hrtimer
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] _IO_setb
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079149
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e514d
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __cgroup_account_cputime
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] load_balance
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] fpregs_assert_state_consistent
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] gen11_gt_bank_handler
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] gen11_gt_irq_handler
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __irq_wake_thread
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] __kmpc_for_static_fini
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] call_timer_fn
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] update_blocked_averages
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] enqueue_task_fair
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000007957e
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5584
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __update_load_avg_cfs_rq
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5516
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ktime_get
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] check_preempt_curr
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] __memmove_evex_unaligned_erms
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] intel_engine_add_retire
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] memset@plt
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] queue_work_on
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __irqentry_text_end
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] prepare_task_switch
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] kmem_cache_free
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] lapic_next_deadline
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079574
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5579
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ktime_get_update_offsets_now
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] hrtimer_active
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __wake_up_common
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] _IO_old_init
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] timerqueue_add
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] tick_do_update_jiffies64
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] update_wall_time
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] ___kmp_allocate
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] irq_work_run_list
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] drm_handle_vblank_events
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] send_vblank_event
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] drm_send_event_timestamp_locked
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] drm_send_event_helper
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rseq_ip_fixup
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __wake_up
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __wake_up_common_lock
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] update_cfs_group
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __perf_event_task_sched_in
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000790fe
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5103
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] perf_ctx_enable
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] switch_fpu_return
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __sysvec_irq_work
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] irq_work_run
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] irq_work_single
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] signal_irq_work
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] _IO_no_init
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] __tls_get_addr@plt
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] psi_flags_change
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __get_user_8
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] select_task_rq_fair
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] reweight_entity
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] malloc@plt
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] hrtimer_update_next_event
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] timekeeping_advance
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] vm_mmap_pgoff
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] do_mmap
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] mmap_region
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] vma_mas_store
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] mas_store_prealloc
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] mas_destroy
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rb_erase
+     0.00%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x0000000000000135
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079512
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] restore_fpregs_from_fpstate
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] advance_transaction
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] acpi_ec_gpe_handler
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079579
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e557e
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] native_read_msr
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] enqueue_entity
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003fe04
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65abe0b
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rcu_gp_kthread_wake
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] swake_up_one
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] resched_curr
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] process_csb
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rcu_report_qs_rnp
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] raise_softirq
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] find_busiest_group
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] update_sd_lb_stats.constprop.0
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000037410
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a3412
+     0.00%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x69746174735f726f
+     0.00%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x0000000000000215
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] set_next_entity
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] record_times
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __cgroup_account_cputime_field
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] gen11_gt_engine_identity
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] complete
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __perf_event_task_sched_out
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] sched_yield@plt
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __execlists_schedule_out
+     0.00%     0.00%  nbody3D_1_CLANG  ld-linux-x86-64.so.2  [.] mmap64
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __x64_sys_mmap
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ksys_mmap_pgoff
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __update_blocked_fair
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] folio_add_lru
+     0.00%     0.00%  nbody3D_1_CLANG  nbody3D_1_CLANG_O0    [.] init
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] asm_exc_page_fault
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] exc_page_fault
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] do_user_addr_fault
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] handle_mm_fault
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __handle_mm_fault
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] handle_pte_fault
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] do_anonymous_page
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] lru_cache_add_inactive_or_unevictable
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] folio_add_lru_vma
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] check_preempt_wakeup
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] update_sg_lb_stats
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ep_poll_callback
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] free@plt
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] _raw_spin_lock_irq
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] trigger_load_balance
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] default_wake_function
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039583
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5586
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] fwtable_read32
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] complete_all
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] note_gp_changes
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] 0x00007f54d62283e0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] hrtimer_forward
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] 0x00007f54d6228490
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] enqueue_task_rt
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rb_insert_color
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rb_next
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] drm_update_vblank_count
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] x86_pmu_disable
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] timekeeping_update
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] process_timeout
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] irq_enter_rcu
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] irq_complete_move
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] amd_clear_divider
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] update_rt_rq_load_avg
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] pick_next_task_rt
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000060d12
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] __vsnprintf_chk@plt
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] rand
+     0.00%     0.00%  nbody3D_1_CLANG  nbody3D_1_CLANG_O0    [.] __kmpc_end_reduce_nowait@plt
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003fdbb
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65abdc4
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] timerfd_tmrproc
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __wake_up_locked_key
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] 0x0000000000028494
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5560
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] cpupri_set
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] _raw_spin_unlock_irqrestore
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003fda0
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65abda1
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] delayed_work_timer_fn
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] put_prev_task_balance
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] put_prev_task_fair
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] execlists_dequeue_irq
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __put_user_8
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] error_return
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] select_idle_sibling
+     0.00%     0.00%  nbody3D_1_CLANG  nbody3D_1_CLANG_O0    [.] __kmpc_for_static_fini@plt
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] execlists_dequeue
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __rcu_read_unlock
+     0.00%     0.00%  nbody3D_1_CLANG  nbody3D_1_CLANG_O0    [.] move_particles
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000060c81
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rseq_get_rseq_cs.isra.0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] invoke_rcu_core
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000048086
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65b408c
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039c75
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5c78
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e53a2
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000abcb0
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079488
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e548b
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5520
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000001cc90
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d6588c92
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079182
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5188
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000007912d
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5132
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] flat_send_IPI_mask
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] native_smp_send_reschedule
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000007919f
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e51a4
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] regmap_readable
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003a009
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a6012
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] fast_mix
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] delayed_put_task_struct
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __put_task_struct
+     0.00%     0.00%  nbody3D_1_CLANG  nbody3D_1_CLANG_O0    [.] __kmpc_for_static_init_8u@plt
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ep_autoremove_wake_function
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003984f
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5853
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] kthread_is_per_cpu
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039565
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5567
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65abda0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] check_cpu_stall
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] _raw_spin_trylock
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __note_gp_changes
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000037426
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a3428
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a33c0
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000373dc
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a33de
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003969f
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039695
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5696
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] raw_notifier_call_chain
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a56e0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] vmd_irq
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] handle_untracked_irq
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] nvme_irq
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] nvme_pci_complete_batch
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] blk_mq_end_request_batch
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] bio_endio
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ext4_end_bio
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ext4_finish_bio
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] cpuacct_account_field
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rcu_accelerate_cbs_unlocked
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __get_vblank_counter
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] g4x_get_vblank_counter
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000004807b
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65b407e
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] pollwake
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000060c00
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65ccc01
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] regmap_writeable
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65cdd10
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039842
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5845
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rcu_cblist_dequeue
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039586
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5681
+     0.00%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x0000000000000131
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] blkcg_maybe_throttle_current
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] refill_obj_stock
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] obj_cgroup_uncharge
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] available_idle_cpu
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000060c97
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65ccc9f
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] acct_account_cputime
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039c19
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65cdd90
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] i915_gem_object_make_shrinkable
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] node_retire
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] active_retire
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __active_retire
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __intel_context_retire
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] intel_context_post_unpin
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] __vsnprintf_chk
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003fe50
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65abe53
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5842
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039cfe
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5d04
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] __mempcpy_evex_unaligned_erms
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039809
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a580c
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039560
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5561
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] timerqueue_del
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] hrtimer_run_queues
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] mt_free_rcu
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] set_task_cpu
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] irq_work_tick
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] drm_crtc_vblank_helper_get_vblank_timestamp_internal
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] drm_get_last_vbltimestamp
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] do_rps_boost
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] intel_engine_get_busy_time
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] error_entry
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __raise_softirq_irqoff
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __radix_tree_lookup
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] radix_tree_lookup
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] _find_next_and_bit
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __hrtimer_next_event_base
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5b6f
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] update_dl_rq_load_avg
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] syscall
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __x64_sys_sched_setaffinity
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] sched_setaffinity
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] acpi_os_write_port
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] acpi_clear_gpe
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] kmem_cache_free_bulk.part.0
+     0.00%     0.00%  nbody3D_1_CLANG  [unknown]             [k] 0x00007f636d6eb08b
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __x64_sys_execve
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] do_execveat_common.isra.0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] bprm_execve
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] bprm_execve.part.0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] exec_binprm
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] search_binary_handler
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] load_elf_binary
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] elf_map
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] vm_mmap
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] kmem_cache_free_bulk
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] memcg_slab_free_hook
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __sched_setaffinity
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __set_cpus_allowed_ptr
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __set_cpus_allowed_ptr_locked
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] flush_tlb_mm_range
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __x64_sys_exit_group
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] do_group_exit
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] do_exit
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] exit_mm
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] mmput
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __mmput
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] exit_mmap
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] tlb_finish_mmu
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079527
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __get_obj_cgroup_from_memcg
+     0.00%     0.00%  nbody3D_1_CLANG  [unknown]             [k] 0x30302b653230302e
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] __GI___libc_write
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __x64_sys_write
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ksys_write
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] vfs_write
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __fsnotify_parent
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] fsnotify
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] send_to_group
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] fsnotify_handle_inode_event.isra.0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] inotify_handle_inode_event
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __kmalloc
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __kmem_cache_alloc_node
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] get_obj_cgroup_from_current
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000048051
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65b405a
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] native_apic_mem_read
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000007919a
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e519f
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] note_interrupt
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000061df0
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65cde33
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000048e20
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65b4e24
+     0.00%     0.00%  nbody3D_1_CLANG  [unknown]             [k] 0x0000000000000001
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] __GI___futex_abstimed_wait_cancelable64
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __x64_sys_futex
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] do_futex
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] futex_wait
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] futex_wait_queue
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] newidle_balance
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e515c
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000048e24
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65b4e27
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000079589
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000048e27
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65b4e2b
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000007939a
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000007947b
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e5481
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] yama_ptracer_del
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] security_task_free
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] yama_task_free
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000791a4
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e51aa
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039eb0
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a6009
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65cce69
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039d29
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5d2b
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039b94
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5b9b
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000020004
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d658c00d
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5dbc
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000793a4
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65e53a9
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000060c2f
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65ccc6b
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] hook_cred_free
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] put_cred_rcu
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039b7a
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5b85
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003956a
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a556e
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000060c0a
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65ccc11
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003969c
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a569e
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003fdff
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65abe04
+     0.00%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x0000000000021133
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000002003f
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d658c059
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] fib6_node_lookup_1
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] tcp_write_timer
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] tcp_write_timer_handler
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] tcp_probe_timer.constprop.0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] tcp_send_probe0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] tcp_write_wakeup
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __tcp_transmit_skb
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] inet6_csk_xmit
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] inet6_csk_route_socket
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ip6_dst_lookup_flow
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ip6_dst_lookup_tail.constprop.0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ip6_route_output_flags
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ip6_route_output_flags_noref
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] fib6_rule_lookup
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ip6_pol_route_output
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ip6_pol_route
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] fib6_table_lookup
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] fib6_node_lookup
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000061d1e
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65cdd22
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] set_next_buddy
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003974b
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039baa
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5bb1
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ntp_tick_length
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000048046
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65b4049
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000480d6
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039b29
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5b43
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000001fffa
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d658bffe
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039d07
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5d0e
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __next_timer_interrupt
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003fdf3
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65abdf7
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] add_interrupt_randomness
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039711
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5724
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] wake_affine
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rcu_work_rcufn
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000060e64
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003975d
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5760
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003fe1e
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65abe25
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5750
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000373f0
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a3400
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039b61
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5b68
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000002001c
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d658c038
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] early_xen_iret_patch
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000061e97
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5c1e
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65ccc00
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039cb9
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5cbf
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039c7c
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5c7f
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000020110
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d658c113
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039bbb
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5bd4
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] mem_cgroup_handle_over_high
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000060c1e
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65ccc23
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000373c4
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a33cb
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003fdd0
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65abdd3
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000405ae
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000020096
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d658c099
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] hrtimer_start_range_ns
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] pm_suspend_timer_fn
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000397bd
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a57df
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] clear_buddies
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003fdf7
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65abdfb
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] acpi_ev_fixed_event_detect
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] acpi_hw_register_read
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] acpi_hw_read
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] acpi_hw_read_port
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] _raw_spin_unlock_irq
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039d18
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5d21
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039be4
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5c08
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003969e
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a569f
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] pick_task_rt
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000002014d
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] plist_del
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039c48
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5c4b
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000060d40
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65ccd41
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] lrc_update_runtime
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003fdd3
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65abde6
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] irq_chip_ack_parent
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003fe5f
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65abe8b
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] update_vdso_data.constprop.0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] update_vsyscall
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] calculate_imbalance
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] pick_next_task_dl
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __mod_lruvec_page_state
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] end_page_writeback
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] folio_end_writeback
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __folio_end_writeback
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] mod_lruvec_page_state
+     0.00%     0.00%  nbody3D_1_CLANG  [unknown]             [.] 0x0000000000000211
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] gpiochip_disable_irq
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039ae6
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5afb
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] cancel_timer
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] timer_delete
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] lock_timer_base
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] ___i915_gem_object_make_shrinkable
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] i915_vma_make_shrinkable
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039adc
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5ae3
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] task_woken_rt
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039c39
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5c3d
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] update_group_capacity
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __bitmap_and
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039c54
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5c6e
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000201ad
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] file_free_rcu
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rcu_accelerate_cbs
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] thread_stack_free_rcu
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] vfree
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __vfree
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] irqentry_enter
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000398fb
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5902
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] kfree
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] regmap_lock_unlock_none
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039741
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5744
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039744
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a574b
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039696
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5698
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039db7
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __i915_gem_free_object_rcu
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000001fff0
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d658bff1
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __intel_get_crtc_scanline
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] intel_crtc_get_vblank_timestamp
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] dequeue_rt_stack
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] execlists_engine_busyness
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rps_timer
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000060cf2
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65cccfa
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] rcu_segcblist_ready_cbs
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] cmpxchg_double_slab.constprop.0.isra.0
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __slab_free
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039cdd
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5ce4
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __kmem_cache_free
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039829
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5834
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] 0x00000000000283e0
+     0.00%     0.00%  nbody3D_1_CLANG  libc.so.6             [.] 0x00007f54d62283e4
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] native_apic_mem_write
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a58f2
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039c29
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a5c2d
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] remove_entity_load_avg
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] migrate_task_rq_fair
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000039764
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a576b
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] apparmor_sk_free_security
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __sk_destruct
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] security_sk_free
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] acpi_os_acquire_lock
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000003fdae
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65abdb1
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] perf_ctx_disable
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] perf_event_context_sched_out
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000373c0
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65a33c2
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] pvclock_gtod_notify
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __intel_pmu_enable_all.constprop.0
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00000000000405a9
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65ac5ab
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x000000000001fffe
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d658c001
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] set_cpus_allowed_common
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __do_set_cpus_allowed
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x0000000000048030
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d65b4031
+     0.00%     0.00%  nbody3D_1_CLANG  libomp.so.5           [.] 0x00007f54d658c15f
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] affine_move_task
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __wait_for_common
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] wait_for_completion
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __cond_resched
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] preempt_schedule_common
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] __bitmap_subset
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] native_write_msr
+     0.00%     0.00%  perf-exec        [unknown]             [k] 0x00007f636d6eb08b
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] entry_SYSCALL_64_after_hwframe
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] do_syscall_64
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] __x64_sys_execve
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] do_execveat_common.isra.0
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] bprm_execve
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] bprm_execve.part.0
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] exec_binprm
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] search_binary_handler
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] load_elf_binary
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] begin_new_exec
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] perf_event_exec
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] perf_event_enable_on_exec
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] ctx_resched
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] perf_ctx_enable
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] x86_pmu_enable
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] intel_pmu_enable_all
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] pv_native_write_cr2
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] exc_nmi
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] irqentry_nmi_exit
+     0.00%     0.00%  nbody3D_1_CLANG  [kernel.kallsyms]     [k] nmi_handle
+     0.00%     0.00%  perf-exec        [kernel.kallsyms]     [k] native_sched_clock
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#
