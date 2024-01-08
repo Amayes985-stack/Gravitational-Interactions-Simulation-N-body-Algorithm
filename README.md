@@ -15,13 +15,6 @@ This project provides a parallel implementation of the gravitational interaction
 
 - **Memory Consumption Measurement:** The total size of the memory allocated for particle storage is calculated and displayed, offering an assessment of the program's impact on memory consumption.
 
-## How to Use the Code
-
-1. **Clone the Repository:** `git clone https://github.com/your_username/gravity-interactions-simulation.git`
-
-2. **Compile the Code:** Use a compiler compatible with OpenMP to compile the code. For example, with GCC: `gcc -fopenmp main.c -o simulation`
-
-3. **Run the Simulation:** `./simulation [number_of_particles]` (the number of particles is optional, default is 16384)
 
 ## Contribute
 
@@ -101,13 +94,6 @@ Ce projet propose une implémentation parallèle de la simulation des interactio
 
 - **Mesure de la Consommation Mémoire :** La taille totale de la mémoire allouée pour stocker les particules est calculée et affichée, offrant une évaluation de l'impact sur la consommation mémoire du programme.
 
-## Comment Utiliser le Code
-
-1. **Cloner le Répertoire :** `git clone https://github.com/votre_utilisateur/simulation-interactions-gravitationnelles.git`
-
-2. **Compiler le Code :** Utilisez un compilateur compatible avec OpenMP pour compiler le code. Par exemple, avec GCC : `gcc -fopenmp main.c -o simulation`
-
-3. **Exécuter la Simulation :** `./simulation [nombre_de_particules]` (le nombre de particules est facultatif, la valeur par défaut est 16384)
 
 ## Contribuer
 
